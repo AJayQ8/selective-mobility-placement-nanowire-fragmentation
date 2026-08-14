@@ -8,8 +8,8 @@ authors:
 version: "1.0.0"
 date-released: 2026-08-14
 license: GPL-3.0-only
-repository-code: "https://github.com/aalzanki/selective-mobility-scripta"
-url: "https://github.com/aalzanki/selective-mobility-scripta"
+repository-code: "https://github.com/AJayQ8/selective-mobility-scripta"
+url: "https://github.com/AJayQ8/selective-mobility-scripta"
 abstract: >-
   Code, normalized data, provenance, and figures for a phase-field study showing
   that outward placement of otherwise identical low-mobility collars can reverse

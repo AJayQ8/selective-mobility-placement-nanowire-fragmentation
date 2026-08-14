@@ -229,7 +229,7 @@ def check_repository_metadata() -> list[str]:
             'given-names: "Ayas"',
             'version: "1.0.0"',
             "license: GPL-3.0-only",
-            "https://github.com/aalzanki/selective-mobility-scripta",
+            "https://github.com/AJayQ8/selective-mobility-scripta",
         )
         for fragment in required_citation_fragments:
             if fragment not in citation:
