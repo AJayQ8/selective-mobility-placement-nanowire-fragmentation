@@ -51,5 +51,5 @@ See [`ARCHIVE_SCOPE.md`](ARCHIVE_SCOPE.md) for the complete boundary.
 
 - Code is distributed under GPL-3.0-only; see `LICENSE` and
   `THIRD_PARTY_NOTICES.md`.
-- Original figures, normalized data, and documentation by Ayas Al-Zanki are
+- Original figures, normalized data, and documentation by Ayas Alzanki are
   distributed under CC BY 4.0; see `LICENSES/CC-BY-4.0.txt`.

@@ -225,7 +225,7 @@ def check_repository_metadata() -> list[str]:
         citation = citation_path.read_text(encoding="utf-8")
         required_citation_fragments = (
             'cff-version: 1.2.0',
-            'family-names: "Al-Zanki"',
+            'family-names: "Alzanki"',
             'given-names: "Ayas"',
             'version: "1.0.1"',
             "license: GPL-3.0-only",
