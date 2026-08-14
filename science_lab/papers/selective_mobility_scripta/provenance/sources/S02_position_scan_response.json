@@ -1,0 +1,4246 @@
+{
+  "cases": [
+    {
+      "case_id": "c14p5",
+      "center": 14.5,
+      "confirmation_step": 2570,
+      "delta_time_vs_untreated": 850.0,
+      "downstream_site_residual": 0.25,
+      "event_bracket": [
+        2540,
+        2550
+      ],
+      "event_branch": "plus",
+      "event_site_abs": 35.5,
+      "event_site_minus_outer_edge": 15.0,
+      "event_site_minus_outer_edge_over_R": 2.5,
+      "event_site_signed": 35.5,
+      "event_sites": [
+        {
+          "branch": "plus",
+          "confirmation_site_signed": 35.5,
+          "downstream_compatible": true,
+          "downstream_site_residual": 0.25,
+          "maximum_step_displacement": 0.0,
+          "natural_compatible": false,
+          "natural_site_residual": 16.25,
+          "site_abs": 35.5,
+          "site_signed": 35.5,
+          "wire": "first_wire_z"
+        }
+      ],
+      "event_state": "observed",
+      "event_time_half_width": 5.0,
+      "event_time_lower_bound": null,
+      "event_time_midpoint": 2545.0,
+      "event_wire": "first_wire_z",
+      "first_candidate_step": 2550,
+      "health": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true
+        },
+        "energy_change": -1328.9215455060203,
+        "energy_sample_count": 40,
+        "final_relative_mass_drift": 2.0438513315673314e-06,
+        "maximum_absolute_relative_mass_drift": 2.0530323458905014e-06,
+        "maximum_recorded_inverse_imaginary_residue": 7.733111715424457e-07,
+        "maximum_relative_energy_rebound": -0.005040095702842684,
+        "passed": true,
+        "record_count": 198,
+        "record_step_range": [
+          600,
+          2570
+        ]
+      },
+      "inner_edge": 8.5,
+      "input_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/k1_first_break_t3000_v1/summary.json",
+      "input_sha256": "9d1a013daefd06153c8f08c1778fa96329cf04d9f4564319ab718615a13833e9",
+      "legacy_two_arm_delta_time_vs_untreated": 830.0,
+      "legacy_two_arm_relative_delta_time_vs_untreated": 0.4839650145772595,
+      "mobility_at_depletion_minimum": 0.09999999999999998,
+      "mobility_at_natural_site": 0.6664685702961344,
+      "mode_label": "downstream",
+      "natural_site_residual": 16.25,
+      "outer_edge": 20.5,
+      "predicted_mode": null,
+      "production_baseline_definition": "first persistent single-arm failure",
+      "relative_budget_vs_thinning_zone": 0.0,
+      "relative_delta_time_vs_untreated": 0.5014749262536873,
+      "role": "calibration_anchor",
+      "surface_weighted_mobility_deficit": 2219.2950115888916,
+      "topology_at_censoring": null,
+      "topology_at_confirmation": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                378.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 378.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -156.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 12,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 35.5,
+                  "width": 6.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 378.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                377.5
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 377.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -156.75
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 13,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 35.25,
+                  "width": 6.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 377.5,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                377.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 377.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -156.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 14,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 35.5,
+                  "width": 7.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 377.0,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "topology_at_first_candidate": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                381.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 381.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -156.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 6,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 35.5,
+                  "width": 3.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 381.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                380.5
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 380.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -156.75
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 7,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 35.25,
+                  "width": 3.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 380.5,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                379.5
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 379.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -156.75
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 9,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 35.25,
+                  "width": 4.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 379.5,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "validation": {
+        "event_checks": {
+          "bracket_shape": true,
+          "candidate_record_present": true,
+          "confirmation_after_candidate": true,
+          "confirmation_record_present": true,
+          "detected": true,
+          "diagnostic_bracket": true,
+          "first_candidate_matches_bracket": true,
+          "latched": true,
+          "no_heuristic_fallback": true,
+          "persistent_gap_present": true,
+          "simultaneous_count_coherent": true,
+          "stable_site": true,
+          "three_record_persistence": true
+        },
+        "event_summary_segment_health": {
+          "checks": {
+            "all_fields_finite": true,
+            "field_magnitude_bounded": true,
+            "free_energy_nonincreasing": true,
+            "mass_drift_below_production_limit": true,
+            "mass_shape_mean_and_drift_coherent": true
+          },
+          "energy_sample_count": 12,
+          "maximum_absolute_relative_mass_drift": 2.0530323458905014e-06,
+          "maximum_field_magnitude": 1.0186784267425537,
+          "maximum_relative_energy_rebound": -0.006460561348243112,
+          "maximum_reported_absolute_relative_mass_drift": 2.0530323458905014e-06,
+          "passed": true,
+          "record_count": 58,
+          "record_step_range": [
+            2000,
+            2570
+          ]
+        },
+        "full_health_source": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_anchor_mechanism_audit_v1/summary.json",
+        "full_health_source_sha256": "41397f75b1997c791e1db289520dc061646c4a6c8f5944c0d308f94bb4ff9f3f"
+      },
+      "xi": 0.4725104126422976
+    },
+    {
+      "case_id": "c18p5",
+      "center": 18.5,
+      "confirmation_step": 2470,
+      "delta_time_vs_untreated": 750.0,
+      "downstream_site_residual": 0.25,
+      "event_bracket": [
+        2440,
+        2450
+      ],
+      "event_branch": "plus",
+      "event_site_abs": 39.5,
+      "event_site_minus_outer_edge": 15.0,
+      "event_site_minus_outer_edge_over_R": 2.5,
+      "event_site_signed": 39.5,
+      "event_sites": [
+        {
+          "branch": "plus",
+          "confirmation_site_signed": 39.75,
+          "downstream_compatible": true,
+          "downstream_site_residual": 0.25,
+          "maximum_step_displacement": 0.25,
+          "natural_compatible": false,
+          "natural_site_residual": 20.25,
+          "site_abs": 39.5,
+          "site_signed": 39.5,
+          "wire": "first_wire_z"
+        }
+      ],
+      "event_state": "observed",
+      "event_time_half_width": 5.0,
+      "event_time_lower_bound": null,
+      "event_time_midpoint": 2445.0,
+      "event_wire": "first_wire_z",
+      "first_candidate_step": 2450,
+      "health": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true,
+          "mass_shape_mean_and_drift_coherent": true
+        },
+        "energy_sample_count": 48,
+        "maximum_absolute_relative_mass_drift": 1.6825474548569938e-06,
+        "maximum_field_magnitude": 1.0247853994369507,
+        "maximum_relative_energy_rebound": -0.0050359774223086825,
+        "maximum_reported_absolute_relative_mass_drift": 1.6825474548569938e-06,
+        "passed": true,
+        "record_count": 238,
+        "record_step_range": [
+          100,
+          2470
+        ]
+      },
+      "inner_edge": 12.5,
+      "input_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c18p5_v1/summary.json",
+      "input_sha256": "0e976a031446d842c6a69635c5edaef3233a96a8af3020683e48a9e09df6c224",
+      "legacy_two_arm_delta_time_vs_untreated": 730.0,
+      "legacy_two_arm_relative_delta_time_vs_untreated": 0.42565597667638483,
+      "mobility_at_depletion_minimum": 1.0,
+      "mobility_at_natural_site": 0.09999999999999998,
+      "mode_label": "downstream",
+      "natural_site_residual": 20.25,
+      "outer_edge": 24.5,
+      "predicted_mode": "downstream",
+      "production_baseline_definition": "first persistent single-arm failure",
+      "relative_budget_vs_thinning_zone": 0.011353694022694396,
+      "relative_delta_time_vs_untreated": 0.4424778761061947,
+      "role": "prospective_scan",
+      "surface_weighted_mobility_deficit": 2244.492208096564,
+      "topology_at_censoring": null,
+      "topology_at_confirmation": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                75.5,
+                301.0
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 75.5,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.75
+                },
+                {
+                  "axial_length": 301.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.0
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 4,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -39.5,
+                  "width": 2.0
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 11,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 39.75,
+                  "width": 5.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 376.5,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                74.5,
+                300.5
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 74.5,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.75
+                },
+                {
+                  "axial_length": 300.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.25
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 6,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -39.5,
+                  "width": 3.0
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 12,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 39.5,
+                  "width": 6.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 375.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                74.0,
+                299.5
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 74.0,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.5
+                },
+                {
+                  "axial_length": 299.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.25
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 8,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -39.5,
+                  "width": 4.0
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 13,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 39.75,
+                  "width": 6.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 373.5,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "topology_at_first_candidate": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                382.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 382.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -152.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 4,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 39.5,
+                  "width": 2.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 382.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                381.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 381.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -152.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 6,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 39.5,
+                  "width": 3.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 381.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                380.5
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 380.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -152.25
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 7,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 39.75,
+                  "width": 3.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 380.5,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "validation": {
+        "contract_checks": {
+          "budget": true,
+          "case_id": true,
+          "classification": true,
+          "contract_hash": true,
+          "diagnostic_interval": true,
+          "energy_interval": true,
+          "exact_current_contract": true,
+          "position": true,
+          "preflight_hash": true,
+          "protocol": true,
+          "runner_hash": true,
+          "source": true,
+          "start_step": true,
+          "status_completed": true,
+          "target_step": true
+        },
+        "event_checks": {
+          "bracket_shape": true,
+          "candidate_record_present": true,
+          "confirmation_after_candidate": true,
+          "confirmation_record_present": true,
+          "detected": true,
+          "diagnostic_bracket": true,
+          "first_candidate_matches_bracket": true,
+          "latched": true,
+          "no_heuristic_fallback": true,
+          "persistent_gap_present": true,
+          "simultaneous_count_coherent": true,
+          "stable_site": true,
+          "three_record_persistence": true
+        },
+        "execution_checks": {
+          "accepted_steps": true,
+          "energy_cadence": true,
+          "energy_samples_present": true,
+          "event_stops_at_confirmation": true,
+          "no_automatic_follow_on": true,
+          "no_convergence_family": true,
+          "no_part_two": true,
+          "no_refinement": true,
+          "no_seed_ensemble": true,
+          "step_time_count": true
+        }
+      },
+      "xi": 1.1391770793089642
+    },
+    {
+      "case_id": "c22p5",
+      "center": 22.5,
+      "confirmation_step": 2400,
+      "delta_time_vs_untreated": 680.0,
+      "downstream_site_residual": -0.25,
+      "event_bracket": [
+        2370,
+        2380
+      ],
+      "event_branch": "plus",
+      "event_site_abs": 43.0,
+      "event_site_minus_outer_edge": 14.5,
+      "event_site_minus_outer_edge_over_R": 2.4166666666666665,
+      "event_site_signed": 43.0,
+      "event_sites": [
+        {
+          "branch": "plus",
+          "confirmation_site_signed": 43.0,
+          "downstream_compatible": true,
+          "downstream_site_residual": -0.25,
+          "maximum_step_displacement": 0.0,
+          "natural_compatible": false,
+          "natural_site_residual": 23.75,
+          "site_abs": 43.0,
+          "site_signed": 43.0,
+          "wire": "first_wire_z"
+        }
+      ],
+      "event_state": "observed",
+      "event_time_half_width": 5.0,
+      "event_time_lower_bound": null,
+      "event_time_midpoint": 2375.0,
+      "event_wire": "first_wire_z",
+      "first_candidate_step": 2380,
+      "health": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true
+        },
+        "energy_change": -1803.9851510062435,
+        "energy_sample_count": 47,
+        "final_relative_mass_drift": 1.1149460875417673e-06,
+        "maximum_absolute_relative_mass_drift": 1.1292491731278949e-06,
+        "maximum_recorded_inverse_imaginary_residue": 2.816236246871995e-06,
+        "maximum_relative_energy_rebound": -0.005054435392293095,
+        "passed": true,
+        "record_count": 231,
+        "record_step_range": [
+          100,
+          2400
+        ]
+      },
+      "inner_edge": 16.5,
+      "input_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/outer_placement_first_break_t3000_v1/summary.json",
+      "input_sha256": "f1473b7fb9266624898576796f9f059a3d9ac61fd21d04ccabb92ad681b51187",
+      "legacy_two_arm_delta_time_vs_untreated": 660.0,
+      "legacy_two_arm_relative_delta_time_vs_untreated": 0.3848396501457726,
+      "mobility_at_depletion_minimum": 1.0,
+      "mobility_at_natural_site": 0.11533337816991929,
+      "mode_label": "downstream",
+      "natural_site_residual": 23.75,
+      "outer_edge": 28.5,
+      "predicted_mode": null,
+      "production_baseline_definition": "first persistent single-arm failure",
+      "relative_budget_vs_thinning_zone": 0.012889979924592808,
+      "relative_delta_time_vs_untreated": 0.40117994100294985,
+      "role": "calibration_anchor",
+      "surface_weighted_mobility_deficit": 2247.9016797350214,
+      "topology_at_censoring": null,
+      "topology_at_confirmation": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                81.5,
+                294.0
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 81.5,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.25
+                },
+                {
+                  "axial_length": 294.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 7,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -42.75,
+                  "width": 3.5
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 10,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 43.0,
+                  "width": 5.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 375.5,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                80.5,
+                294.0
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 80.5,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.25
+                },
+                {
+                  "axial_length": 294.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 8,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -42.5,
+                  "width": 4.0
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 11,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 42.75,
+                  "width": 5.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 374.5,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                80.5,
+                293.0
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 80.5,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.25
+                },
+                {
+                  "axial_length": 293.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 9,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -42.75,
+                  "width": 4.5
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 12,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 43.0,
+                  "width": 6.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 373.5,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "topology_at_first_candidate": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                383.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 383.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -149.0
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 2,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 43.0,
+                  "width": 1.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 383.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                381.5
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 381.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -149.25
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 5,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 42.75,
+                  "width": 2.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 381.5,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                381.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 381.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -149.0
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 6,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 43.0,
+                  "width": 3.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 381.0,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "validation": {
+        "event_checks": {
+          "bracket_shape": true,
+          "candidate_record_present": true,
+          "confirmation_after_candidate": true,
+          "confirmation_record_present": true,
+          "detected": true,
+          "diagnostic_bracket": true,
+          "first_candidate_matches_bracket": true,
+          "latched": true,
+          "no_heuristic_fallback": true,
+          "persistent_gap_present": true,
+          "simultaneous_count_coherent": true,
+          "stable_site": true,
+          "three_record_persistence": true
+        },
+        "event_summary_segment_health": {
+          "checks": {
+            "all_fields_finite": true,
+            "field_magnitude_bounded": true,
+            "free_energy_nonincreasing": true,
+            "mass_drift_below_production_limit": true,
+            "mass_shape_mean_and_drift_coherent": true
+          },
+          "energy_sample_count": 9,
+          "maximum_absolute_relative_mass_drift": 1.1292491731278949e-06,
+          "maximum_field_magnitude": 1.0240850448608398,
+          "maximum_relative_energy_rebound": -0.0064912040712484746,
+          "maximum_reported_absolute_relative_mass_drift": 1.1292491731278949e-06,
+          "passed": true,
+          "record_count": 41,
+          "record_step_range": [
+            2000,
+            2400
+          ]
+        },
+        "full_health_source": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_anchor_mechanism_audit_v1/summary.json",
+        "full_health_source_sha256": "41397f75b1997c791e1db289520dc061646c4a6c8f5944c0d308f94bb4ff9f3f"
+      },
+      "xi": 1.805843745975631
+    },
+    {
+      "case_id": "c26p5",
+      "center": 26.5,
+      "confirmation_step": 2010,
+      "delta_time_vs_untreated": 290.0,
+      "downstream_site_residual": -29.75,
+      "event_bracket": [
+        1980,
+        1990
+      ],
+      "event_branch": "plus",
+      "event_site_abs": 17.5,
+      "event_site_minus_outer_edge": -15.0,
+      "event_site_minus_outer_edge_over_R": -2.5,
+      "event_site_signed": 17.5,
+      "event_sites": [
+        {
+          "branch": "plus",
+          "confirmation_site_signed": 17.25,
+          "downstream_compatible": false,
+          "downstream_site_residual": -29.75,
+          "maximum_step_displacement": 0.25,
+          "natural_compatible": true,
+          "natural_site_residual": -1.75,
+          "site_abs": 17.5,
+          "site_signed": 17.5,
+          "wire": "first_wire_z"
+        }
+      ],
+      "event_state": "observed",
+      "event_time_half_width": 5.0,
+      "event_time_lower_bound": null,
+      "event_time_midpoint": 1985.0,
+      "event_wire": "first_wire_z",
+      "first_candidate_step": 1990,
+      "health": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true,
+          "mass_shape_mean_and_drift_coherent": true
+        },
+        "energy_sample_count": 39,
+        "maximum_absolute_relative_mass_drift": 2.049085153518161e-06,
+        "maximum_field_magnitude": 1.0286999940872192,
+        "maximum_relative_energy_rebound": -0.005102462434395437,
+        "maximum_reported_absolute_relative_mass_drift": 2.049085153518161e-06,
+        "passed": true,
+        "record_count": 192,
+        "record_step_range": [
+          100,
+          2010
+        ]
+      },
+      "inner_edge": 20.5,
+      "input_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c26p5_v1/summary.json",
+      "input_sha256": "a9e47ab4b6f4a4a90c7801c69a62fec34fd1df070f1e177cc5fc5f15fd101f19",
+      "legacy_two_arm_delta_time_vs_untreated": 270.0,
+      "legacy_two_arm_relative_delta_time_vs_untreated": 0.15743440233236153,
+      "mobility_at_depletion_minimum": 1.0,
+      "mobility_at_natural_site": 1.0,
+      "mode_label": "natural",
+      "natural_site_residual": -1.75,
+      "outer_edge": 32.5,
+      "predicted_mode": "crossover_unassigned",
+      "production_baseline_definition": "first persistent single-arm failure",
+      "relative_budget_vs_thinning_zone": 0.011659626931245577,
+      "relative_delta_time_vs_untreated": 0.1710914454277286,
+      "role": "prospective_scan",
+      "surface_weighted_mobility_deficit": 2245.1711634743924,
+      "topology_at_censoring": null,
+      "topology_at_confirmation": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                380.5
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 380.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -174.75
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 7,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 17.25,
+                  "width": 3.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 380.5,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                380.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 380.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -174.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 8,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 17.5,
+                  "width": 4.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 380.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                380.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 380.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -174.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 8,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 17.5,
+                  "width": 4.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 380.0,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "topology_at_first_candidate": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                382.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 382.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -174.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 4,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 17.5,
+                  "width": 2.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 382.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                381.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 381.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -174.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 6,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 17.5,
+                  "width": 3.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 381.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                381.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 381.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -174.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 6,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 17.5,
+                  "width": 3.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 381.0,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "validation": {
+        "contract_checks": {
+          "budget": true,
+          "case_id": true,
+          "classification": true,
+          "contract_hash": true,
+          "diagnostic_interval": true,
+          "energy_interval": true,
+          "exact_current_contract": true,
+          "position": true,
+          "preflight_hash": true,
+          "protocol": true,
+          "runner_hash": true,
+          "source": true,
+          "start_step": true,
+          "status_completed": true,
+          "target_step": true
+        },
+        "event_checks": {
+          "bracket_shape": true,
+          "candidate_record_present": true,
+          "confirmation_after_candidate": true,
+          "confirmation_record_present": true,
+          "detected": true,
+          "diagnostic_bracket": true,
+          "first_candidate_matches_bracket": true,
+          "latched": true,
+          "no_heuristic_fallback": true,
+          "persistent_gap_present": true,
+          "simultaneous_count_coherent": true,
+          "stable_site": true,
+          "three_record_persistence": true
+        },
+        "execution_checks": {
+          "accepted_steps": true,
+          "energy_cadence": true,
+          "energy_samples_present": true,
+          "event_stops_at_confirmation": true,
+          "no_automatic_follow_on": true,
+          "no_convergence_family": true,
+          "no_part_two": true,
+          "no_refinement": true,
+          "no_seed_ensemble": true,
+          "step_time_count": true
+        }
+      },
+      "xi": 2.4725104126422974
+    },
+    {
+      "case_id": "c30p5",
+      "center": 30.5,
+      "confirmation_step": 1710,
+      "delta_time_vs_untreated": -10.0,
+      "downstream_site_residual": -33.25,
+      "event_bracket": [
+        1680,
+        1690
+      ],
+      "event_branch": "plus",
+      "event_site_abs": 18.0,
+      "event_site_minus_outer_edge": -18.5,
+      "event_site_minus_outer_edge_over_R": -3.0833333333333335,
+      "event_site_signed": 18.0,
+      "event_sites": [
+        {
+          "branch": "plus",
+          "confirmation_site_signed": 18.0,
+          "downstream_compatible": false,
+          "downstream_site_residual": -33.25,
+          "maximum_step_displacement": 0.0,
+          "natural_compatible": true,
+          "natural_site_residual": -1.25,
+          "site_abs": 18.0,
+          "site_signed": 18.0,
+          "wire": "first_wire_z"
+        }
+      ],
+      "event_state": "observed",
+      "event_time_half_width": 5.0,
+      "event_time_lower_bound": null,
+      "event_time_midpoint": 1685.0,
+      "event_wire": "first_wire_z",
+      "first_candidate_step": 1690,
+      "health": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true,
+          "mass_shape_mean_and_drift_coherent": true
+        },
+        "energy_sample_count": 33,
+        "maximum_absolute_relative_mass_drift": 1.4960991815344304e-06,
+        "maximum_field_magnitude": 1.0263597965240479,
+        "maximum_relative_energy_rebound": -0.00517935930704961,
+        "maximum_reported_absolute_relative_mass_drift": 1.4960991815344304e-06,
+        "passed": true,
+        "record_count": 162,
+        "record_step_range": [
+          100,
+          1710
+        ]
+      },
+      "inner_edge": 24.5,
+      "input_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c30p5_v1/summary.json",
+      "input_sha256": "dd36eb5106eb62757e19f764496f3bde5d89041eb19dad1cf1a57cd48f330d6c",
+      "legacy_two_arm_delta_time_vs_untreated": -30.0,
+      "legacy_two_arm_relative_delta_time_vs_untreated": -0.01749271137026239,
+      "mobility_at_depletion_minimum": 1.0,
+      "mobility_at_natural_site": 1.0,
+      "mode_label": "natural",
+      "natural_site_residual": -1.25,
+      "outer_edge": 36.5,
+      "predicted_mode": "natural",
+      "production_baseline_definition": "first persistent single-arm failure",
+      "relative_budget_vs_thinning_zone": 0.01142450419736085,
+      "relative_delta_time_vs_untreated": -0.0058997050147492625,
+      "role": "prospective_scan",
+      "surface_weighted_mobility_deficit": 2244.649356763971,
+      "topology_at_censoring": null,
+      "topology_at_confirmation": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                33.0,
+                346.0
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 33.0,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.5
+                },
+                {
+                  "axial_length": 346.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.0
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 2,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -17.5,
+                  "width": 1.0
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 8,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 18.0,
+                  "width": 4.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 379.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                32.5,
+                345.5
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 32.5,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.25
+                },
+                {
+                  "axial_length": 345.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.25
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 4,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -17.5,
+                  "width": 2.0
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 8,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 18.0,
+                  "width": 4.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 378.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                31.5,
+                344.5
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 31.5,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.25
+                },
+                {
+                  "axial_length": 344.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.25
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 6,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -17.5,
+                  "width": 3.0
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 10,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 18.0,
+                  "width": 5.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 376.0,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "topology_at_first_candidate": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                382.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 382.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -174.0
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 4,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 18.0,
+                  "width": 2.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 382.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                381.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 381.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -174.0
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 6,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 18.0,
+                  "width": 3.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 381.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                381.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 381.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -174.0
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 6,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 18.0,
+                  "width": 3.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 381.0,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "validation": {
+        "contract_checks": {
+          "budget": true,
+          "case_id": true,
+          "classification": true,
+          "contract_hash": true,
+          "diagnostic_interval": true,
+          "energy_interval": true,
+          "exact_current_contract": true,
+          "position": true,
+          "preflight_hash": true,
+          "protocol": true,
+          "runner_hash": true,
+          "source": true,
+          "start_step": true,
+          "status_completed": true,
+          "target_step": true
+        },
+        "event_checks": {
+          "bracket_shape": true,
+          "candidate_record_present": true,
+          "confirmation_after_candidate": true,
+          "confirmation_record_present": true,
+          "detected": true,
+          "diagnostic_bracket": true,
+          "first_candidate_matches_bracket": true,
+          "latched": true,
+          "no_heuristic_fallback": true,
+          "persistent_gap_present": true,
+          "simultaneous_count_coherent": true,
+          "stable_site": true,
+          "three_record_persistence": true
+        },
+        "execution_checks": {
+          "accepted_steps": true,
+          "energy_cadence": true,
+          "energy_samples_present": true,
+          "event_stops_at_confirmation": true,
+          "no_automatic_follow_on": true,
+          "no_convergence_family": true,
+          "no_part_two": true,
+          "no_refinement": true,
+          "no_seed_ensemble": true,
+          "step_time_count": true
+        }
+      },
+      "xi": 3.1391770793089644
+    },
+    {
+      "case_id": "c34p5",
+      "center": 34.5,
+      "confirmation_step": 1610,
+      "delta_time_vs_untreated": -110.0,
+      "downstream_site_residual": -36.5,
+      "event_bracket": [
+        1580,
+        1590
+      ],
+      "event_branch": "plus",
+      "event_site_abs": 18.75,
+      "event_site_minus_outer_edge": -21.75,
+      "event_site_minus_outer_edge_over_R": -3.625,
+      "event_site_signed": 18.75,
+      "event_sites": [
+        {
+          "branch": "plus",
+          "confirmation_site_signed": 18.5,
+          "downstream_compatible": false,
+          "downstream_site_residual": -36.5,
+          "maximum_step_displacement": 0.25,
+          "natural_compatible": true,
+          "natural_site_residual": -0.5,
+          "site_abs": 18.75,
+          "site_signed": 18.75,
+          "wire": "first_wire_z"
+        }
+      ],
+      "event_state": "observed",
+      "event_time_half_width": 5.0,
+      "event_time_lower_bound": null,
+      "event_time_midpoint": 1585.0,
+      "event_wire": "first_wire_z",
+      "first_candidate_step": 1590,
+      "health": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true,
+          "mass_shape_mean_and_drift_coherent": true
+        },
+        "energy_sample_count": 31,
+        "maximum_absolute_relative_mass_drift": 1.1270752259209882e-06,
+        "maximum_field_magnitude": 1.0248057842254639,
+        "maximum_relative_energy_rebound": -0.005247701529119559,
+        "maximum_reported_absolute_relative_mass_drift": 1.1270752259209882e-06,
+        "passed": true,
+        "record_count": 152,
+        "record_step_range": [
+          100,
+          1610
+        ]
+      },
+      "inner_edge": 28.5,
+      "input_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c34p5_v1/summary.json",
+      "input_sha256": "0abb6fa16dcec99b46b3d5128fd154cfe10c4cba3d0facf5cf7c2fc4f830896d",
+      "legacy_two_arm_delta_time_vs_untreated": -130.0,
+      "legacy_two_arm_relative_delta_time_vs_untreated": -0.07580174927113703,
+      "mobility_at_depletion_minimum": 1.0,
+      "mobility_at_natural_site": 1.0,
+      "mode_label": "natural",
+      "natural_site_residual": -0.5,
+      "outer_edge": 40.5,
+      "predicted_mode": "natural",
+      "production_baseline_definition": "first persistent single-arm failure",
+      "relative_budget_vs_thinning_zone": 0.012146928782644926,
+      "relative_delta_time_vs_untreated": -0.06489675516224189,
+      "role": "prospective_scan",
+      "surface_weighted_mobility_deficit": 2246.252630042341,
+      "topology_at_censoring": null,
+      "topology_at_confirmation": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                34.0,
+                345.0
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 34.0,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.5
+                },
+                {
+                  "axial_length": 345.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.0
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 2,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -18.0,
+                  "width": 1.0
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 8,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 18.5,
+                  "width": 4.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 379.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                33.5,
+                344.0
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 33.5,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.25
+                },
+                {
+                  "axial_length": 344.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.0
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 4,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -18.0,
+                  "width": 2.0
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 9,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 18.75,
+                  "width": 4.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 377.5,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                33.5,
+                343.5
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 33.5,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.25
+                },
+                {
+                  "axial_length": 343.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.25
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 5,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -18.25,
+                  "width": 2.5
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 9,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 18.75,
+                  "width": 4.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 377.0,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "topology_at_first_candidate": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                382.5
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 382.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -173.25
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 3,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 18.75,
+                  "width": 1.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 382.5,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                382.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 382.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -173.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 4,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 18.5,
+                  "width": 2.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 382.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                381.5
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 381.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -173.25
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 5,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 18.75,
+                  "width": 2.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 381.5,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "validation": {
+        "contract_checks": {
+          "budget": true,
+          "case_id": true,
+          "classification": true,
+          "contract_hash": true,
+          "diagnostic_interval": true,
+          "energy_interval": true,
+          "exact_current_contract": true,
+          "position": true,
+          "preflight_hash": true,
+          "protocol": true,
+          "runner_hash": true,
+          "source": true,
+          "start_step": true,
+          "status_completed": true,
+          "target_step": true
+        },
+        "event_checks": {
+          "bracket_shape": true,
+          "candidate_record_present": true,
+          "confirmation_after_candidate": true,
+          "confirmation_record_present": true,
+          "detected": true,
+          "diagnostic_bracket": true,
+          "first_candidate_matches_bracket": true,
+          "latched": true,
+          "no_heuristic_fallback": true,
+          "persistent_gap_present": true,
+          "simultaneous_count_coherent": true,
+          "stable_site": true,
+          "three_record_persistence": true
+        },
+        "execution_checks": {
+          "accepted_steps": true,
+          "energy_cadence": true,
+          "energy_samples_present": true,
+          "event_stops_at_confirmation": true,
+          "no_automatic_follow_on": true,
+          "no_convergence_family": true,
+          "no_part_two": true,
+          "no_refinement": true,
+          "no_seed_ensemble": true,
+          "step_time_count": true
+        }
+      },
+      "xi": 3.805843745975631
+    },
+    {
+      "case_id": "c38p5",
+      "center": 38.5,
+      "confirmation_step": 1620,
+      "delta_time_vs_untreated": -100.0,
+      "downstream_site_residual": -40.0,
+      "event_bracket": [
+        1590,
+        1600
+      ],
+      "event_branch": "plus",
+      "event_site_abs": 19.25,
+      "event_site_minus_outer_edge": -25.25,
+      "event_site_minus_outer_edge_over_R": -4.208333333333333,
+      "event_site_signed": 19.25,
+      "event_sites": [
+        {
+          "branch": "plus",
+          "confirmation_site_signed": 19.25,
+          "downstream_compatible": false,
+          "downstream_site_residual": -40.0,
+          "maximum_step_displacement": 0.0,
+          "natural_compatible": true,
+          "natural_site_residual": 0.0,
+          "site_abs": 19.25,
+          "site_signed": 19.25,
+          "wire": "first_wire_z"
+        }
+      ],
+      "event_state": "observed",
+      "event_time_half_width": 5.0,
+      "event_time_lower_bound": null,
+      "event_time_midpoint": 1595.0,
+      "event_wire": "first_wire_z",
+      "first_candidate_step": 1600,
+      "health": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true,
+          "mass_shape_mean_and_drift_coherent": true
+        },
+        "energy_sample_count": 31,
+        "maximum_absolute_relative_mass_drift": 5.667595451323952e-07,
+        "maximum_field_magnitude": 1.0248011350631714,
+        "maximum_relative_energy_rebound": -0.005275786243842394,
+        "maximum_reported_absolute_relative_mass_drift": 5.667595451323952e-07,
+        "passed": true,
+        "record_count": 153,
+        "record_step_range": [
+          100,
+          1620
+        ]
+      },
+      "inner_edge": 32.5,
+      "input_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c38p5_v1/summary.json",
+      "input_sha256": "e8d458cbb05dc92ab16546519d77c7d0f685981ed76f1bc3898f7109d259683b",
+      "legacy_two_arm_delta_time_vs_untreated": -120.0,
+      "legacy_two_arm_relative_delta_time_vs_untreated": -0.06997084548104957,
+      "mobility_at_depletion_minimum": 1.0,
+      "mobility_at_natural_site": 1.0,
+      "mode_label": "natural",
+      "natural_site_residual": 0.0,
+      "outer_edge": 44.5,
+      "predicted_mode": "natural",
+      "production_baseline_definition": "first persistent single-arm failure",
+      "relative_budget_vs_thinning_zone": 0.012982614179306282,
+      "relative_delta_time_vs_untreated": -0.058997050147492625,
+      "role": "prospective_scan",
+      "surface_weighted_mobility_deficit": 2248.1072624744093,
+      "topology_at_censoring": null,
+      "topology_at_confirmation": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                34.5,
+                342.5
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 34.5,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.25
+                },
+                {
+                  "axial_length": 342.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.25
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 5,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -18.75,
+                  "width": 2.5
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 9,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 19.25,
+                  "width": 4.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 377.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                34.5,
+                341.5
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 34.5,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.25
+                },
+                {
+                  "axial_length": 341.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.25
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 6,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -19.0,
+                  "width": 3.0
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 10,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 19.5,
+                  "width": 5.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 376.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                33.5,
+                341.5
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 33.5,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.25
+                },
+                {
+                  "axial_length": 341.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.25
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 7,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -18.75,
+                  "width": 3.5
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 11,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 19.25,
+                  "width": 5.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 375.0,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                383.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 383.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -172.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 2,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 19.5,
+                  "width": 1.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 383.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "topology_at_first_candidate": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                381.5
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 381.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -172.75
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 5,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 19.25,
+                  "width": 2.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 381.5,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                381.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 381.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -172.5
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 6,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 19.5,
+                  "width": 3.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 381.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                380.5
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 380.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -172.75
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 7,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 19.25,
+                  "width": 3.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 380.5,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "validation": {
+        "contract_checks": {
+          "budget": true,
+          "case_id": true,
+          "classification": true,
+          "contract_hash": true,
+          "diagnostic_interval": true,
+          "energy_interval": true,
+          "exact_current_contract": true,
+          "position": true,
+          "preflight_hash": true,
+          "protocol": true,
+          "runner_hash": true,
+          "source": true,
+          "start_step": true,
+          "status_completed": true,
+          "target_step": true
+        },
+        "event_checks": {
+          "bracket_shape": true,
+          "candidate_record_present": true,
+          "confirmation_after_candidate": true,
+          "confirmation_record_present": true,
+          "detected": true,
+          "diagnostic_bracket": true,
+          "first_candidate_matches_bracket": true,
+          "latched": true,
+          "no_heuristic_fallback": true,
+          "persistent_gap_present": true,
+          "simultaneous_count_coherent": true,
+          "stable_site": true,
+          "three_record_persistence": true
+        },
+        "execution_checks": {
+          "accepted_steps": true,
+          "energy_cadence": true,
+          "energy_samples_present": true,
+          "event_stops_at_confirmation": true,
+          "no_automatic_follow_on": true,
+          "no_convergence_family": true,
+          "no_part_two": true,
+          "no_refinement": true,
+          "no_seed_ensemble": true,
+          "step_time_count": true
+        }
+      },
+      "xi": 4.472510412642298
+    },
+    {
+      "case_id": "c64p5",
+      "center": 64.5,
+      "confirmation_step": 1720,
+      "delta_time_vs_untreated": 0.0,
+      "downstream_site_residual": -66.0,
+      "event_bracket": [
+        1690,
+        1700
+      ],
+      "event_branch": "plus",
+      "event_site_abs": 19.25,
+      "event_site_minus_outer_edge": -51.25,
+      "event_site_minus_outer_edge_over_R": -8.541666666666666,
+      "event_site_signed": 19.25,
+      "event_sites": [
+        {
+          "branch": "plus",
+          "confirmation_site_signed": 19.25,
+          "downstream_compatible": false,
+          "downstream_site_residual": -66.0,
+          "maximum_step_displacement": 0.25,
+          "natural_compatible": true,
+          "natural_site_residual": 0.0,
+          "site_abs": 19.25,
+          "site_signed": 19.25,
+          "wire": "first_wire_z"
+        }
+      ],
+      "event_state": "observed",
+      "event_time_half_width": 5.0,
+      "event_time_lower_bound": null,
+      "event_time_midpoint": 1695.0,
+      "event_wire": "first_wire_z",
+      "first_candidate_step": 1700,
+      "health": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true
+        },
+        "energy_change": -1325.044455676135,
+        "energy_sample_count": 33,
+        "final_relative_mass_drift": 2.5991924059432312e-06,
+        "maximum_absolute_relative_mass_drift": 2.6068903009647336e-06,
+        "maximum_recorded_inverse_imaginary_residue": 2.8108033802709542e-06,
+        "maximum_relative_energy_rebound": -0.005214221188124765,
+        "passed": true,
+        "record_count": 163,
+        "record_step_range": [
+          100,
+          1720
+        ]
+      },
+      "inner_edge": 58.5,
+      "input_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/far_field_placement_sentinel_v1/summary.json",
+      "input_sha256": "3ba2966e5e601cbd334cc61d80b720bd8ef98870ec428167da60c3eb3ceb892f",
+      "legacy_two_arm_delta_time_vs_untreated": -20.0,
+      "legacy_two_arm_relative_delta_time_vs_untreated": -0.011661807580174927,
+      "mobility_at_depletion_minimum": 1.0,
+      "mobility_at_natural_site": 1.0,
+      "mode_label": "natural",
+      "natural_site_residual": 0.0,
+      "outer_edge": 70.5,
+      "predicted_mode": null,
+      "production_baseline_definition": "first persistent single-arm failure",
+      "relative_budget_vs_thinning_zone": 0.012330406173113049,
+      "relative_delta_time_vs_untreated": 0.0,
+      "role": "calibration_anchor",
+      "surface_weighted_mobility_deficit": 2246.6598204997463,
+      "topology_at_censoring": null,
+      "topology_at_confirmation": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                35.0,
+                342.5
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 35.0,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.5
+                },
+                {
+                  "axial_length": 342.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.25
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 4,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -19.0,
+                  "width": 2.0
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 9,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 19.25,
+                  "width": 4.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 377.5,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                34.5,
+                342.0
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 34.5,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.25
+                },
+                {
+                  "axial_length": 342.0,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.0
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 5,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -18.75,
+                  "width": 2.5
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 10,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 19.5,
+                  "width": 5.0
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 376.5,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 2,
+              "fragment_axial_lengths": [
+                33.5,
+                341.5
+              ],
+              "fragment_count": 2,
+              "fragments": [
+                {
+                  "axial_length": 33.5,
+                  "branch": "junction_center",
+                  "crosses_periodic_seam": false,
+                  "midpoint": -0.25
+                },
+                {
+                  "axial_length": 341.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -191.25
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "minus",
+                  "cell_count": 7,
+                  "crosses_periodic_seam": false,
+                  "midpoint": -18.75,
+                  "width": 3.5
+                },
+                {
+                  "branch": "plus",
+                  "cell_count": 11,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 19.25,
+                  "width": 5.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 375.0,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "topology_at_first_candidate": {
+        "first_wire_z": {
+          "candidate": true,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                381.5
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 381.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -172.75
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 5,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 19.25,
+                  "width": 2.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 381.5,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                380.5
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 380.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -172.75
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 7,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 19.25,
+                  "width": 3.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 380.5,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": false,
+              "cut_count": 1,
+              "fragment_axial_lengths": [
+                380.5
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 380.5,
+                  "branch": "periodic_antipode",
+                  "crosses_periodic_seam": true,
+                  "midpoint": -172.75
+                }
+              ],
+              "gaps": [
+                {
+                  "branch": "plus",
+                  "cell_count": 7,
+                  "crosses_periodic_seam": false,
+                  "midpoint": 19.25,
+                  "width": 3.5
+                }
+              ],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 380.5,
+              "valid": true
+            }
+          }
+        },
+        "second_wire_y": {
+          "candidate": false,
+          "thresholds": {
+            "0.45": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.50": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            },
+            "0.55": {
+              "continuous_periodic_wire": true,
+              "cut_count": 0,
+              "fragment_axial_lengths": [
+                384.0
+              ],
+              "fragment_count": 1,
+              "fragments": [
+                {
+                  "axial_length": 384.0,
+                  "branch": "entire_periodic_axis",
+                  "crosses_periodic_seam": true,
+                  "midpoint": 0.0
+                }
+              ],
+              "gaps": [],
+              "periodic_axis_length": 384.0,
+              "total_material_axial_length": 384.0,
+              "valid": true
+            }
+          }
+        }
+      },
+      "validation": {
+        "event_checks": {
+          "bracket_shape": true,
+          "candidate_record_present": true,
+          "confirmation_after_candidate": true,
+          "confirmation_record_present": true,
+          "detected": true,
+          "diagnostic_bracket": true,
+          "first_candidate_matches_bracket": true,
+          "latched": true,
+          "no_heuristic_fallback": true,
+          "persistent_gap_present": true,
+          "simultaneous_count_coherent": true,
+          "stable_site": true,
+          "three_record_persistence": true
+        },
+        "event_summary_segment_health": {
+          "checks": {
+            "all_fields_finite": true,
+            "field_magnitude_bounded": true,
+            "free_energy_nonincreasing": true,
+            "mass_drift_below_production_limit": true,
+            "mass_shape_mean_and_drift_coherent": true
+          },
+          "energy_sample_count": 33,
+          "maximum_absolute_relative_mass_drift": 2.6068903009647336e-06,
+          "maximum_field_magnitude": 1.024774432182312,
+          "maximum_relative_energy_rebound": -0.005214221188124765,
+          "maximum_reported_absolute_relative_mass_drift": 2.6068903009647336e-06,
+          "passed": true,
+          "record_count": 163,
+          "record_step_range": [
+            100,
+            1720
+          ]
+        },
+        "full_health_source": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_anchor_mechanism_audit_v1/summary.json",
+        "full_health_source_sha256": "41397f75b1997c791e1db289520dc061646c4a6c8f5944c0d308f94bb4ff9f3f"
+      },
+      "xi": 8.805843745975631
+    }
+  ],
+  "claim_boundary": [
+    "The c14.5 and c22.5 anchors defined the provisional 14.75 offset and therefore cannot validate it.",
+    "The five new cases form a preregistered interpolation/position scan, not independent external validation.",
+    "One realization per position cannot establish seed independence, a universal transition, or a final design law.",
+    "First-event midpoint is a diagnostic bracket midpoint, not an exact breakup time.",
+    "The corrected untreated clock is a legacy compatibility reconstruction: connectivity records supply persistence, while saved full fields verify the modern transverse-gap criterion at the first and confirmation times.",
+    "Changing the baseline corrects time differences only; it does not add placements, seeds, or convergence evidence."
+  ],
+  "classification": "position_scan_response_single_arm_rebaselined",
+  "contract": {
+    "classification_rules": {
+      "absolute_site_used": true,
+      "common_tolerance": 2.8284271247461903,
+      "downstream_offset": 14.75,
+      "downstream_target": "collar_outer_edge+14.75",
+      "natural_target": 19.25
+    },
+    "expected_new_centers": [
+      18.5,
+      26.5,
+      30.5,
+      34.5,
+      38.5
+    ],
+    "interface_width": 2.8284271247461903,
+    "radius": 6.0,
+    "spacing": 0.5
+  },
+  "descriptive_summary": {
+    "corrected_position_response": [
+      {
+        "case_id": "c14p5",
+        "center": 14.5,
+        "delta_time_vs_untreated": 850.0,
+        "event_site_abs": 35.5,
+        "event_time_midpoint": 2545.0,
+        "mode_label": "downstream"
+      },
+      {
+        "case_id": "c18p5",
+        "center": 18.5,
+        "delta_time_vs_untreated": 750.0,
+        "event_site_abs": 39.5,
+        "event_time_midpoint": 2445.0,
+        "mode_label": "downstream"
+      },
+      {
+        "case_id": "c22p5",
+        "center": 22.5,
+        "delta_time_vs_untreated": 680.0,
+        "event_site_abs": 43.0,
+        "event_time_midpoint": 2375.0,
+        "mode_label": "downstream"
+      },
+      {
+        "case_id": "c26p5",
+        "center": 26.5,
+        "delta_time_vs_untreated": 290.0,
+        "event_site_abs": 17.5,
+        "event_time_midpoint": 1985.0,
+        "mode_label": "natural"
+      },
+      {
+        "case_id": "c30p5",
+        "center": 30.5,
+        "delta_time_vs_untreated": -10.0,
+        "event_site_abs": 18.0,
+        "event_time_midpoint": 1685.0,
+        "mode_label": "natural"
+      },
+      {
+        "case_id": "c34p5",
+        "center": 34.5,
+        "delta_time_vs_untreated": -110.0,
+        "event_site_abs": 18.75,
+        "event_time_midpoint": 1585.0,
+        "mode_label": "natural"
+      },
+      {
+        "case_id": "c38p5",
+        "center": 38.5,
+        "delta_time_vs_untreated": -100.0,
+        "event_site_abs": 19.25,
+        "event_time_midpoint": 1595.0,
+        "mode_label": "natural"
+      },
+      {
+        "case_id": "c64p5",
+        "center": 64.5,
+        "delta_time_vs_untreated": 0.0,
+        "event_site_abs": 19.25,
+        "event_time_midpoint": 1695.0,
+        "mode_label": "natural"
+      }
+    ],
+    "delta_regression_checks": {
+      "c14p5": true,
+      "c18p5": true,
+      "c22p5": true,
+      "c26p5": true,
+      "c30p5": true,
+      "c34p5": true,
+      "c38p5": true,
+      "c64p5": true
+    },
+    "mode_counts_new_only": {
+      "downstream": 1,
+      "natural": 4
+    },
+    "mode_sequence_new_only": [
+      {
+        "case_id": "c18p5",
+        "center": 18.5,
+        "event_time_midpoint": 2445.0,
+        "mode_label": "downstream"
+      },
+      {
+        "case_id": "c26p5",
+        "center": 26.5,
+        "event_time_midpoint": 1985.0,
+        "mode_label": "natural"
+      },
+      {
+        "case_id": "c30p5",
+        "center": 30.5,
+        "event_time_midpoint": 1685.0,
+        "mode_label": "natural"
+      },
+      {
+        "case_id": "c34p5",
+        "center": 34.5,
+        "event_time_midpoint": 1585.0,
+        "mode_label": "natural"
+      },
+      {
+        "case_id": "c38p5",
+        "center": 38.5,
+        "event_time_midpoint": 1595.0,
+        "mode_label": "natural"
+      }
+    ]
+  },
+  "groups": {
+    "calibration_case_ids": [
+      "c14p5",
+      "c22p5",
+      "c64p5"
+    ],
+    "prospective_case_ids": [
+      "c18p5",
+      "c26p5",
+      "c30p5",
+      "c34p5",
+      "c38p5"
+    ]
+  },
+  "numerical_integrity": {
+    "all_passed": true,
+    "cases": {
+      "c14p5": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true
+        },
+        "energy_change": -1328.9215455060203,
+        "energy_sample_count": 40,
+        "final_relative_mass_drift": 2.0438513315673314e-06,
+        "maximum_absolute_relative_mass_drift": 2.0530323458905014e-06,
+        "maximum_recorded_inverse_imaginary_residue": 7.733111715424457e-07,
+        "maximum_relative_energy_rebound": -0.005040095702842684,
+        "passed": true,
+        "record_count": 198,
+        "record_step_range": [
+          600,
+          2570
+        ]
+      },
+      "c18p5": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true,
+          "mass_shape_mean_and_drift_coherent": true
+        },
+        "energy_sample_count": 48,
+        "maximum_absolute_relative_mass_drift": 1.6825474548569938e-06,
+        "maximum_field_magnitude": 1.0247853994369507,
+        "maximum_relative_energy_rebound": -0.0050359774223086825,
+        "maximum_reported_absolute_relative_mass_drift": 1.6825474548569938e-06,
+        "passed": true,
+        "record_count": 238,
+        "record_step_range": [
+          100,
+          2470
+        ]
+      },
+      "c22p5": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true
+        },
+        "energy_change": -1803.9851510062435,
+        "energy_sample_count": 47,
+        "final_relative_mass_drift": 1.1149460875417673e-06,
+        "maximum_absolute_relative_mass_drift": 1.1292491731278949e-06,
+        "maximum_recorded_inverse_imaginary_residue": 2.816236246871995e-06,
+        "maximum_relative_energy_rebound": -0.005054435392293095,
+        "passed": true,
+        "record_count": 231,
+        "record_step_range": [
+          100,
+          2400
+        ]
+      },
+      "c26p5": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true,
+          "mass_shape_mean_and_drift_coherent": true
+        },
+        "energy_sample_count": 39,
+        "maximum_absolute_relative_mass_drift": 2.049085153518161e-06,
+        "maximum_field_magnitude": 1.0286999940872192,
+        "maximum_relative_energy_rebound": -0.005102462434395437,
+        "maximum_reported_absolute_relative_mass_drift": 2.049085153518161e-06,
+        "passed": true,
+        "record_count": 192,
+        "record_step_range": [
+          100,
+          2010
+        ]
+      },
+      "c30p5": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true,
+          "mass_shape_mean_and_drift_coherent": true
+        },
+        "energy_sample_count": 33,
+        "maximum_absolute_relative_mass_drift": 1.4960991815344304e-06,
+        "maximum_field_magnitude": 1.0263597965240479,
+        "maximum_relative_energy_rebound": -0.00517935930704961,
+        "maximum_reported_absolute_relative_mass_drift": 1.4960991815344304e-06,
+        "passed": true,
+        "record_count": 162,
+        "record_step_range": [
+          100,
+          1710
+        ]
+      },
+      "c34p5": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true,
+          "mass_shape_mean_and_drift_coherent": true
+        },
+        "energy_sample_count": 31,
+        "maximum_absolute_relative_mass_drift": 1.1270752259209882e-06,
+        "maximum_field_magnitude": 1.0248057842254639,
+        "maximum_relative_energy_rebound": -0.005247701529119559,
+        "maximum_reported_absolute_relative_mass_drift": 1.1270752259209882e-06,
+        "passed": true,
+        "record_count": 152,
+        "record_step_range": [
+          100,
+          1610
+        ]
+      },
+      "c38p5": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true,
+          "mass_shape_mean_and_drift_coherent": true
+        },
+        "energy_sample_count": 31,
+        "maximum_absolute_relative_mass_drift": 5.667595451323952e-07,
+        "maximum_field_magnitude": 1.0248011350631714,
+        "maximum_relative_energy_rebound": -0.005275786243842394,
+        "maximum_reported_absolute_relative_mass_drift": 5.667595451323952e-07,
+        "passed": true,
+        "record_count": 153,
+        "record_step_range": [
+          100,
+          1620
+        ]
+      },
+      "c64p5": {
+        "checks": {
+          "all_fields_finite": true,
+          "field_magnitude_bounded": true,
+          "free_energy_nonincreasing": true,
+          "mass_drift_below_production_limit": true
+        },
+        "energy_change": -1325.044455676135,
+        "energy_sample_count": 33,
+        "final_relative_mass_drift": 2.5991924059432312e-06,
+        "maximum_absolute_relative_mass_drift": 2.6068903009647336e-06,
+        "maximum_recorded_inverse_imaginary_residue": 2.8108033802709542e-06,
+        "maximum_relative_energy_rebound": -0.005214221188124765,
+        "passed": true,
+        "record_count": 163,
+        "record_step_range": [
+          100,
+          1720
+        ]
+      }
+    }
+  },
+  "provenance": {
+    "analyzer": {
+      "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/analyze_position_scan_response_rebaselined.py",
+      "sha256": "cb4131dcb839f7e81f875d534776d9b00e2e2f7fd64545e276d625d139ef7329"
+    },
+    "case_input_sha256": {
+      "c14p5": "9d1a013daefd06153c8f08c1778fa96329cf04d9f4564319ab718615a13833e9",
+      "c18p5": "0e976a031446d842c6a69635c5edaef3233a96a8af3020683e48a9e09df6c224",
+      "c22p5": "f1473b7fb9266624898576796f9f059a3d9ac61fd21d04ccabb92ad681b51187",
+      "c26p5": "a9e47ab4b6f4a4a90c7801c69a62fec34fd1df070f1e177cc5fc5f15fd101f19",
+      "c30p5": "dd36eb5106eb62757e19f764496f3bde5d89041eb19dad1cf1a57cd48f330d6c",
+      "c34p5": "0abb6fa16dcec99b46b3d5128fd154cfe10c4cba3d0facf5cf7c2fc4f830896d",
+      "c38p5": "e8d458cbb05dc92ab16546519d77c7d0f685981ed76f1bc3898f7109d259683b",
+      "c64p5": "3ba2966e5e601cbd334cc61d80b720bd8ef98870ec428167da60c3eb3ceb892f"
+    },
+    "frozen_response": {
+      "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_response_v1/summary.json",
+      "sha256": "a85c299bd45313340f74eb91c3b8bc2bc46815f1b764efdabf81cb4865a4dc5c"
+    },
+    "frozen_response_analyzer": {
+      "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/analyze_position_scan_response.py",
+      "sha256": "88fecbf61f43d14b70c0628319508aea9d0860221dd61e4335b6ca9003eae2b8"
+    },
+    "paired_reanalysis_analyzer": {
+      "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/analyze_paired_repeat_panel.py",
+      "sha256": "a39e391c50798f284e7df8499d6ee1c31ea5fbe4498456cccf8939f747cff6bf"
+    },
+    "paired_reanalysis_inputs": {
+      "analysis_code": {
+        "analyzer": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/analyze_paired_repeat_panel.py",
+          "sha256": "a39e391c50798f284e7df8499d6ee1c31ea5fbe4498456cccf8939f747cff6bf"
+        },
+        "frozen_panel_runner": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/run_paired_repeat_panel.py",
+          "sha256": "aa2fac87538fc11619f4bf8963b64c682251ae0cd406daef31a254865af6b25a"
+        },
+        "modern_detector": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_gb_junction_sentinel/diagnostics.py",
+          "sha256": "ce5dfd6e022a57049ace1a8622bfcd0d2fb095208b0563adfa2038811604fcde"
+        }
+      },
+      "case_summaries": {
+        "104729": {
+          "c18p5": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c18p5/summary.json",
+            "sha256": "44d4f0ab54aa3da293d3b461cfe679216232a57cec41fba4e541b55b9b869fbd"
+          },
+          "c26p5": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c26p5/summary.json",
+            "sha256": "023c81a20fdc3c13887a2925870486b4bbef074bc213354a5fd4cd3add20c925"
+          },
+          "c34p5": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c34p5/summary.json",
+            "sha256": "3be497fe9efe9e4fe1bca0144da2e05030d7e5e5406e557a6054c119f1d79670"
+          },
+          "untreated": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-untreated/summary.json",
+            "sha256": "0808c2307328b2d1d3b3af3dc5934283159b3ef1b789a7e972c335620c75f16f"
+          }
+        },
+        "130363": {
+          "c18p5": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c18p5/summary.json",
+            "sha256": "7ffe00cfe54c7231328b030806f8f2aa7e7aa40260f3330997b0d34f13b707b7"
+          },
+          "c26p5": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c26p5/summary.json",
+            "sha256": "14dc34c850208e57daacdfe3190390bba4de3917407f75e59148a7e960253ee5"
+          },
+          "c34p5": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c34p5/summary.json",
+            "sha256": "40f7bc8d7efd235ab347e491416e59b4e10c4c40946531e1b8e63bf6dd2fefb5"
+          },
+          "untreated": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-untreated/summary.json",
+            "sha256": "320e0968dfcf3c7acd41b0f1200fcb4cad43ff32e585a2200a9aa379a5e266f3"
+          }
+        },
+        "2292": {
+          "c18p5": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c18p5_v1/summary.json",
+            "sha256": "0e976a031446d842c6a69635c5edaef3233a96a8af3020683e48a9e09df6c224"
+          },
+          "c26p5": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c26p5_v1/summary.json",
+            "sha256": "a9e47ab4b6f4a4a90c7801c69a62fec34fd1df070f1e177cc5fc5f15fd101f19"
+          },
+          "c34p5": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c34p5_v1/summary.json",
+            "sha256": "0abb6fa16dcec99b46b3d5128fd154cfe10c4cba3d0facf5cf7c2fc4f830896d"
+          },
+          "untreated": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/summary.json",
+            "sha256": "5e385fff4874e721ba3448d1a52c638af6a2ca030b509dd0e51d12e8812b612a"
+          }
+        }
+      },
+      "immutable_panel_v1": {
+        "aggregate": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/aggregate.json",
+          "sha256": "35201927df20b1b5c10064403aa4d3d58ecf1423bf2c7dc3053bebbff2cabb68"
+        },
+        "checks": {
+          "aggregate_sha256": true,
+          "classification": true,
+          "contract_content": true,
+          "runner_sha256": true,
+          "status": true
+        },
+        "contract": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/contract.json",
+          "sha256": "1fb56bbe8739877d06fa7ba9baf1ee5f4ffc3ebb35d952081eb01fe1ab7f0ed4"
+        },
+        "summary": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/summary.json",
+          "sha256": "65f45e1976e9422bdb4d8a6705ce3cf5b81d533dec5b8fcca3048baaa2655a6c"
+        }
+      },
+      "legacy_event_checkpoints": [
+        {
+          "checks": {
+            "dtype": true,
+            "field_sha256": true,
+            "metadata_dtype": true,
+            "metadata_field_sha256": true,
+            "metadata_sha256": true,
+            "metadata_shape": true,
+            "shape": true,
+            "step": true
+          },
+          "dtype": "<f8",
+          "field_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/checkpoint-step-1700.npy",
+          "field_sha256": "012f54db686f23577e0e66886438a15cbd16b0cfdeef3c4109b201a78c6ab331",
+          "metadata_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/checkpoint-step-1700.json",
+          "metadata_sha256": "00af35d5fc5dca312673023231c41c69e5c7f1ea1790cbe4f1f05fcbb278d00e",
+          "shape": [
+            96,
+            768,
+            768
+          ],
+          "step": 1700
+        },
+        {
+          "checks": {
+            "dtype": true,
+            "field_sha256": true,
+            "metadata_dtype": true,
+            "metadata_field_sha256": true,
+            "metadata_sha256": true,
+            "metadata_shape": true,
+            "shape": true,
+            "step": true
+          },
+          "dtype": "<f8",
+          "field_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/checkpoint-step-1720.npy",
+          "field_sha256": "3b95717e8ff9112974f3e2ec1edad1879595aca77d5768e9126c41826b7f2c14",
+          "metadata_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/checkpoint-step-1720.json",
+          "metadata_sha256": "2fef2144a9f00b5a52fb8882f1846a716071a636c83ef749b0ada5bdf82fe7ee",
+          "shape": [
+            96,
+            768,
+            768
+          ],
+          "step": 1720
+        }
+      ]
+    }
+  },
+  "references": {
+    "depletion": {
+      "time_100_median_minimum": 11.664937524146215
+    },
+    "production_untreated": {
+      "definition": "first persistent single-arm failure",
+      "detector": {
+        "derived_not_pinned": true,
+        "diagnostic_interval": 10,
+        "full_transverse_checks_at": [
+          1700,
+          1720
+        ],
+        "literally_identical_to_modern_detector": false,
+        "missing_full_field_at_intermediate_step": 1710,
+        "name": "persistent_single_arm_three_threshold_legacy_compatibility_adapter_v1",
+        "required_records": 3,
+        "thresholds": [
+          "0.45",
+          "0.50",
+          "0.55"
+        ]
+      },
+      "event_bracket": [
+        1690,
+        1700
+      ],
+      "event_sites": [
+        {
+          "branch": "plus",
+          "confirmation_site": 19.25,
+          "confirmation_site_abs": 19.25,
+          "first_site": 19.25,
+          "first_site_abs": 19.25,
+          "wire": "first_wire_z"
+        }
+      ],
+      "event_time_midpoint": 1695.0
+    },
+    "roy_validation_only": {
+      "definition": "persistent two-arm failure retained only for the like-for-like Roy reproduction",
+      "event_bracket": [
+        1710,
+        1720
+      ],
+      "event_site_abs": 19.25,
+      "event_time_midpoint": 1715.0,
+      "excluded_from_scan_differences": true
+    }
+  },
+  "schema_version": 2,
+  "scope": {
+    "frozen_v1_artifact_modified": false,
+    "simulation_steps_performed": 0,
+    "stored_data_reanalysis_only": true
+  },
+  "status": "complete"
+}

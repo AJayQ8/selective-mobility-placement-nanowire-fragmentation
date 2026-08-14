@@ -1,0 +1,276 @@
+{
+  "campaign_id": "m03_bc_position_sign_validation_v1",
+  "checks": {
+    "all_four_completed_with_robust_event": true,
+    "all_four_exactly_paired": true,
+    "all_four_junction_adjacent": true,
+    "all_four_numerically_healthy": true,
+    "both_intermediate_intervals_strictly_positive": true,
+    "both_outboard_intervals_strictly_negative": true,
+    "frozen_implementation_snapshot_unchanged": true,
+    "no_extra_case": true
+  },
+  "classification": "weaker_contrast_sign_reversal_confirmed",
+  "observations": [
+    {
+      "absolute_first_sites": [
+        18.0
+      ],
+      "case_id": "c26p5_m03",
+      "completed_step": 1910,
+      "completion_checks": {
+        "before_or_at_target": true,
+        "completed": true,
+        "detected": true,
+        "modern_detector": true,
+        "robust_event": true
+      },
+      "confirmation_step": 1910,
+      "conservative_paired_interval": [
+        190,
+        210
+      ],
+      "event_bracket": [
+        1880,
+        1890
+      ],
+      "event_midpoint": 1885.0,
+      "failure_mode": "junction_adjacent",
+      "health": {
+        "checks": {
+          "finite": true,
+          "mass_drift": true,
+          "sampled_energy": true,
+          "terminal_not_numerical_abort": true
+        },
+        "maximum_absolute_relative_mass_drift": 1.9769986372418143e-06,
+        "passed": true,
+        "sampled_energy_rebound_count": 0
+      },
+      "paired_shift_midpoint": 200.0,
+      "passed": true,
+      "provenance_checks": {
+        "campaign": true,
+        "case": true,
+        "factor": true,
+        "parent_case": true,
+        "preflight": true,
+        "science_contract": true,
+        "seed": true,
+        "source_field": true,
+        "source_metadata": true
+      },
+      "role": "intermediate",
+      "seed": 104729,
+      "sign_check": true,
+      "summary_path": "source://study-archive/science_lab/papers/selective_mobility_scripta/mobility_contrast/raw_results/m03_bc_v1/seed-104729/case-c26p5_m03/summary.json",
+      "summary_sha256": "6c912dde3fc949ef5e28c0c15e917d20e03f09e3b06e24e249be683caf27e5f0",
+      "topology_checks": {
+        "all_within_frozen_junction_adjacent_interval": true,
+        "at_least_one_persistent_gap": true
+      },
+      "untreated_event_bracket": [
+        1680,
+        1690
+      ]
+    },
+    {
+      "absolute_first_sites": [
+        18.25,
+        18.75
+      ],
+      "case_id": "c34p5_m03",
+      "completed_step": 1650,
+      "completion_checks": {
+        "before_or_at_target": true,
+        "completed": true,
+        "detected": true,
+        "modern_detector": true,
+        "robust_event": true
+      },
+      "confirmation_step": 1650,
+      "conservative_paired_interval": [
+        -70,
+        -50
+      ],
+      "event_bracket": [
+        1620,
+        1630
+      ],
+      "event_midpoint": 1625.0,
+      "failure_mode": "junction_adjacent",
+      "health": {
+        "checks": {
+          "finite": true,
+          "mass_drift": true,
+          "sampled_energy": true,
+          "terminal_not_numerical_abort": true
+        },
+        "maximum_absolute_relative_mass_drift": 1.6084246176044778e-06,
+        "passed": true,
+        "sampled_energy_rebound_count": 0
+      },
+      "paired_shift_midpoint": -60.0,
+      "passed": true,
+      "provenance_checks": {
+        "campaign": true,
+        "case": true,
+        "factor": true,
+        "parent_case": true,
+        "preflight": true,
+        "science_contract": true,
+        "seed": true,
+        "source_field": true,
+        "source_metadata": true
+      },
+      "role": "outboard",
+      "seed": 104729,
+      "sign_check": true,
+      "summary_path": "source://study-archive/science_lab/papers/selective_mobility_scripta/mobility_contrast/raw_results/m03_bc_v1/seed-104729/case-c34p5_m03/summary.json",
+      "summary_sha256": "d466fa0d0bfb9b636a84e6d65e17d7a5102b87e50407271df27a7ff6cab1e13d",
+      "topology_checks": {
+        "all_within_frozen_junction_adjacent_interval": true,
+        "at_least_one_persistent_gap": true
+      },
+      "untreated_event_bracket": [
+        1680,
+        1690
+      ]
+    },
+    {
+      "absolute_first_sites": [
+        17.5
+      ],
+      "case_id": "c26p5_m03",
+      "completed_step": 1880,
+      "completion_checks": {
+        "before_or_at_target": true,
+        "completed": true,
+        "detected": true,
+        "modern_detector": true,
+        "robust_event": true
+      },
+      "confirmation_step": 1880,
+      "conservative_paired_interval": [
+        190,
+        210
+      ],
+      "event_bracket": [
+        1850,
+        1860
+      ],
+      "event_midpoint": 1855.0,
+      "failure_mode": "junction_adjacent",
+      "health": {
+        "checks": {
+          "finite": true,
+          "mass_drift": true,
+          "sampled_energy": true,
+          "terminal_not_numerical_abort": true
+        },
+        "maximum_absolute_relative_mass_drift": 2.074753985846794e-06,
+        "passed": true,
+        "sampled_energy_rebound_count": 0
+      },
+      "paired_shift_midpoint": 200.0,
+      "passed": true,
+      "provenance_checks": {
+        "campaign": true,
+        "case": true,
+        "factor": true,
+        "parent_case": true,
+        "preflight": true,
+        "science_contract": true,
+        "seed": true,
+        "source_field": true,
+        "source_metadata": true
+      },
+      "role": "intermediate",
+      "seed": 130363,
+      "sign_check": true,
+      "summary_path": "source://study-archive/science_lab/papers/selective_mobility_scripta/mobility_contrast/raw_results/m03_bc_v1/seed-130363/case-c26p5_m03/summary.json",
+      "summary_sha256": "6ee4c6e90250d9bb39792dbdfdb9b785ceda56094f902eb4299a115f79754152",
+      "topology_checks": {
+        "all_within_frozen_junction_adjacent_interval": true,
+        "at_least_one_persistent_gap": true
+      },
+      "untreated_event_bracket": [
+        1650,
+        1660
+      ]
+    },
+    {
+      "absolute_first_sites": [
+        18.0
+      ],
+      "case_id": "c34p5_m03",
+      "completed_step": 1620,
+      "completion_checks": {
+        "before_or_at_target": true,
+        "completed": true,
+        "detected": true,
+        "modern_detector": true,
+        "robust_event": true
+      },
+      "confirmation_step": 1620,
+      "conservative_paired_interval": [
+        -70,
+        -50
+      ],
+      "event_bracket": [
+        1590,
+        1600
+      ],
+      "event_midpoint": 1595.0,
+      "failure_mode": "junction_adjacent",
+      "health": {
+        "checks": {
+          "finite": true,
+          "mass_drift": true,
+          "sampled_energy": true,
+          "terminal_not_numerical_abort": true
+        },
+        "maximum_absolute_relative_mass_drift": 1.145379045432474e-06,
+        "passed": true,
+        "sampled_energy_rebound_count": 0
+      },
+      "paired_shift_midpoint": -60.0,
+      "passed": true,
+      "provenance_checks": {
+        "campaign": true,
+        "case": true,
+        "factor": true,
+        "parent_case": true,
+        "preflight": true,
+        "science_contract": true,
+        "seed": true,
+        "source_field": true,
+        "source_metadata": true
+      },
+      "role": "outboard",
+      "seed": 130363,
+      "sign_check": true,
+      "summary_path": "source://study-archive/science_lab/papers/selective_mobility_scripta/mobility_contrast/raw_results/m03_bc_v1/seed-130363/case-c34p5_m03/summary.json",
+      "summary_sha256": "b49e03e57ab3190c7a1e28ec67229e65d66effac37150bdbeef35155d61c5077",
+      "topology_checks": {
+        "all_within_frozen_junction_adjacent_interval": true,
+        "at_least_one_persistent_gap": true
+      },
+      "untreated_event_bracket": [
+        1650,
+        1660
+      ]
+    }
+  ],
+  "passed": true,
+  "provenance": {
+    "frozen_contract_sha256": "2a0d16c70b46226a36948c51760baaa117266bdb0afc9f518f3a285a1ef7e0a2",
+    "preflight_sha256": "b09e6720205c0c42da8a474bbf12a6eea296be536a6bcc3043e4c1144fc35c3d"
+  },
+  "schema_version": 1,
+  "scope": {
+    "four_frozen_treated_cases_only": true,
+    "no_adaptive_rescue": true
+  },
+  "status": "completed"
+}

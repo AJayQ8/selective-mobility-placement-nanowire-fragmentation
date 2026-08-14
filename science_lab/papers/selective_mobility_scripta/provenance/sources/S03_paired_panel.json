@@ -1,0 +1,1519 @@
+{
+  "classification": "paired_repeat_panel_single_arm_reanalysis_complete",
+  "input_manifest": {
+    "analysis_code": {
+      "analyzer": {
+        "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/analyze_paired_repeat_panel.py",
+        "sha256": "a39e391c50798f284e7df8499d6ee1c31ea5fbe4498456cccf8939f747cff6bf"
+      },
+      "frozen_panel_runner": {
+        "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/run_paired_repeat_panel.py",
+        "sha256": "aa2fac87538fc11619f4bf8963b64c682251ae0cd406daef31a254865af6b25a"
+      },
+      "modern_detector": {
+        "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_gb_junction_sentinel/diagnostics.py",
+        "sha256": "ce5dfd6e022a57049ace1a8622bfcd0d2fb095208b0563adfa2038811604fcde"
+      }
+    },
+    "case_summaries": {
+      "104729": {
+        "c18p5": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c18p5/summary.json",
+          "sha256": "44d4f0ab54aa3da293d3b461cfe679216232a57cec41fba4e541b55b9b869fbd"
+        },
+        "c26p5": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c26p5/summary.json",
+          "sha256": "023c81a20fdc3c13887a2925870486b4bbef074bc213354a5fd4cd3add20c925"
+        },
+        "c34p5": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c34p5/summary.json",
+          "sha256": "3be497fe9efe9e4fe1bca0144da2e05030d7e5e5406e557a6054c119f1d79670"
+        },
+        "untreated": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-untreated/summary.json",
+          "sha256": "0808c2307328b2d1d3b3af3dc5934283159b3ef1b789a7e972c335620c75f16f"
+        }
+      },
+      "130363": {
+        "c18p5": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c18p5/summary.json",
+          "sha256": "7ffe00cfe54c7231328b030806f8f2aa7e7aa40260f3330997b0d34f13b707b7"
+        },
+        "c26p5": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c26p5/summary.json",
+          "sha256": "14dc34c850208e57daacdfe3190390bba4de3917407f75e59148a7e960253ee5"
+        },
+        "c34p5": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c34p5/summary.json",
+          "sha256": "40f7bc8d7efd235ab347e491416e59b4e10c4c40946531e1b8e63bf6dd2fefb5"
+        },
+        "untreated": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-untreated/summary.json",
+          "sha256": "320e0968dfcf3c7acd41b0f1200fcb4cad43ff32e585a2200a9aa379a5e266f3"
+        }
+      },
+      "2292": {
+        "c18p5": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c18p5_v1/summary.json",
+          "sha256": "0e976a031446d842c6a69635c5edaef3233a96a8af3020683e48a9e09df6c224"
+        },
+        "c26p5": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c26p5_v1/summary.json",
+          "sha256": "a9e47ab4b6f4a4a90c7801c69a62fec34fd1df070f1e177cc5fc5f15fd101f19"
+        },
+        "c34p5": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c34p5_v1/summary.json",
+          "sha256": "0abb6fa16dcec99b46b3d5128fd154cfe10c4cba3d0facf5cf7c2fc4f830896d"
+        },
+        "untreated": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/summary.json",
+          "sha256": "5e385fff4874e721ba3448d1a52c638af6a2ca030b509dd0e51d12e8812b612a"
+        }
+      }
+    },
+    "immutable_panel_v1": {
+      "aggregate": {
+        "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/aggregate.json",
+        "sha256": "35201927df20b1b5c10064403aa4d3d58ecf1423bf2c7dc3053bebbff2cabb68"
+      },
+      "checks": {
+        "aggregate_sha256": true,
+        "classification": true,
+        "contract_content": true,
+        "runner_sha256": true,
+        "status": true
+      },
+      "contract": {
+        "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/contract.json",
+        "sha256": "1fb56bbe8739877d06fa7ba9baf1ee5f4ffc3ebb35d952081eb01fe1ab7f0ed4"
+      },
+      "summary": {
+        "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/summary.json",
+        "sha256": "65f45e1976e9422bdb4d8a6705ce3cf5b81d533dec5b8fcca3048baaa2655a6c"
+      }
+    },
+    "legacy_event_checkpoints": [
+      {
+        "checks": {
+          "dtype": true,
+          "field_sha256": true,
+          "metadata_dtype": true,
+          "metadata_field_sha256": true,
+          "metadata_sha256": true,
+          "metadata_shape": true,
+          "shape": true,
+          "step": true
+        },
+        "dtype": "<f8",
+        "field_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/checkpoint-step-1700.npy",
+        "field_sha256": "012f54db686f23577e0e66886438a15cbd16b0cfdeef3c4109b201a78c6ab331",
+        "metadata_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/checkpoint-step-1700.json",
+        "metadata_sha256": "00af35d5fc5dca312673023231c41c69e5c7f1ea1790cbe4f1f05fcbb278d00e",
+        "shape": [
+          96,
+          768,
+          768
+        ],
+        "step": 1700
+      },
+      {
+        "checks": {
+          "dtype": true,
+          "field_sha256": true,
+          "metadata_dtype": true,
+          "metadata_field_sha256": true,
+          "metadata_sha256": true,
+          "metadata_shape": true,
+          "shape": true,
+          "step": true
+        },
+        "dtype": "<f8",
+        "field_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/checkpoint-step-1720.npy",
+        "field_sha256": "3b95717e8ff9112974f3e2ec1edad1879595aca77d5768e9126c41826b7f2c14",
+        "metadata_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/checkpoint-step-1720.json",
+        "metadata_sha256": "2fef2144a9f00b5a52fb8882f1846a716071a636c83ef749b0ada5bdf82fe7ee",
+        "shape": [
+          96,
+          768,
+          768
+        ],
+        "step": 1720
+      }
+    ]
+  },
+  "limitations": [
+    "Seed 2292 uses a compatibility adapter because its legacy records contain robust distal-arm connectivity, not the modern pinch payload.",
+    "The modern full-transverse detector is checked on saved seed-2292 fields at t=1700 and 1720; no t=1710 full field was retained.",
+    "The original v1 aggregate remains immutable and mixes the older two-arm seed-2292 clock with modern one-arm clocks; it is execution history, not the corrected table."
+  ],
+  "panel_assessment": {
+    "full_pattern_flags": [
+      true,
+      true,
+      true
+    ],
+    "full_pattern_reproduced_in_all_three": true,
+    "interpretation_requires_scientific_review": true,
+    "paired_effect_regression_checks": {
+      "104729": {
+        "c18p5": true,
+        "c26p5": true,
+        "c34p5": true
+      },
+      "130363": {
+        "c18p5": true,
+        "c26p5": true,
+        "c34p5": true
+      },
+      "2292": {
+        "c18p5": true,
+        "c26p5": true,
+        "c34p5": true
+      }
+    },
+    "realization_count": 3,
+    "trajectory_count": 12
+  },
+  "realizations": {
+    "104729": {
+      "observations": {
+        "c18p5": {
+          "censored_at": null,
+          "confirmation_step": 2470,
+          "detected": true,
+          "detector": {
+            "derived_not_pinned": true,
+            "diagnostic_interval": 10,
+            "literally_identical_to_modern_detector": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "name": "persistent_single_arm_event_v1",
+            "required_records": 3
+          },
+          "event_bracket": [
+            2440,
+            2450
+          ],
+          "event_midpoint": 2445.0,
+          "first_candidate_step": 2450,
+          "sites": [
+            {
+              "branch": "plus",
+              "confirmation_site": 39.75,
+              "confirmation_site_abs": 39.75,
+              "first_site": 39.5,
+              "first_site_abs": 39.5,
+              "wire": "first_wire_z"
+            }
+          ],
+          "source": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c18p5/summary.json"
+        },
+        "c26p5": {
+          "censored_at": null,
+          "confirmation_step": 1980,
+          "detected": true,
+          "detector": {
+            "derived_not_pinned": true,
+            "diagnostic_interval": 10,
+            "literally_identical_to_modern_detector": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "name": "persistent_single_arm_event_v1",
+            "required_records": 3
+          },
+          "event_bracket": [
+            1950,
+            1960
+          ],
+          "event_midpoint": 1955.0,
+          "first_candidate_step": 1960,
+          "sites": [
+            {
+              "branch": "plus",
+              "confirmation_site": 17.25,
+              "confirmation_site_abs": 17.25,
+              "first_site": 17.5,
+              "first_site_abs": 17.5,
+              "wire": "first_wire_z"
+            }
+          ],
+          "source": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c26p5/summary.json"
+        },
+        "c34p5": {
+          "censored_at": null,
+          "confirmation_step": 1600,
+          "detected": true,
+          "detector": {
+            "derived_not_pinned": true,
+            "diagnostic_interval": 10,
+            "literally_identical_to_modern_detector": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "name": "persistent_single_arm_event_v1",
+            "required_records": 3
+          },
+          "event_bracket": [
+            1570,
+            1580
+          ],
+          "event_midpoint": 1575.0,
+          "first_candidate_step": 1580,
+          "sites": [
+            {
+              "branch": "plus",
+              "confirmation_site": 18.5,
+              "confirmation_site_abs": 18.5,
+              "first_site": 18.75,
+              "first_site_abs": 18.75,
+              "wire": "first_wire_z"
+            }
+          ],
+          "source": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c34p5/summary.json"
+        },
+        "untreated": {
+          "censored_at": null,
+          "confirmation_step": 1710,
+          "detected": true,
+          "detector": {
+            "derived_not_pinned": true,
+            "diagnostic_interval": 10,
+            "literally_identical_to_modern_detector": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "name": "persistent_single_arm_event_v1",
+            "required_records": 3
+          },
+          "event_bracket": [
+            1680,
+            1690
+          ],
+          "event_midpoint": 1685.0,
+          "first_candidate_step": 1690,
+          "sites": [
+            {
+              "branch": "minus",
+              "confirmation_site": -18.75,
+              "confirmation_site_abs": 18.75,
+              "first_site": -18.5,
+              "first_site_abs": 18.5,
+              "wire": "first_wire_z"
+            },
+            {
+              "branch": "plus",
+              "confirmation_site": 19.25,
+              "confirmation_site_abs": 19.25,
+              "first_site": 19.25,
+              "first_site_abs": 19.25,
+              "wire": "first_wire_z"
+            }
+          ],
+          "source": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-untreated/summary.json"
+        }
+      },
+      "paired_effects": {
+        "c18p5": {
+          "delta_time_vs_paired_untreated": 760.0,
+          "relative_delta_time_vs_paired_untreated": 0.45103857566765576
+        },
+        "c26p5": {
+          "delta_time_vs_paired_untreated": 270.0,
+          "relative_delta_time_vs_paired_untreated": 0.16023738872403562
+        },
+        "c34p5": {
+          "delta_time_vs_paired_untreated": -110.0,
+          "relative_delta_time_vs_paired_untreated": -0.06528189910979229
+        }
+      },
+      "paired_pattern": {
+        "all_four_events_detected": true,
+        "c18_relocated_downstream": true,
+        "c26_later_than_untreated": true,
+        "c34_earlier_than_untreated": true,
+        "full_qualitative_pattern": true,
+        "site_comparison": {
+          "all_simultaneous_persistent_sites_used": true,
+          "c18_minimum_abs_site": 39.5,
+          "coordinate": "absolute_distance_from_junction",
+          "required_margin": 10.0,
+          "untreated_maximum_abs_site": 19.25
+        }
+      },
+      "source": {
+        "checkpoint": {
+          "dtype": "<f8",
+          "field_bytes": 452984960,
+          "field_fingerprint": "6cb149fc5d9ca697c2ddcee191f1320a81d9fce8ad98f807c108fb07cefde918",
+          "field_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/source-t0100/checkpoint-paired_source-step-0100.npy",
+          "field_sha256": "dbee74afc8a04568f72cb25f40a84d6f3bc939fc1b55802ac7aabac17c6f720b",
+          "finite": true,
+          "kinds": [
+            "conditioned_source"
+          ],
+          "metadata_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/source-t0100/checkpoint-paired_source-step-0100.json",
+          "metadata_sha256": "762256c5cc66083c5fae871e814e120a1f50a1cc8cb9d698ff44cc59771915ae",
+          "shape": [
+            96,
+            768,
+            768
+          ],
+          "step": 100,
+          "stream": "paired_source"
+        },
+        "checks": {
+          "classification": true,
+          "conditioned_fingerprint": true,
+          "contract_model": true,
+          "contract_protocol": true,
+          "contract_runner": true,
+          "contract_science": true,
+          "contract_seed": true,
+          "field_hash": true,
+          "finite": true,
+          "metadata_hash": true,
+          "seed": true,
+          "status": true,
+          "step": true
+        },
+        "conditioned_fingerprint": "6cb149fc5d9ca697c2ddcee191f1320a81d9fce8ad98f807c108fb07cefde918",
+        "conditioned_mass": 83903.96858352437,
+        "initial_fingerprint": "f20c96652534c2ee18f7dafc072df554bce4c15f01530af23772f07f9c947d73",
+        "initial_mass": 83903.9453973702,
+        "seed": 104729,
+        "summary_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/source-t0100/summary.json",
+        "summary_sha256": "80ba42da99e09e8c7b3f385f90bac752436df463cb5afc85e2d2b0e61e7c54ee"
+      },
+      "validation": {
+        "c18p5": {
+          "case_id": "c18p5",
+          "checks": {
+            "case": true,
+            "engine": true,
+            "protocol": true,
+            "runner": true,
+            "science_contract": true,
+            "seed": true,
+            "source_field": true,
+            "source_fingerprint": true,
+            "source_summary": true,
+            "status": true,
+            "target_or_event": true
+          },
+          "completed_step": 2470,
+          "event_assessment": {
+            "confirmation_step": 2470,
+            "detected": true,
+            "diagnostic_interval": 10,
+            "event_bracket": [
+              2440,
+              2450
+            ],
+            "first_candidate_step": 2450,
+            "heuristic_fallback_used": false,
+            "last_nonmatching_observation_step": 2440,
+            "latched": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "persistent_gaps": [
+              {
+                "branch_history": [
+                  "plus",
+                  "plus",
+                  "plus"
+                ],
+                "confirmation_midpoint": 39.75,
+                "first_branch": "plus",
+                "first_midpoint": 39.5,
+                "gap_history": [
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "plus",
+                    "cell_count": 4,
+                    "crosses_periodic_seam": false,
+                    "midpoint": 39.5,
+                    "start_index": 461,
+                    "width": 2.0,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "plus",
+                    "cell_count": 9,
+                    "crosses_periodic_seam": false,
+                    "midpoint": 39.75,
+                    "start_index": 459,
+                    "width": 4.5,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "plus",
+                    "cell_count": 11,
+                    "crosses_periodic_seam": false,
+                    "midpoint": 39.75,
+                    "start_index": 458,
+                    "width": 5.5,
+                    "wire": "first_wire_z"
+                  }
+                ],
+                "maximum_step_displacement": 0.25,
+                "wire": "first_wire_z"
+              }
+            ],
+            "required_records": 3,
+            "simultaneous_persistent_gap_count": 1
+          },
+          "seed": 104729,
+          "stop_reason": "robust_single_arm_event_confirmed",
+          "summary_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c18p5/summary.json",
+          "summary_sha256": "44d4f0ab54aa3da293d3b461cfe679216232a57cec41fba4e541b55b9b869fbd"
+        },
+        "c26p5": {
+          "case_id": "c26p5",
+          "checks": {
+            "case": true,
+            "engine": true,
+            "protocol": true,
+            "runner": true,
+            "science_contract": true,
+            "seed": true,
+            "source_field": true,
+            "source_fingerprint": true,
+            "source_summary": true,
+            "status": true,
+            "target_or_event": true
+          },
+          "completed_step": 1980,
+          "event_assessment": {
+            "confirmation_step": 1980,
+            "detected": true,
+            "diagnostic_interval": 10,
+            "event_bracket": [
+              1950,
+              1960
+            ],
+            "first_candidate_step": 1960,
+            "heuristic_fallback_used": false,
+            "last_nonmatching_observation_step": 1950,
+            "latched": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "persistent_gaps": [
+              {
+                "branch_history": [
+                  "plus",
+                  "plus",
+                  "plus"
+                ],
+                "confirmation_midpoint": 17.25,
+                "first_branch": "plus",
+                "first_midpoint": 17.5,
+                "gap_history": [
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "plus",
+                    "cell_count": 4,
+                    "crosses_periodic_seam": false,
+                    "midpoint": 17.5,
+                    "start_index": 417,
+                    "width": 2.0,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "plus",
+                    "cell_count": 6,
+                    "crosses_periodic_seam": false,
+                    "midpoint": 17.5,
+                    "start_index": 416,
+                    "width": 3.0,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "plus",
+                    "cell_count": 7,
+                    "crosses_periodic_seam": false,
+                    "midpoint": 17.25,
+                    "start_index": 415,
+                    "width": 3.5,
+                    "wire": "first_wire_z"
+                  }
+                ],
+                "maximum_step_displacement": 0.25,
+                "wire": "first_wire_z"
+              }
+            ],
+            "required_records": 3,
+            "simultaneous_persistent_gap_count": 1
+          },
+          "seed": 104729,
+          "stop_reason": "robust_single_arm_event_confirmed",
+          "summary_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c26p5/summary.json",
+          "summary_sha256": "023c81a20fdc3c13887a2925870486b4bbef074bc213354a5fd4cd3add20c925"
+        },
+        "c34p5": {
+          "case_id": "c34p5",
+          "checks": {
+            "case": true,
+            "engine": true,
+            "protocol": true,
+            "runner": true,
+            "science_contract": true,
+            "seed": true,
+            "source_field": true,
+            "source_fingerprint": true,
+            "source_summary": true,
+            "status": true,
+            "target_or_event": true
+          },
+          "completed_step": 1600,
+          "event_assessment": {
+            "confirmation_step": 1600,
+            "detected": true,
+            "diagnostic_interval": 10,
+            "event_bracket": [
+              1570,
+              1580
+            ],
+            "first_candidate_step": 1580,
+            "heuristic_fallback_used": false,
+            "last_nonmatching_observation_step": 1570,
+            "latched": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "persistent_gaps": [
+              {
+                "branch_history": [
+                  "plus",
+                  "plus",
+                  "plus"
+                ],
+                "confirmation_midpoint": 18.5,
+                "first_branch": "plus",
+                "first_midpoint": 18.75,
+                "gap_history": [
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "plus",
+                    "cell_count": 3,
+                    "crosses_periodic_seam": false,
+                    "midpoint": 18.75,
+                    "start_index": 420,
+                    "width": 1.5,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "plus",
+                    "cell_count": 6,
+                    "crosses_periodic_seam": false,
+                    "midpoint": 18.5,
+                    "start_index": 418,
+                    "width": 3.0,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "plus",
+                    "cell_count": 8,
+                    "crosses_periodic_seam": false,
+                    "midpoint": 18.5,
+                    "start_index": 417,
+                    "width": 4.0,
+                    "wire": "first_wire_z"
+                  }
+                ],
+                "maximum_step_displacement": 0.25,
+                "wire": "first_wire_z"
+              }
+            ],
+            "required_records": 3,
+            "simultaneous_persistent_gap_count": 1
+          },
+          "seed": 104729,
+          "stop_reason": "robust_single_arm_event_confirmed",
+          "summary_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c34p5/summary.json",
+          "summary_sha256": "3be497fe9efe9e4fe1bca0144da2e05030d7e5e5406e557a6054c119f1d79670"
+        },
+        "untreated": {
+          "case_id": "untreated",
+          "checks": {
+            "case": true,
+            "engine": true,
+            "protocol": true,
+            "runner": true,
+            "science_contract": true,
+            "seed": true,
+            "source_field": true,
+            "source_fingerprint": true,
+            "source_summary": true,
+            "status": true,
+            "target_or_event": true
+          },
+          "completed_step": 1710,
+          "event_assessment": {
+            "confirmation_step": 1710,
+            "detected": true,
+            "diagnostic_interval": 10,
+            "event_bracket": [
+              1680,
+              1690
+            ],
+            "first_candidate_step": 1690,
+            "heuristic_fallback_used": false,
+            "last_nonmatching_observation_step": 1680,
+            "latched": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "persistent_gaps": [
+              {
+                "branch_history": [
+                  "minus",
+                  "minus",
+                  "minus"
+                ],
+                "confirmation_midpoint": -18.75,
+                "first_branch": "minus",
+                "first_midpoint": -18.5,
+                "gap_history": [
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "minus",
+                    "cell_count": 4,
+                    "crosses_periodic_seam": false,
+                    "midpoint": -18.5,
+                    "start_index": 345,
+                    "width": 2.0,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "minus",
+                    "cell_count": 7,
+                    "crosses_periodic_seam": false,
+                    "midpoint": -18.75,
+                    "start_index": 343,
+                    "width": 3.5,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "minus",
+                    "cell_count": 9,
+                    "crosses_periodic_seam": false,
+                    "midpoint": -18.75,
+                    "start_index": 342,
+                    "width": 4.5,
+                    "wire": "first_wire_z"
+                  }
+                ],
+                "maximum_step_displacement": 0.25,
+                "wire": "first_wire_z"
+              },
+              {
+                "branch_history": [
+                  "plus",
+                  "plus",
+                  "plus"
+                ],
+                "confirmation_midpoint": 19.25,
+                "first_branch": "plus",
+                "first_midpoint": 19.25,
+                "gap_history": [
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "plus",
+                    "cell_count": 5,
+                    "crosses_periodic_seam": false,
+                    "midpoint": 19.25,
+                    "start_index": 420,
+                    "width": 2.5,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "plus",
+                    "cell_count": 7,
+                    "crosses_periodic_seam": false,
+                    "midpoint": 19.25,
+                    "start_index": 419,
+                    "width": 3.5,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "plus",
+                    "cell_count": 9,
+                    "crosses_periodic_seam": false,
+                    "midpoint": 19.25,
+                    "start_index": 418,
+                    "width": 4.5,
+                    "wire": "first_wire_z"
+                  }
+                ],
+                "maximum_step_displacement": 0.0,
+                "wire": "first_wire_z"
+              }
+            ],
+            "required_records": 3,
+            "simultaneous_persistent_gap_count": 2
+          },
+          "seed": 104729,
+          "stop_reason": "robust_single_arm_event_confirmed",
+          "summary_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-untreated/summary.json",
+          "summary_sha256": "0808c2307328b2d1d3b3af3dc5934283159b3ef1b789a7e972c335620c75f16f"
+        }
+      }
+    },
+    "130363": {
+      "observations": {
+        "c18p5": {
+          "censored_at": null,
+          "confirmation_step": 2450,
+          "detected": true,
+          "detector": {
+            "derived_not_pinned": true,
+            "diagnostic_interval": 10,
+            "literally_identical_to_modern_detector": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "name": "persistent_single_arm_event_v1",
+            "required_records": 3
+          },
+          "event_bracket": [
+            2420,
+            2430
+          ],
+          "event_midpoint": 2425.0,
+          "first_candidate_step": 2430,
+          "sites": [
+            {
+              "branch": "plus",
+              "confirmation_site": 39.25,
+              "confirmation_site_abs": 39.25,
+              "first_site": 39.25,
+              "first_site_abs": 39.25,
+              "wire": "first_wire_z"
+            }
+          ],
+          "source": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c18p5/summary.json"
+        },
+        "c26p5": {
+          "censored_at": null,
+          "confirmation_step": 1940,
+          "detected": true,
+          "detector": {
+            "derived_not_pinned": true,
+            "diagnostic_interval": 10,
+            "literally_identical_to_modern_detector": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "name": "persistent_single_arm_event_v1",
+            "required_records": 3
+          },
+          "event_bracket": [
+            1910,
+            1920
+          ],
+          "event_midpoint": 1915.0,
+          "first_candidate_step": 1920,
+          "sites": [
+            {
+              "branch": "minus",
+              "confirmation_site": -16.75,
+              "confirmation_site_abs": 16.75,
+              "first_site": -16.75,
+              "first_site_abs": 16.75,
+              "wire": "first_wire_z"
+            }
+          ],
+          "source": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c26p5/summary.json"
+        },
+        "c34p5": {
+          "censored_at": null,
+          "confirmation_step": 1580,
+          "detected": true,
+          "detector": {
+            "derived_not_pinned": true,
+            "diagnostic_interval": 10,
+            "literally_identical_to_modern_detector": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "name": "persistent_single_arm_event_v1",
+            "required_records": 3
+          },
+          "event_bracket": [
+            1550,
+            1560
+          ],
+          "event_midpoint": 1555.0,
+          "first_candidate_step": 1560,
+          "sites": [
+            {
+              "branch": "minus",
+              "confirmation_site": -18.25,
+              "confirmation_site_abs": 18.25,
+              "first_site": -18.0,
+              "first_site_abs": 18.0,
+              "wire": "first_wire_z"
+            }
+          ],
+          "source": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c34p5/summary.json"
+        },
+        "untreated": {
+          "censored_at": null,
+          "confirmation_step": 1680,
+          "detected": true,
+          "detector": {
+            "derived_not_pinned": true,
+            "diagnostic_interval": 10,
+            "literally_identical_to_modern_detector": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "name": "persistent_single_arm_event_v1",
+            "required_records": 3
+          },
+          "event_bracket": [
+            1650,
+            1660
+          ],
+          "event_midpoint": 1655.0,
+          "first_candidate_step": 1660,
+          "sites": [
+            {
+              "branch": "minus",
+              "confirmation_site": -18.75,
+              "confirmation_site_abs": 18.75,
+              "first_site": -18.75,
+              "first_site_abs": 18.75,
+              "wire": "first_wire_z"
+            }
+          ],
+          "source": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-untreated/summary.json"
+        }
+      },
+      "paired_effects": {
+        "c18p5": {
+          "delta_time_vs_paired_untreated": 770.0,
+          "relative_delta_time_vs_paired_untreated": 0.4652567975830816
+        },
+        "c26p5": {
+          "delta_time_vs_paired_untreated": 260.0,
+          "relative_delta_time_vs_paired_untreated": 0.15709969788519637
+        },
+        "c34p5": {
+          "delta_time_vs_paired_untreated": -100.0,
+          "relative_delta_time_vs_paired_untreated": -0.06042296072507553
+        }
+      },
+      "paired_pattern": {
+        "all_four_events_detected": true,
+        "c18_relocated_downstream": true,
+        "c26_later_than_untreated": true,
+        "c34_earlier_than_untreated": true,
+        "full_qualitative_pattern": true,
+        "site_comparison": {
+          "all_simultaneous_persistent_sites_used": true,
+          "c18_minimum_abs_site": 39.25,
+          "coordinate": "absolute_distance_from_junction",
+          "required_margin": 10.0,
+          "untreated_maximum_abs_site": 18.75
+        }
+      },
+      "source": {
+        "checkpoint": {
+          "dtype": "<f8",
+          "field_bytes": 452984960,
+          "field_fingerprint": "0a8a3033e860e9c7789d2f7ab7883651bdd5e810d3df3c93d4406fddb440c274",
+          "field_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/source-t0100/checkpoint-paired_source-step-0100.npy",
+          "field_sha256": "03718e7bb43d822cb2e40920e7d054714d4c3523a2c695670d9decb71559b581",
+          "finite": true,
+          "kinds": [
+            "conditioned_source"
+          ],
+          "metadata_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/source-t0100/checkpoint-paired_source-step-0100.json",
+          "metadata_sha256": "3f4152c5c5539a4fed04cc6e3b378ab1789f2ad515b0cba28af7ca72714d4864",
+          "shape": [
+            96,
+            768,
+            768
+          ],
+          "step": 100,
+          "stream": "paired_source"
+        },
+        "checks": {
+          "classification": true,
+          "conditioned_fingerprint": true,
+          "contract_model": true,
+          "contract_protocol": true,
+          "contract_runner": true,
+          "contract_science": true,
+          "contract_seed": true,
+          "field_hash": true,
+          "finite": true,
+          "metadata_hash": true,
+          "seed": true,
+          "status": true,
+          "step": true
+        },
+        "conditioned_fingerprint": "0a8a3033e860e9c7789d2f7ab7883651bdd5e810d3df3c93d4406fddb440c274",
+        "conditioned_mass": 83903.6577951442,
+        "initial_fingerprint": "72470579f5bb4fcfb5fb6545f45f37a20f8457f4b007d484fef26984730e1e9c",
+        "initial_mass": 83903.62417010812,
+        "seed": 130363,
+        "summary_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/source-t0100/summary.json",
+        "summary_sha256": "1106217969684630bca92d6382a6013d32b7981b26fbc4df367d1b7cd22b92e3"
+      },
+      "validation": {
+        "c18p5": {
+          "case_id": "c18p5",
+          "checks": {
+            "case": true,
+            "engine": true,
+            "protocol": true,
+            "runner": true,
+            "science_contract": true,
+            "seed": true,
+            "source_field": true,
+            "source_fingerprint": true,
+            "source_summary": true,
+            "status": true,
+            "target_or_event": true
+          },
+          "completed_step": 2450,
+          "event_assessment": {
+            "confirmation_step": 2450,
+            "detected": true,
+            "diagnostic_interval": 10,
+            "event_bracket": [
+              2420,
+              2430
+            ],
+            "first_candidate_step": 2430,
+            "heuristic_fallback_used": false,
+            "last_nonmatching_observation_step": 2420,
+            "latched": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "persistent_gaps": [
+              {
+                "branch_history": [
+                  "plus",
+                  "plus",
+                  "plus"
+                ],
+                "confirmation_midpoint": 39.25,
+                "first_branch": "plus",
+                "first_midpoint": 39.25,
+                "gap_history": [
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "plus",
+                    "cell_count": 5,
+                    "crosses_periodic_seam": false,
+                    "midpoint": 39.25,
+                    "start_index": 460,
+                    "width": 2.5,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "plus",
+                    "cell_count": 9,
+                    "crosses_periodic_seam": false,
+                    "midpoint": 39.25,
+                    "start_index": 458,
+                    "width": 4.5,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "plus",
+                    "cell_count": 11,
+                    "crosses_periodic_seam": false,
+                    "midpoint": 39.25,
+                    "start_index": 457,
+                    "width": 5.5,
+                    "wire": "first_wire_z"
+                  }
+                ],
+                "maximum_step_displacement": 0.0,
+                "wire": "first_wire_z"
+              }
+            ],
+            "required_records": 3,
+            "simultaneous_persistent_gap_count": 1
+          },
+          "seed": 130363,
+          "stop_reason": "robust_single_arm_event_confirmed",
+          "summary_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c18p5/summary.json",
+          "summary_sha256": "7ffe00cfe54c7231328b030806f8f2aa7e7aa40260f3330997b0d34f13b707b7"
+        },
+        "c26p5": {
+          "case_id": "c26p5",
+          "checks": {
+            "case": true,
+            "engine": true,
+            "protocol": true,
+            "runner": true,
+            "science_contract": true,
+            "seed": true,
+            "source_field": true,
+            "source_fingerprint": true,
+            "source_summary": true,
+            "status": true,
+            "target_or_event": true
+          },
+          "completed_step": 1940,
+          "event_assessment": {
+            "confirmation_step": 1940,
+            "detected": true,
+            "diagnostic_interval": 10,
+            "event_bracket": [
+              1910,
+              1920
+            ],
+            "first_candidate_step": 1920,
+            "heuristic_fallback_used": false,
+            "last_nonmatching_observation_step": 1910,
+            "latched": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "persistent_gaps": [
+              {
+                "branch_history": [
+                  "minus",
+                  "minus",
+                  "minus"
+                ],
+                "confirmation_midpoint": -16.75,
+                "first_branch": "minus",
+                "first_midpoint": -16.75,
+                "gap_history": [
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "minus",
+                    "cell_count": 3,
+                    "crosses_periodic_seam": false,
+                    "midpoint": -16.75,
+                    "start_index": 349,
+                    "width": 1.5,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "minus",
+                    "cell_count": 5,
+                    "crosses_periodic_seam": false,
+                    "midpoint": -16.75,
+                    "start_index": 348,
+                    "width": 2.5,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "minus",
+                    "cell_count": 7,
+                    "crosses_periodic_seam": false,
+                    "midpoint": -16.75,
+                    "start_index": 347,
+                    "width": 3.5,
+                    "wire": "first_wire_z"
+                  }
+                ],
+                "maximum_step_displacement": 0.0,
+                "wire": "first_wire_z"
+              }
+            ],
+            "required_records": 3,
+            "simultaneous_persistent_gap_count": 1
+          },
+          "seed": 130363,
+          "stop_reason": "robust_single_arm_event_confirmed",
+          "summary_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c26p5/summary.json",
+          "summary_sha256": "14dc34c850208e57daacdfe3190390bba4de3917407f75e59148a7e960253ee5"
+        },
+        "c34p5": {
+          "case_id": "c34p5",
+          "checks": {
+            "case": true,
+            "engine": true,
+            "protocol": true,
+            "runner": true,
+            "science_contract": true,
+            "seed": true,
+            "source_field": true,
+            "source_fingerprint": true,
+            "source_summary": true,
+            "status": true,
+            "target_or_event": true
+          },
+          "completed_step": 1580,
+          "event_assessment": {
+            "confirmation_step": 1580,
+            "detected": true,
+            "diagnostic_interval": 10,
+            "event_bracket": [
+              1550,
+              1560
+            ],
+            "first_candidate_step": 1560,
+            "heuristic_fallback_used": false,
+            "last_nonmatching_observation_step": 1550,
+            "latched": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "persistent_gaps": [
+              {
+                "branch_history": [
+                  "minus",
+                  "minus",
+                  "minus"
+                ],
+                "confirmation_midpoint": -18.25,
+                "first_branch": "minus",
+                "first_midpoint": -18.0,
+                "gap_history": [
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "minus",
+                    "cell_count": 4,
+                    "crosses_periodic_seam": false,
+                    "midpoint": -18.0,
+                    "start_index": 346,
+                    "width": 2.0,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "minus",
+                    "cell_count": 8,
+                    "crosses_periodic_seam": false,
+                    "midpoint": -18.0,
+                    "start_index": 344,
+                    "width": 4.0,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "minus",
+                    "cell_count": 9,
+                    "crosses_periodic_seam": false,
+                    "midpoint": -18.25,
+                    "start_index": 343,
+                    "width": 4.5,
+                    "wire": "first_wire_z"
+                  }
+                ],
+                "maximum_step_displacement": 0.25,
+                "wire": "first_wire_z"
+              }
+            ],
+            "required_records": 3,
+            "simultaneous_persistent_gap_count": 1
+          },
+          "seed": 130363,
+          "stop_reason": "robust_single_arm_event_confirmed",
+          "summary_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c34p5/summary.json",
+          "summary_sha256": "40f7bc8d7efd235ab347e491416e59b4e10c4c40946531e1b8e63bf6dd2fefb5"
+        },
+        "untreated": {
+          "case_id": "untreated",
+          "checks": {
+            "case": true,
+            "engine": true,
+            "protocol": true,
+            "runner": true,
+            "science_contract": true,
+            "seed": true,
+            "source_field": true,
+            "source_fingerprint": true,
+            "source_summary": true,
+            "status": true,
+            "target_or_event": true
+          },
+          "completed_step": 1680,
+          "event_assessment": {
+            "confirmation_step": 1680,
+            "detected": true,
+            "diagnostic_interval": 10,
+            "event_bracket": [
+              1650,
+              1660
+            ],
+            "first_candidate_step": 1660,
+            "heuristic_fallback_used": false,
+            "last_nonmatching_observation_step": 1650,
+            "latched": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "persistent_gaps": [
+              {
+                "branch_history": [
+                  "minus",
+                  "minus",
+                  "minus"
+                ],
+                "confirmation_midpoint": -18.75,
+                "first_branch": "minus",
+                "first_midpoint": -18.75,
+                "gap_history": [
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "minus",
+                    "cell_count": 5,
+                    "crosses_periodic_seam": false,
+                    "midpoint": -18.75,
+                    "start_index": 344,
+                    "width": 2.5,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "minus",
+                    "cell_count": 7,
+                    "crosses_periodic_seam": false,
+                    "midpoint": -18.75,
+                    "start_index": 343,
+                    "width": 3.5,
+                    "wire": "first_wire_z"
+                  },
+                  {
+                    "axial_axis": 2,
+                    "axial_length": 384.0,
+                    "branch": "minus",
+                    "cell_count": 9,
+                    "crosses_periodic_seam": false,
+                    "midpoint": -18.75,
+                    "start_index": 342,
+                    "width": 4.5,
+                    "wire": "first_wire_z"
+                  }
+                ],
+                "maximum_step_displacement": 0.0,
+                "wire": "first_wire_z"
+              }
+            ],
+            "required_records": 3,
+            "simultaneous_persistent_gap_count": 1
+          },
+          "seed": 130363,
+          "stop_reason": "robust_single_arm_event_confirmed",
+          "summary_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-untreated/summary.json",
+          "summary_sha256": "320e0968dfcf3c7acd41b0f1200fcb4cad43ff32e585a2200a9aa379a5e266f3"
+        }
+      }
+    },
+    "2292": {
+      "observations": {
+        "c18p5": {
+          "censored_at": null,
+          "confirmation_step": 2470,
+          "detected": true,
+          "detector": {
+            "derived_not_pinned": true,
+            "diagnostic_interval": 10,
+            "literally_identical_to_modern_detector": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "name": "persistent_single_arm_event_v1",
+            "required_records": 3
+          },
+          "event_bracket": [
+            2440,
+            2450
+          ],
+          "event_midpoint": 2445.0,
+          "first_candidate_step": 2450,
+          "sites": [
+            {
+              "branch": "plus",
+              "confirmation_site": 39.75,
+              "confirmation_site_abs": 39.75,
+              "first_site": 39.5,
+              "first_site_abs": 39.5,
+              "wire": "first_wire_z"
+            }
+          ],
+          "source": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c18p5_v1/summary.json"
+        },
+        "c26p5": {
+          "censored_at": null,
+          "confirmation_step": 2010,
+          "detected": true,
+          "detector": {
+            "derived_not_pinned": true,
+            "diagnostic_interval": 10,
+            "literally_identical_to_modern_detector": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "name": "persistent_single_arm_event_v1",
+            "required_records": 3
+          },
+          "event_bracket": [
+            1980,
+            1990
+          ],
+          "event_midpoint": 1985.0,
+          "first_candidate_step": 1990,
+          "sites": [
+            {
+              "branch": "plus",
+              "confirmation_site": 17.25,
+              "confirmation_site_abs": 17.25,
+              "first_site": 17.5,
+              "first_site_abs": 17.5,
+              "wire": "first_wire_z"
+            }
+          ],
+          "source": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c26p5_v1/summary.json"
+        },
+        "c34p5": {
+          "censored_at": null,
+          "confirmation_step": 1610,
+          "detected": true,
+          "detector": {
+            "derived_not_pinned": true,
+            "diagnostic_interval": 10,
+            "literally_identical_to_modern_detector": true,
+            "maximum_gap_displacement": 2.8284271247461903,
+            "name": "persistent_single_arm_event_v1",
+            "required_records": 3
+          },
+          "event_bracket": [
+            1580,
+            1590
+          ],
+          "event_midpoint": 1585.0,
+          "first_candidate_step": 1590,
+          "sites": [
+            {
+              "branch": "plus",
+              "confirmation_site": 18.5,
+              "confirmation_site_abs": 18.5,
+              "first_site": 18.75,
+              "first_site_abs": 18.75,
+              "wire": "first_wire_z"
+            }
+          ],
+          "source": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c34p5_v1/summary.json"
+        },
+        "untreated": {
+          "censored_at": null,
+          "confirmation_step": 1720,
+          "detected": true,
+          "detector": {
+            "derived_not_pinned": true,
+            "diagnostic_interval": 10,
+            "full_transverse_checks_at": [
+              1700,
+              1720
+            ],
+            "literally_identical_to_modern_detector": false,
+            "missing_full_field_at_intermediate_step": 1710,
+            "name": "persistent_single_arm_three_threshold_legacy_compatibility_adapter_v1",
+            "required_records": 3,
+            "thresholds": [
+              "0.45",
+              "0.50",
+              "0.55"
+            ]
+          },
+          "event_bracket": [
+            1690,
+            1700
+          ],
+          "event_midpoint": 1695.0,
+          "first_candidate_step": 1700,
+          "sites": [
+            {
+              "branch": "plus",
+              "confirmation_site": 19.25,
+              "confirmation_site_abs": 19.25,
+              "first_site": 19.25,
+              "first_site_abs": 19.25,
+              "wire": "first_wire_z"
+            }
+          ],
+          "source": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/summary.json",
+          "source_sha256": "5e385fff4874e721ba3448d1a52c638af6a2ca030b509dd0e51d12e8812b612a"
+        }
+      },
+      "paired_effects": {
+        "c18p5": {
+          "delta_time_vs_paired_untreated": 750.0,
+          "relative_delta_time_vs_paired_untreated": 0.4424778761061947
+        },
+        "c26p5": {
+          "delta_time_vs_paired_untreated": 290.0,
+          "relative_delta_time_vs_paired_untreated": 0.1710914454277286
+        },
+        "c34p5": {
+          "delta_time_vs_paired_untreated": -110.0,
+          "relative_delta_time_vs_paired_untreated": -0.06489675516224189
+        }
+      },
+      "paired_pattern": {
+        "all_four_events_detected": true,
+        "c18_relocated_downstream": true,
+        "c26_later_than_untreated": true,
+        "c34_earlier_than_untreated": true,
+        "full_qualitative_pattern": true,
+        "site_comparison": {
+          "all_simultaneous_persistent_sites_used": true,
+          "c18_minimum_abs_site": 39.5,
+          "coordinate": "absolute_distance_from_junction",
+          "required_margin": 10.0,
+          "untreated_maximum_abs_site": 19.25
+        }
+      },
+      "validation": {
+        "c18p5": {
+          "input_sha256": "0e976a031446d842c6a69635c5edaef3233a96a8af3020683e48a9e09df6c224",
+          "passed": true
+        },
+        "c26p5": {
+          "input_sha256": "a9e47ab4b6f4a4a90c7801c69a62fec34fd1df070f1e177cc5fc5f15fd101f19",
+          "passed": true
+        },
+        "c34p5": {
+          "input_sha256": "0abb6fa16dcec99b46b3d5128fd154cfe10c4cba3d0facf5cf7c2fc4f830896d",
+          "passed": true
+        },
+        "untreated_legacy_compatibility": true
+      }
+    }
+  },
+  "schema_version": 2,
+  "scope": {
+    "simulation_steps_performed": 0,
+    "stored_data_reanalysis_only": true
+  },
+  "status": "completed",
+  "validation_clocks": {
+    "production_comparison": {
+      "definition": "first persistent single-arm failure",
+      "derived_at_analysis_time": true,
+      "seed_2292_event_midpoint": 1695.0
+    },
+    "roy_reproduction_only": {
+      "confirmation_step": 1740,
+      "definition": "at least two of the same arms detached at all three thresholds for three consecutive observations",
+      "event_bracket": [
+        1710,
+        1720
+      ],
+      "event_midpoint": 1715.0,
+      "excluded_from_production_differences": true,
+      "roy_example_time": 1719
+    }
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "acceptance": {
+    "checks": {
+      "both_completed_with_events": true,
+      "c34_earlier_beyond_bracket_uncertainty": true,
+      "individual_times_within_five_percent": true,
+      "paired_effect_within_twenty_five_percent": true,
+      "same_natural_failure_mode": true
+    },
+    "event_brackets": {
+      "c34p5": [
+        1580,
+        1590
+      ],
+      "untreated": [
+        1680,
+        1690
+      ]
+    },
+    "failure_modes": {
+      "c34p5": {
+        "gap_checks": [
+          {
+            "first_midpoint": -18.25,
+            "site_is_natural": true,
+            "wire": "first_wire_z",
+            "wire_is_natural": true
+          },
+          {
+            "first_midpoint": 18.75,
+            "site_is_natural": true,
+            "wire": "first_wire_z",
+            "wire_is_natural": true
+          }
+        ],
+        "mode": "natural_junction_adjacent",
+        "passed": true
+      },
+      "untreated": {
+        "gap_checks": [
+          {
+            "first_midpoint": -18.5,
+            "site_is_natural": true,
+            "wire": "first_wire_z",
+            "wire_is_natural": true
+          },
+          {
+            "first_midpoint": 19.0,
+            "site_is_natural": true,
+            "wire": "first_wire_z",
+            "wire_is_natural": true
+          }
+        ],
+        "mode": "natural_junction_adjacent",
+        "passed": true
+      }
+    },
+    "individual_time_refinement": {
+      "c34p5": {
+        "dt0p5_event_midpoint": 1585.0,
+        "dt1_event_midpoint": 1575.0,
+        "maximum_relative_error": 0.05,
+        "passed": true,
+        "relative_error": 0.006349206349206349
+      },
+      "untreated": {
+        "dt0p5_event_midpoint": 1685.0,
+        "dt1_event_midpoint": 1685.0,
+        "maximum_relative_error": 0.05,
+        "passed": true,
+        "relative_error": 0.0
+      }
+    },
+    "paired_effect": {
+      "dt0p5": -100.0,
+      "dt1": -110.0,
+      "maximum_relative_error": 0.25,
+      "relative_error": 0.09090909090909091
+    },
+    "passed": true
+  },
+  "case_order": [
+    "untreated",
+    "c34p5"
+  ],
+  "cases": {
+    "c34p5": {
+      "completed_physical_time": 1610.0,
+      "event_assessment": {
+        "confirmation_step": 1610,
+        "detected": true,
+        "diagnostic_interval": 10,
+        "event_bracket": [
+          1580,
+          1590
+        ],
+        "first_candidate_step": 1590,
+        "heuristic_fallback_used": false,
+        "last_nonmatching_observation_step": 1580,
+        "latched": true,
+        "maximum_gap_displacement": 2.8284271247461903,
+        "persistent_gaps": [
+          {
+            "branch_history": [
+              "minus",
+              "minus",
+              "minus"
+            ],
+            "confirmation_midpoint": -18.25,
+            "first_branch": "minus",
+            "first_midpoint": -18.25,
+            "gap_history": [
+              {
+                "axial_axis": 2,
+                "axial_length": 384.0,
+                "branch": "minus",
+                "cell_count": 5,
+                "crosses_periodic_seam": false,
+                "midpoint": -18.25,
+                "start_index": 345,
+                "width": 2.5,
+                "wire": "first_wire_z"
+              },
+              {
+                "axial_axis": 2,
+                "axial_length": 384.0,
+                "branch": "minus",
+                "cell_count": 7,
+                "crosses_periodic_seam": false,
+                "midpoint": -18.25,
+                "start_index": 344,
+                "width": 3.5,
+                "wire": "first_wire_z"
+              },
+              {
+                "axial_axis": 2,
+                "axial_length": 384.0,
+                "branch": "minus",
+                "cell_count": 9,
+                "crosses_periodic_seam": false,
+                "midpoint": -18.25,
+                "start_index": 343,
+                "width": 4.5,
+                "wire": "first_wire_z"
+              }
+            ],
+            "maximum_step_displacement": 0.0,
+            "wire": "first_wire_z"
+          },
+          {
+            "branch_history": [
+              "plus",
+              "plus",
+              "plus"
+            ],
+            "confirmation_midpoint": 18.75,
+            "first_branch": "plus",
+            "first_midpoint": 18.75,
+            "gap_history": [
+              {
+                "axial_axis": 2,
+                "axial_length": 384.0,
+                "branch": "plus",
+                "cell_count": 5,
+                "crosses_periodic_seam": false,
+                "midpoint": 18.75,
+                "start_index": 419,
+                "width": 2.5,
+                "wire": "first_wire_z"
+              },
+              {
+                "axial_axis": 2,
+                "axial_length": 384.0,
+                "branch": "plus",
+                "cell_count": 7,
+                "crosses_periodic_seam": false,
+                "midpoint": 18.75,
+                "start_index": 418,
+                "width": 3.5,
+                "wire": "first_wire_z"
+              },
+              {
+                "axial_axis": 2,
+                "axial_length": 384.0,
+                "branch": "plus",
+                "cell_count": 9,
+                "crosses_periodic_seam": false,
+                "midpoint": 18.75,
+                "start_index": 417,
+                "width": 4.5,
+                "wire": "first_wire_z"
+              }
+            ],
+            "maximum_step_displacement": 0.0,
+            "wire": "first_wire_z"
+          }
+        ],
+        "required_records": 3,
+        "simultaneous_persistent_gap_count": 2
+      },
+      "status": "completed",
+      "summary_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/timestep_refinement_pair_dt0p5_v1/case-c34p5/summary.json",
+      "summary_sha256": "d3d9260edf770041190f7740f575343b60f162f8f0672589da557870aa1ecd89"
+    },
+    "untreated": {
+      "completed_physical_time": 1710.0,
+      "event_assessment": {
+        "confirmation_step": 1710,
+        "detected": true,
+        "diagnostic_interval": 10,
+        "event_bracket": [
+          1680,
+          1690
+        ],
+        "first_candidate_step": 1690,
+        "heuristic_fallback_used": false,
+        "last_nonmatching_observation_step": 1680,
+        "latched": true,
+        "maximum_gap_displacement": 2.8284271247461903,
+        "persistent_gaps": [
+          {
+            "branch_history": [
+              "minus",
+              "minus",
+              "minus"
+            ],
+            "confirmation_midpoint": -18.75,
+            "first_branch": "minus",
+            "first_midpoint": -18.5,
+            "gap_history": [
+              {
+                "axial_axis": 2,
+                "axial_length": 384.0,
+                "branch": "minus",
+                "cell_count": 4,
+                "crosses_periodic_seam": false,
+                "midpoint": -18.5,
+                "start_index": 345,
+                "width": 2.0,
+                "wire": "first_wire_z"
+              },
+              {
+                "axial_axis": 2,
+                "axial_length": 384.0,
+                "branch": "minus",
+                "cell_count": 7,
+                "crosses_periodic_seam": false,
+                "midpoint": -18.75,
+                "start_index": 343,
+                "width": 3.5,
+                "wire": "first_wire_z"
+              },
+              {
+                "axial_axis": 2,
+                "axial_length": 384.0,
+                "branch": "minus",
+                "cell_count": 9,
+                "crosses_periodic_seam": false,
+                "midpoint": -18.75,
+                "start_index": 342,
+                "width": 4.5,
+                "wire": "first_wire_z"
+              }
+            ],
+            "maximum_step_displacement": 0.25,
+            "wire": "first_wire_z"
+          },
+          {
+            "branch_history": [
+              "plus",
+              "plus",
+              "plus"
+            ],
+            "confirmation_midpoint": 19.25,
+            "first_branch": "plus",
+            "first_midpoint": 19.0,
+            "gap_history": [
+              {
+                "axial_axis": 2,
+                "axial_length": 384.0,
+                "branch": "plus",
+                "cell_count": 4,
+                "crosses_periodic_seam": false,
+                "midpoint": 19.0,
+                "start_index": 420,
+                "width": 2.0,
+                "wire": "first_wire_z"
+              },
+              {
+                "axial_axis": 2,
+                "axial_length": 384.0,
+                "branch": "plus",
+                "cell_count": 7,
+                "crosses_periodic_seam": false,
+                "midpoint": 19.25,
+                "start_index": 419,
+                "width": 3.5,
+                "wire": "first_wire_z"
+              },
+              {
+                "axial_axis": 2,
+                "axial_length": 384.0,
+                "branch": "plus",
+                "cell_count": 9,
+                "crosses_periodic_seam": false,
+                "midpoint": 19.25,
+                "start_index": 418,
+                "width": 4.5,
+                "wire": "first_wire_z"
+              }
+            ],
+            "maximum_step_displacement": 0.25,
+            "wire": "first_wire_z"
+          }
+        ],
+        "required_records": 3,
+        "simultaneous_persistent_gap_count": 2
+      },
+      "status": "completed",
+      "summary_path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/timestep_refinement_pair_dt0p5_v1/case-untreated/summary.json",
+      "summary_sha256": "9a8774435ad58cde0766275803345fcb184f4e97d07eca79c1fb7c7a49e0c810"
+    }
+  },
+  "classification": "paired_dt0p5_validation_passed",
+  "contract": {
+    "acceptance": {
+      "dt1_paired_effect": -110.0,
+      "maximum_individual_relative_time_error": 0.05,
+      "maximum_paired_effect_relative_error": 0.25,
+      "natural_site_absolute_bounds": [
+        14.0,
+        22.5
+      ],
+      "natural_wire": "first_wire_z",
+      "treated_bracket_must_precede_untreated": true
+    },
+    "case_order": [
+      "untreated",
+      "c34p5"
+    ],
+    "execution": "strictly_sequential",
+    "preflight": {
+      "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/timestep_refinement_preflight_dt0p5_v1/summary.json",
+      "sha256": "33ce7b0d745c7a70243f4d5aad4559d784ae9d1a44039eded1cc9901df44740a"
+    },
+    "protocol": "paired_timestep_refinement_dt0p5_v1",
+    "provenance": {
+      "protocol_sha256": "14f589bc04d3df2a4ced90084d38470064041e023a0e7ec1b5e415868de84527",
+      "runner_sha256": "238f33b18de79e30f894b22c3173670fa0223bfb79ec448b415780320ee33e19",
+      "scientific_contract_sha256": "f92e73df52e621e55e2c33cbbb218f4a55b07d60d687b4b7ef8b7974c0986eff"
+    },
+    "runtime_projection": {
+      "cases": {
+        "c34p5": {
+          "planning_confirmation_physical_time": 1600.0,
+          "projected_proposals": 3000,
+          "reference_median_proposal_seconds": 2.926448416983476,
+          "unsafeguarded_wall_seconds": 8779.345250950428
+        },
+        "untreated": {
+          "planning_confirmation_physical_time": 1710.0,
+          "projected_proposals": 3220,
+          "reference_median_proposal_seconds": 2.9476353749923874,
+          "unsafeguarded_wall_seconds": 9491.385907475487
+        }
+      },
+      "safeguarded_wall_hours": 6.090243719475305,
+      "safeguarded_wall_seconds": 21924.877390111098,
+      "safety_factor": 1.2,
+      "sequential": true,
+      "total_projected_proposals": 6220,
+      "unsafeguarded_wall_hours": 5.075203099562755,
+      "unsafeguarded_wall_seconds": 18270.731158425915
+    },
+    "schema_version": 1,
+    "scope": {
+      "follow_on_authorized": false,
+      "only_two_frozen_cases": true,
+      "parallel_case_execution_authorized": false
+    },
+    "seed": 104729,
+    "storage_projection": {
+      "minimum_disk_headroom_bytes": 8589934592,
+      "note": "metadata and compact JSON are negligible; an interruption checkpoint is contingency output above the 5.1 GiB projection",
+      "projected_checkpoint_count": 12,
+      "projected_field_bytes": 5435819520,
+      "projected_field_gibibytes": 5.062501430511475,
+      "required_free_disk_bytes": 14025754112,
+      "sequential": true
+    }
+  },
+  "schema_version": 1,
+  "scope": {
+    "follow_on_started": false
+  },
+  "status": "completed"
+}

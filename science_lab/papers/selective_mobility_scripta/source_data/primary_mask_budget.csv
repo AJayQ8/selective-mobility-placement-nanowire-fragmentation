@@ -1,0 +1,2 @@
+comparison_id,source_seed,state_time,case_a,case_b,center_a,center_b,budget_definition,budget_a,budget_b,absolute_difference,relative_difference_vs_a,percent_difference_vs_a,source_ids
+primary_outward_shift,2292,100,c26p5,c34p5,26.5,34.5,surface_weighted_mobility_deficit,2245.1711634743924,2246.252630042341,1.0814665679486097,0.00048168557727021804,0.048168557727021805,S02

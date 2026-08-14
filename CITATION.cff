@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the associated study and this archived software release."
+title: "Placement-dependent mobility suppression in a welded nanowire junction"
+type: software
+authors:
+  - family-names: "Al-Zanki"
+    given-names: "Ayas"
+version: "1.0.0"
+date-released: 2026-08-14
+license: GPL-3.0-only
+repository-code: "https://github.com/aalzanki/selective-mobility-scripta"
+url: "https://github.com/aalzanki/selective-mobility-scripta"
+abstract: >-
+  Code, normalized data, provenance, and figures for a phase-field study showing
+  that outward placement of otherwise identical low-mobility collars can reverse
+  their fragmentation-time response.
+keywords:
+  - phase field
+  - surface diffusion
+  - nanowire junction
+  - localized mobility
+  - fragmentation

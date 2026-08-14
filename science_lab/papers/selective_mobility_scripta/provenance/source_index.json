@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "manifest_id": "selective_mobility_scripta_public_provenance_v1",
+  "identity_policy": "Original SHA-256 and byte length identify every source. Compact records are included when needed for direct auditing; otherwise the original content identity is recorded without copying a large runtime summary.",
+  "sources": [
+    {
+      "id": "S01",
+      "role": "Roy reproduction and source-A untreated lineage",
+      "original_archive_path": "science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/summary.json",
+      "original_sha256": "5e385fff4874e721ba3448d1a52c638af6a2ca030b509dd0e51d12e8812b612a",
+      "original_bytes": 826857
+    },
+    {
+      "id": "S02",
+      "role": "source-A exploratory placement scan",
+      "original_archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_response_rebaselined_v2/summary.json",
+      "original_sha256": "a50842cec1c8b394be5582e85fc423db9c116a271242a9f05ee213199fcf4514",
+      "original_bytes": 143047,
+      "public_path": "science_lab/papers/selective_mobility_scripta/provenance/sources/S02_position_scan_response.json"
+    },
+    {
+      "id": "S03",
+      "role": "source-A exploratory panel and B/C confirmation panel",
+      "original_archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_analysis_v2/summary.json",
+      "original_sha256": "020467e37388c6c60283d8d525529338bd34f13ea0c9c87fe8da2ee43b663152",
+      "original_bytes": 58794,
+      "public_path": "science_lab/papers/selective_mobility_scripta/provenance/sources/S03_paired_panel.json"
+    },
+    {
+      "id": "S04",
+      "role": "failure-mode and weld-connectivity audit",
+      "original_archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_mechanism_failure_mode_audit_v1/summary.json",
+      "original_sha256": "7ed3519a164e0d3c60bd6dbf199ee6ec8361a63003c80de0f1d8c23481a76139",
+      "original_bytes": 704179
+    },
+    {
+      "id": "S05",
+      "role": "source-A control-volume transport audit",
+      "original_archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_transport_audit_v3/summary.json",
+      "original_sha256": "e81d6ed69da56a712797d20e9cbe64266ece37f54a315757370522d867f317f8",
+      "original_bytes": 143289,
+      "public_path": "science_lab/papers/selective_mobility_scripta/provenance/sources/S05_transport_audit.json"
+    },
+    {
+      "id": "S06",
+      "role": "paired timestep-refinement acceptance",
+      "original_archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/timestep_refinement_pair_dt0p5_v1/summary.json",
+      "original_sha256": "f30c95122a6bad109e8eb933a62afb8022dd429b4752220aa70d3758a7b3352e",
+      "original_bytes": 12673,
+      "public_path": "science_lab/papers/selective_mobility_scripta/provenance/sources/S06_timestep_refinement.json"
+    },
+    {
+      "id": "S07",
+      "role": "K1 equal-budget event",
+      "original_archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/k1_first_break_t3000_v1/summary.json",
+      "original_sha256": "9d1a013daefd06153c8f08c1778fa96329cf04d9f4564319ab718615a13833e9",
+      "original_bytes": 688920
+    },
+    {
+      "id": "S08",
+      "role": "K2 equal-budget event",
+      "original_archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/k2_first_break_t3000_v1/summary.json",
+      "original_sha256": "011303e3e2606efffe2070672b76e07179f5629822cd64dabb067d617d2f178d",
+      "original_bytes": 303120
+    },
+    {
+      "id": "S09",
+      "role": "K3 uniform equal-budget event",
+      "original_archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/k3_uniform_lifetime_v1/summary.json",
+      "original_sha256": "ecbe4019769eb172b5d0d3f6ca6e72b7db38eb41665aa9caf00feb1c1e2e3b47",
+      "original_bytes": 2200067
+    },
+    {
+      "id": "S10",
+      "role": "reduced-domain acceptance gate",
+      "original_archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/radius_scaling_validation_v3_campaign_20260731_run1/r6/acceptance.json",
+      "original_sha256": "b9f92a8c20ed893916b2bd0790c39801e2b36a2a9328c28d44aa67ae25448476",
+      "original_bytes": 2379,
+      "public_path": "science_lab/papers/selective_mobility_scripta/provenance/sources/S10_reduced_domain_acceptance.json"
+    },
+    {
+      "id": "S11",
+      "role": "factor-two common-source continuation-grid validation",
+      "original_archive_path": "science_lab/papers/selective_mobility_scripta/spatial_refinement/results/r6_h0p25_untreated_c34_v1/analysis/summary.json",
+      "original_sha256": "95a8512e78626d438bb851c067cc1f4370e0b962e6a9db71f530e29b12728324",
+      "original_bytes": 3590,
+      "public_path": "science_lab/papers/selective_mobility_scripta/provenance/sources/S11_spatial_refinement.json"
+    },
+    {
+      "id": "S12",
+      "role": "reduced-domain untreated event",
+      "original_archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/radius_scaling_validation_v3_campaign_20260731_run1/r6/case-untreated/summary.json",
+      "original_sha256": "ec4b8f79d1a4cefe5793cb126025c7ccfe28537c4074b1dd41feae39e7d403d8",
+      "original_bytes": 2628887
+    },
+    {
+      "id": "S13",
+      "role": "reduced-domain outboard event",
+      "original_archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/radius_scaling_validation_v3_campaign_20260731_run1/r6/case-harmful/summary.json",
+      "original_sha256": "aea7466a58b6d9c2de0f8475cd1ba1f11477658015ddf0ac932bc8483591f7d0",
+      "original_bytes": 2497509
+    },
+    {
+      "id": "S14",
+      "role": "source-A exact modern-detector replay",
+      "original_archive_path": "science_lab/papers/selective_mobility_scripta/provenance/detector_replay/results/source_a_untreated_detector_replay_v1/result.json",
+      "original_sha256": "96d06f78c550c6c95521965d930624319b43edf0ec3ce717c14f3745c4b885f8",
+      "original_bytes": 16692,
+      "public_path": "science_lab/papers/selective_mobility_scripta/provenance/detector_replay/result_portable.json"
+    },
+    {
+      "id": "S15",
+      "role": "weaker-mobility-contrast B/C confirmation",
+      "original_archive_path": "science_lab/papers/selective_mobility_scripta/mobility_contrast/results/m03_bc_v1/analysis.json",
+      "original_sha256": "da3a19c2b814981c9e2e83e0f7db41fc6c4f0058386fe9d79a36165e023cf357",
+      "original_bytes": 8219,
+      "public_path": "science_lab/papers/selective_mobility_scripta/provenance/mobility_contrast/analysis_portable.json"
+    },
+    {
+      "id": "S16",
+      "role": "B/C control-volume transport recurrence",
+      "original_archive_path": "science_lab/papers/selective_mobility_scripta/provenance/transport_confirmation_bc/results/bc_transport_confirmation_v1/summary.json",
+      "original_sha256": "63e8851315babfe90e80307e5e6511c6d8d29fc83b88a1985cceb96943aaff5e",
+      "original_bytes": 34439,
+      "public_path": "science_lab/papers/selective_mobility_scripta/provenance/transport_confirmation_bc/results/bc_transport_confirmation_v1/summary.json",
+      "companion": {
+        "path": "science_lab/papers/selective_mobility_scripta/provenance/transport_confirmation_bc/results/bc_transport_confirmation_v1/arm_rates.csv",
+        "sha256": "b9569d7d74fd69311b1e3791e267392e66a24145beb11e32d70563824fbaca6c",
+        "bytes": 5538
+      }
+    }
+  ]
+}

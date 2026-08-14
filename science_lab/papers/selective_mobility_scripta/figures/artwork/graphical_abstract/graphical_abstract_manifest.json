@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "generator": "figures/graphical_abstract.py",
+  "scope": "same-failure-class intermediate-versus-outboard graphical abstract",
+  "source_csv": "source_data/paired_panel.csv",
+  "source_csv_sha256": "8d55b840b1fc6ca3a7bf23824111ec94ebdf5f7bd9f61a8f7d428b77a29655e9",
+  "science_values_changed": false,
+  "cases": {
+    "intermediate": {
+      "center": 26.5,
+      "effects": [
+        290,
+        270,
+        260
+      ],
+      "failure_class": "junction_adjacent"
+    },
+    "outboard": {
+      "center": 34.5,
+      "effects": [
+        -110,
+        -110,
+        -100
+      ],
+      "failure_class": "junction_adjacent"
+    }
+  },
+  "rigid_translation_claim_present": false,
+  "near_remote_comparison_present": false,
+  "font_family": "Arial",
+  "master_pixel_size": [
+    3000,
+    1200
+  ],
+  "science_direct_preview_pixel_size": [
+    500,
+    200
+  ],
+  "print_preview_pixel_size_at_96dpi": [
+    491,
+    196
+  ],
+  "pdf_physical_size_cm": [
+    13.000000000000915,
+    5.1999999999982505
+  ],
+  "contains_graphical_abstract_heading": false,
+  "outputs": [
+    {
+      "path": "graphical_abstract.pdf",
+      "sha256": "0ac74cf14dfdede6b1fec91076c34f6c57b189795ab2d0d1d86490d8c27e2139",
+      "bytes": 41042
+    },
+    {
+      "path": "graphical_abstract.png",
+      "sha256": "1dcb7163371bb9d95e470264438ba8f571c5e46473d2042f40baf4f1a0715f1b",
+      "bytes": 162164
+    },
+    {
+      "path": "graphical_abstract.svg",
+      "sha256": "118ec1fd00e389575a09555fae0cf3001a0fd49a3d00b42baccf55484234e88c",
+      "bytes": 7691
+    },
+    {
+      "path": "graphical_abstract_500x200.png",
+      "sha256": "6aa5fb050cedb9a51a0b239e10997dd6753c21abec9e770e66f8099437273259",
+      "bytes": 45635
+    },
+    {
+      "path": "graphical_abstract_13cm_96dpi.png",
+      "sha256": "f00f450dc433f533395cc5904ab8b82d5f9d2ed81cc3ed37eab34c58e22a7dd7",
+      "bytes": 43870
+    }
+  ]
+}

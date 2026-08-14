@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "figure": 1,
+  "generator": "science_lab/papers/selective_mobility_scripta/figures/figure1.py",
+  "scope": "placement response and terminal morphology",
+  "source_validation": {
+    "passed": true,
+    "failures": [],
+    "independent_source_count": 3,
+    "fine_grid_result_included": true,
+    "science_validation_complete": true
+  },
+  "science_values_changed": false,
+  "compact_physical_size": {
+    "width_mm": 137.0,
+    "height_mm": 153.0,
+    "native_scale_factor": 1.0,
+    "minimum_semantic_text_pt": 9.4,
+    "minimum_data_marker_pt": 7.2,
+    "minimum_data_marker_mm": 2.54,
+    "pdf_mediabox_asserted": true
+  },
+  "compact_outputs": [
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/figure1_phenomenon.pdf",
+      "sha256": "1c20ac951568a9d0c59d5baf84f3bede916b6a3db21318dbfcb5ad63bb3bbea3",
+      "bytes": 55222
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/figure1_phenomenon.png",
+      "sha256": "16d1d25509610e66b9f9634974788181241987c6e01c65c5f2893111e6e03f1c",
+      "bytes": 476242
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/figure1_phenomenon.svg",
+      "sha256": "4529b21d68c157ab6de8888379b4fe502c96580b6669e5a5d5dbff4dcc652c02",
+      "bytes": 89778
+    }
+  ],
+  "full_width_physical_size": {
+    "width_mm": 190.0,
+    "height_mm": 212.1897810218978,
+    "native_scale_factor": 1.0,
+    "minimum_semantic_text_pt": 9.4,
+    "minimum_data_marker_pt": 7.2,
+    "minimum_data_marker_mm": 2.54,
+    "pdf_mediabox_asserted": true
+  },
+  "full_width_outputs": [
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/full_width/figure1_phenomenon.pdf",
+      "sha256": "e38e3323b00463722e2f95f52fb391e1fcffbb0814fa0806333ee43c025a5b9d",
+      "bytes": 62643
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/full_width/figure1_phenomenon.png",
+      "sha256": "7587529608dbd8ed52c602e6ad7c65cb249b5c69dbd69d634c0e0a4991f16318",
+      "bytes": 613261
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/full_width/figure1_phenomenon.svg",
+      "sha256": "fbed24c7abf347f5c8bd9462e06ccdbf263499297ebbe041a4eeb664fd8262c1",
+      "bytes": 98780
+    }
+  ],
+  "sources": [
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/position_response.csv",
+      "sha256": "a1322b0b04813b4f2892e9366736580f2031b51f06ea67d7cdfb70407b2e27b0"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/paired_panel.csv",
+      "sha256": "8d55b840b1fc6ca3a7bf23824111ec94ebdf5f7bd9f61a8f7d428b77a29655e9"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/transport_response.csv",
+      "sha256": "9cdee316de44458e2af111c2a7400ba2119e20a98ff8c12684f43cbe6f2a07a8"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/equal_budget_controls.csv",
+      "sha256": "f0b78839d21d3dc63e9d1db778356dc854dfeeff964c1039b443a8f5de006d5b"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/timestep_refinement.csv",
+      "sha256": "5b75c1e73e31481e01b8771b7dc9c5045c186f8d8bbfab4026f607c6a47a255f"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/spatial_refinement.csv",
+      "sha256": "63eff94a599bc5cec1c7a2e35ce6f261eeb0dae860e83e1e41c27947f3717284"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/morphology_event_projections.npz",
+      "sha256": "160ad4f3233a5980781d90ec201b2c58d46db67744765502dd3153607b1f8b19"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/morphology_event_projections.json",
+      "sha256": "6389de9a56aa60f3c97dac16038e0a782df6c876f6b8c62cc885742b446b8cb7"
+    }
+  ]
+}

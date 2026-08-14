@@ -1,0 +1,51 @@
+{
+  "campaign_protocol": "r12_validation_v3_r6_reproduction",
+  "checks": {
+    "all_numerically_healthy": true,
+    "all_three_events_detected": true,
+    "elapsed_times_within_ten_percent": true,
+    "harmful_effect": true,
+    "harmful_natural_site": true,
+    "protective_effect": true,
+    "protective_remote_site": true,
+    "protective_weld_connected": true,
+    "untreated_natural_first_wire": true
+  },
+  "classification": "r6_reduced_domain_gate_passed",
+  "event_midpoints_elapsed": {
+    "harmful": 1505.0,
+    "protective": 2355.0,
+    "untreated": 1605.0
+  },
+  "first_event_sites_abs": {
+    "harmful": 18.0,
+    "protective": 39.5,
+    "untreated": 18.75
+  },
+  "paired_effects": {
+    "harmful_minus_untreated": -100.0,
+    "protective_minus_untreated": 750.0
+  },
+  "passed": true,
+  "provenance": {
+    "contact_helper_sha256": "6142b99f406f13ab6e5d0dea0ca9681cdca4f169b928a4ebcbba1874c87e0c82",
+    "event_diagnostics_sha256": "ce5dfd6e022a57049ace1a8622bfcd0d2fb095208b0563adfa2038811604fcde",
+    "geometry_sha256": "d146ece555168ed06733d888a76e0298ead2ed38617be8e895c47fd0380e90e5",
+    "numpy": "1.26.4",
+    "preserved_v2_contract_sha256": "f72044a2052161726c5dd957c6ae8f004390e74f2ea613aa0d0dce53e0daaaf1",
+    "preserved_v2_protocol_sha256": "f88b36691cd451a30f5b44f6ba81179a39727854de8535e5a6e0de722e237ddf",
+    "preserved_v2_runner_sha256": "ce5808bc5a985fdef6610b358cd03ed7ab9d5b0826d5a663b5f10607ba7b8181",
+    "protocol_sha256": "a2a5203ac0a4c198a33b5eecaea08c4bac67b514d2a7117aaee46160c0ce05e4",
+    "python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "r6_source_runner_sha256": "ab8bffe762e0e31f93a16e870ff36d7b15ff30c070cea16048b39e5164e00119",
+    "roy_model_sha256": "3d335de207dabbb11c670e5fafea453348e2323f6740088325f100f93f062106",
+    "runner_sha256": "035378c04a0718e05edac494885142f595fe40135468779eb0366f0956cf50ab",
+    "scientific_contract_sha256": "6c4b805a6bd1913b3b8316597b323e64daf43da3a8a4acf9c522b374da69e2c6",
+    "scipy": "1.13.1",
+    "selective_model_sha256": "38ea302bec8456d645c5f212082a92efbc4d3e97dc9ca198c292ef76cade2a7a",
+    "storage_sha256": "b745c180d1271cf3f384626eae49735256c92e0754e898b1696b3499b7ee88ef",
+    "topology_helper_sha256": "ade8387b916a409bfa0d2f35377ff9028e913912d17476a710647e9d7a3ed1f4"
+  },
+  "schema_version": 3,
+  "status": "completed"
+}

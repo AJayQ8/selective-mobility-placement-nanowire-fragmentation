@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "artifact_role": "path-free extract of the paired-repeat preflight and execution contract",
+  "protocol_id": "paired_repeat_panel_v1",
+  "path_free": true,
+  "raw_records_copied": false,
+  "preflight": {
+    "status": "preflight_passed",
+    "simulation_steps_performed": 0,
+    "seeds": [
+      104729,
+      130363
+    ],
+    "case_order": [
+      "untreated",
+      "c18p5",
+      "c26p5",
+      "c34p5"
+    ],
+    "checks": {
+      "disk_sufficient": true,
+      "exact_four_cases": true,
+      "exact_two_new_seeds": true,
+      "existing_anchor_verified": true,
+      "no_competing_nanowire_production": true,
+      "output_absent": true,
+      "scientific_contract_exists": true,
+      "seed2292_not_rerun": true,
+      "seeds_are_distinct": true
+    },
+    "provenance": {
+      "case_engine_sha256": "8f0361c610b9a7bdf8ab705a1ca078240bd7faabf9b6e02671422d87d278bce5",
+      "case_runner_sha256": "84fd4ac61c9033b0459ca490dd7f435506184d923fd932ffe45e74dc1a0ddab3",
+      "panel_runner_sha256": "aa2fac87538fc11619f4bf8963b64c682251ae0cd406daef31a254865af6b25a",
+      "protocol_sha256": "344f448e65a8b19a0447287278e6fe8a6f80fcd71510feac2399e814dbc6eb2e",
+      "scientific_contract_sha256": "60c9b8023b124e2a3e809e7cd595c3fc2c01b2b2b8d14e40d72d31e8074ec495",
+      "source_runner_sha256": "d3e170c8d3308a00c5381abde844c5849a46f6847c3bf602aba93bf7095152c0"
+    }
+  },
+  "execution_contract": {
+    "sequential_only": true,
+    "stop_on_numerical_or_contract_failure": true,
+    "continue_on_scientifically_unfavorable_result": true,
+    "maximum_sessions_per_case": 2,
+    "ordered_sources": [
+      {
+        "seed": 104729,
+        "ordered_cases": [
+          "untreated",
+          "c18p5",
+          "c26p5",
+          "c34p5"
+        ]
+      },
+      {
+        "seed": 130363,
+        "ordered_cases": [
+          "untreated",
+          "c18p5",
+          "c26p5",
+          "c34p5"
+        ]
+      }
+    ],
+    "scope": {
+      "new_source_count": 2,
+      "new_trajectory_count": 8,
+      "factual_aggregation_included": true,
+      "convergence_family_included": false,
+      "wider_position_sweep_included": false
+    }
+  },
+  "original_artifacts": {
+    "written_contract": {
+      "relative_name": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/paired_repeat_contract.md",
+      "sha256": "60c9b8023b124e2a3e809e7cd595c3fc2c01b2b2b8d14e40d72d31e8074ec495",
+      "bytes": 2248,
+      "included_as_exact_copy": false,
+      "public_copy_note": "The scientific run conditions are preserved; the closing scope paragraph is expressed in repository-neutral terms."
+    },
+    "executable_protocol": {
+      "relative_name": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/paired_repeat_protocol.py",
+      "original_sha256": "344f448e65a8b19a0447287278e6fe8a6f80fcd71510feac2399e814dbc6eb2e",
+      "public_sha256": "478d1f3ba9439fe4156e347bdfd505383043aa91805b4d8bd93f51a7bed42132",
+      "original_bytes": 3243,
+      "public_bytes": 3243,
+      "included_as_exact_copy": false,
+      "public_copy_note": "The executable protocol is included once in its runtime package. Its only public-copy change is the repository-portable lowercase contract filename."
+    },
+    "raw_preflight": {
+      "relative_name": "results/paired_repeat_panel_v1/preflight.json",
+      "sha256": "73c63e5a52438b5757fd9ef1c0523d17c772704e0df9f0982ccfdd6830fc7117",
+      "bytes": 2892,
+      "included_as_exact_copy": false,
+      "omission_reason": "contains machine-local absolute paths"
+    },
+    "raw_execution_contract": {
+      "relative_name": "results/paired_repeat_panel_v1/contract.json",
+      "sha256": "1fb56bbe8739877d06fa7ba9baf1ee5f4ffc3ebb35d952081eb01fe1ab7f0ed4",
+      "bytes": 6776,
+      "included_as_exact_copy": false,
+      "omission_reason": "contains machine-local absolute paths"
+    },
+    "batch_log": {
+      "relative_name": "results/paired_repeat_panel_v1/batch.log",
+      "sha256": "f1f7868440aa8f0800910dbaac5b320bf669a3488facce3c621572eb02e0dae9",
+      "bytes": 285233,
+      "included_as_exact_copy": false,
+      "omission_reason": "contains machine-local commands and paths"
+    }
+  },
+  "temporal_evidence": {
+    "timezone": "America/Los_Angeles",
+    "written_contract_modified": "2026-07-29T21:37:12-07:00",
+    "executable_protocol_modified": "2026-07-29T21:38:32-07:00",
+    "raw_preflight_written": "2026-07-29T21:46:04-07:00",
+    "raw_execution_contract_written": "2026-07-29T21:46:05-07:00",
+    "first_source_child_start_unix": 1785386765.2365592,
+    "first_source_child_start_local": "2026-07-29T21:46:05-07:00",
+    "first_source_checkpoint_written": "2026-07-29T21:51:50-07:00",
+    "runner_ordering": "The panel runner atomically writes contract.json before invoking the first source child.",
+    "pre_run_git_commit_exists": false,
+    "evidence_boundary": "Local filesystem timestamps, a zero-step preflight, content hashes, runner ordering, and the batch log establish local pre-run ordering; they do not constitute an externally timestamped preregistration."
+  }
+}

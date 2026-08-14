@@ -1,0 +1,563 @@
+{
+  "schema_version": 1,
+  "evidence_id": "selective_mobility_scripta_evidence_v5",
+  "study_scope": {
+    "system": "welded crossed nanowire junction under conserved phase-field evolution",
+    "question": "How does the spatial placement of a finite kinetic barrier change first-fragmentation time and site?",
+    "model_change_in_this_package": false,
+    "simulation_steps_in_this_package": 9980,
+    "simulation_scope_note": "The package completed 1650 untreated and 1550 c34.5 fine-grid continuation proposals, a 120-step source-A untreated detector replay, and 6660 proposals in four frozen weaker-contrast treatment branches. The archived B/C transport recurrence analysis performed no new simulation."
+  },
+  "model_scope": {
+    "physical_radius": 6.0,
+    "radius_cells": 12,
+    "grid_spacing": 0.5,
+    "interface_width": 2.8284271247461903,
+    "production_timestep": 1.0,
+    "primary_protected_mobility_factor": 0.1,
+    "tested_protected_mobility_factors": [
+      0.1,
+      0.3
+    ],
+    "primary_event_threshold": 0.45,
+    "companion_event_thresholds": [
+      0.5,
+      0.55
+    ],
+    "mobility_landscape": "fixed_eulerian",
+    "physical_scope_caveat": "The imposed mobility field is fixed in space and is not a material-following or advected coating."
+  },
+  "scientific_units": {
+    "independent_unit": "independently conditioned source field",
+    "primary_source_seeds": [
+      2292,
+      104729,
+      130363
+    ],
+    "source_fields": {
+      "2292": {
+        "checkpoint_step": 100,
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t1000_source_semantic_seed2292/checkpoint-step-0100.npy",
+        "field_sha256": "ee6a292c73170d1834c38f775ebc59798e6dc3d50e82d443d3a2f27a2ebaa360",
+        "field_fingerprint": "32e0c092f3e1471a8138f6084d9072fd3b68b47716a21ab4bb65583a569fe902"
+      },
+      "104729": {
+        "checkpoint_step": 100,
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/source-t0100/checkpoint-paired_source-step-0100.npy",
+        "field_sha256": "dbee74afc8a04568f72cb25f40a84d6f3bc939fc1b55802ac7aabac17c6f720b",
+        "field_fingerprint": "6cb149fc5d9ca697c2ddcee191f1320a81d9fce8ad98f807c108fb07cefde918"
+      },
+      "130363": {
+        "checkpoint_step": 100,
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/source-t0100/checkpoint-paired_source-step-0100.npy",
+        "field_sha256": "03718e7bb43d822cb2e40920e7d054714d4c3523a2c695670d9decb71559b581",
+        "field_fingerprint": "0a8a3033e860e9c7789d2f7ab7883651bdd5e810d3df3c93d4406fddb440c274"
+      }
+    },
+    "source_roles": {
+      "A": {
+        "seed": 2292,
+        "role": "exploratory_discovery"
+      },
+      "B": {
+        "seed": 104729,
+        "role": "independent_confirmation"
+      },
+      "C": {
+        "seed": 130363,
+        "role": "independent_confirmation"
+      }
+    },
+    "independent_source_count": 3,
+    "exploratory_discovery_source_count": 1,
+    "independent_confirmation_source_count": 2,
+    "trajectory_count_in_primary_panel": 12,
+    "arms_are_independent_replicates": false,
+    "simultaneous_sites_are_independent_replicates": false,
+    "reduced_domain_gate_is_an_independent_source": false,
+    "reduced_domain_gate_seed": 2292
+  },
+  "clocks": {
+    "production_single_arm": {
+      "definition": "first persistent single-arm failure",
+      "diagnostic_interval": 10,
+      "seed_2292_untreated_bracket": [
+        1690,
+        1700
+      ],
+      "seed_2292_untreated_midpoint": 1695.0,
+      "seed_2292_detector_source": "S14",
+      "used_for_treatment_differences": true
+    },
+    "roy_two_arm_reproduction": {
+      "definition": "at least two of the same distal arms detached at all three thresholds for one observation and two later observations",
+      "event_bracket": [
+        1710,
+        1720
+      ],
+      "event_midpoint": 1715.0,
+      "confirmation": 1740,
+      "used_for_treatment_differences": false,
+      "scope": "like-for-like Roy reproduction context only"
+    },
+    "uniform_run_clock": {
+      "definition": "physical time reported by the K3 uniform-mobility trajectory",
+      "common_source_time": 100.0,
+      "mapping_to_production_clock": "100 + q * (t_uniform - 100)"
+    },
+    "reduced_domain_elapsed": {
+      "definition": "elapsed physical time after the separately matched reduced-domain source",
+      "combinable_with_full_domain_absolute_times": false
+    }
+  },
+  "detectors": {
+    "persistent_single_arm_modern": {
+      "required_records": 3,
+      "diagnostic_interval": 10,
+      "heuristic_fallback": false,
+      "maximum_gap_displacement": 2.8284271247461903
+    },
+    "persistent_single_arm_legacy_adapter": {
+      "status": "superseded_by_S14_for_reported_measurement",
+      "required_records": 3,
+      "diagnostic_interval": 10,
+      "seed": 2292,
+      "full_transverse_checks_at": [
+        1700,
+        1720
+      ],
+      "missing_full_field_at": 1710,
+      "literally_identical_to_modern_detector": false,
+      "retained_for_historical_raw_lineage_only": true
+    },
+    "source_A_untreated_modern_replay": {
+      "source_id": "S14",
+      "status": "accepted",
+      "required_records": 3,
+      "diagnostic_interval": 10,
+      "event_bracket": [
+        1690,
+        1700
+      ],
+      "first_candidate": 1700,
+      "confirmation": 1720,
+      "wire": "first_wire_z",
+      "branch": "plus",
+      "site": 19.25,
+      "exact_archive_parity_steps": [
+        1700,
+        1720
+      ],
+      "heuristic_fallback_used": false,
+      "replay_fields_written": 0
+    }
+  },
+  "tables": {
+    "position_response": "position_response.csv",
+    "paired_panel": "paired_panel.csv",
+    "equal_budget_controls": "equal_budget_controls.csv",
+    "primary_mask_budget": "primary_mask_budget.csv",
+    "transport_response": "transport_response.csv",
+    "timestep_refinement": "timestep_refinement.csv",
+    "spatial_refinement": "spatial_refinement.csv",
+    "detector_replay": "detector_replay.csv",
+    "numerical_checks": "numerical_checks.csv"
+  },
+  "claims": [
+    {
+      "id": "C01",
+      "status": "context_validation",
+      "statement": "The source-semantic R6 reproduction gives a robust two-arm event bracket of 1710-1720, within the reported Roy comparison window of 1600-1800.",
+      "support": [
+        "S01#/breakup_assessment/common_threshold_robust_event",
+        "S01#/breakup_assessment/reported_reference_window"
+      ],
+      "not_supported": "This clock is not the production first-single-arm clock and cannot be used for treatment differences."
+    },
+    {
+      "id": "C02",
+      "status": "exploratory_discovery_and_interpolation",
+      "statement": "At fixed width and mobility contrast in seed 2292, barrier placement produces a sign-changing first-event-time response and changes the first-failure site between junction-adjacent and remote modes.",
+      "support": [
+        "S02#/descriptive_summary/corrected_position_response",
+        "position_response.csv"
+      ],
+      "scope": "The c14.5, c22.5, and c64.5 cases are calibration anchors; c18.5, c26.5, c30.5, c34.5, and c38.5 complete the exploratory interpolation scan."
+    },
+    {
+      "id": "C03",
+      "status": "confirmed_in_two_independent_sources",
+      "statement": "Source A supplied the exploratory placement ordering. Independently conditioned sources B and C each confirmed that c18.5 delays and relocates failure remotely, c26.5 delays junction-adjacent failure, and c34.5 accelerates junction-adjacent failure.",
+      "support": [
+        "S03#/panel_assessment/full_pattern_reproduced_in_all_three",
+        "S04#/aggregate/failure_mode_counts",
+        "paired_panel.csv"
+      ],
+      "discovery_confirmation": {
+        "exploratory_discovery_source": {
+          "label": "A",
+          "seed": 2292
+        },
+        "independent_confirmation_sources": [
+          {
+            "label": "B",
+            "seed": 104729
+          },
+          {
+            "label": "C",
+            "seed": 130363
+          }
+        ],
+        "independent_confirmation_source_count": 2,
+        "all_displayed_source_effects": {
+          "c18p5": [
+            750.0,
+            760.0,
+            770.0
+          ],
+          "c26p5": [
+            290.0,
+            270.0,
+            260.0
+          ],
+          "c34p5": [
+            -110.0,
+            -110.0,
+            -100.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "C04",
+      "status": "single_source_causal_control",
+      "statement": "At the same source-weighted mobility-deficit budget, off-junction collars outlast both a junction-centered cap and uniform suppression, so treatment amount alone does not explain the terminal response.",
+      "support": [
+        "S07#/event_assessment",
+        "S08#/event_assessment",
+        "S09#/event_assessment",
+        "equal_budget_controls.csv"
+      ],
+      "scope": "One source only. K1, K2, and K3 are equal-budget controls, not independent replicates."
+    },
+    {
+      "id": "C05",
+      "status": "mechanistic_support",
+      "statement": "The spectral control-volume audit, separated into axial and in-plane-transverse contributions, supports sign-changing redistribution: c26.5 reduces natural-zone depletion, c34.5 and c38.5 increase it, and c64.5 is near-null.",
+      "support": [
+        "S05#/instantaneous_flux_t1300/comparisons_to_untreated",
+        "transport_response.csv"
+      ],
+      "scope": "Instantaneous t=1300 reconstruction in seed 2292; not a continuous integrated transport law."
+    },
+    {
+      "id": "C06",
+      "status": "observed_in_discovery_and_confirmation_sources",
+      "statement": "All 12 primary-panel trajectories retain a connected weld at the exact first-event candidate, while treated weld radii at common t=1500 are smaller than paired untreated values.",
+      "support": [
+        "S04#/aggregate/all_welds_intact_at_exact_first_candidate",
+        "S04#/aggregate/paired_effects/weld_radius_delta_at_common_t1500"
+      ],
+      "c050_mean_radius_deltas_at_t1500": {
+        "c18p5": -0.7606732732881417,
+        "c26p5": -0.330229136342572,
+        "c34p5": -0.055322625462099616
+      }
+    },
+    {
+      "id": "C07",
+      "status": "numerical_validation",
+      "statement": "The harmful c34.5 timing and junction-adjacent mode survive paired timestep refinement from dt=1 to dt=0.5.",
+      "support": [
+        "S06#/acceptance",
+        "timestep_refinement.csv"
+      ],
+      "paired_effects": {
+        "dt_1": -110.0,
+        "dt_0p5": -100.0,
+        "relative_difference": 0.09090909090909091
+      }
+    },
+    {
+      "id": "C08",
+      "status": "domain_robustness",
+      "statement": "A separately matched reduced in-plane R6 domain preserves the protective and harmful sign and site classes.",
+      "support": [
+        "S10#/checks",
+        "S10#/paired_effects"
+      ],
+      "scope": "This is a same-seed reduced-domain gate, not an independent source, grid refinement, or radius-scale transfer."
+    },
+    {
+      "id": "C09",
+      "status": "numerical_validation",
+      "statement": "A factor-two common-source continuation-grid refinement preserves the harmful c34.5 shift at -100 model time units and the junction-adjacent first-failure class.",
+      "support": [
+        "S11#/checks",
+        "S11#/events",
+        "spatial_refinement.csv"
+      ],
+      "result": {
+        "untreated_event_bracket": [
+          1620,
+          1630
+        ],
+        "c34p5_event_bracket": [
+          1520,
+          1530
+        ],
+        "paired_effect": -100.0,
+        "frozen_acceptance_window": [
+          -125.0,
+          -75.0
+        ],
+        "classification": "spatial_refinement_validation_passed"
+      },
+      "scope": "This is common-source continuation-grid robustness from a periodically prolonged mature t=120 field, not source formation from t=0, radius/interface-width convergence, or a sharp-interface limit."
+    },
+    {
+      "id": "C10",
+      "status": "detector_provenance_validation",
+      "statement": "An exact deterministic replay of the source-A untreated trajectory supplies the previously unavailable t=1710 field and reproduces the production event bracket 1690-1700 and site 19.25 with the modern three-record detector.",
+      "support": [
+        "S14#/archive_parity",
+        "S14#/event",
+        "detector_replay.csv",
+        "numerical_checks.csv#N17"
+      ],
+      "scope": "The replay harmonizes detector provenance for an existing trajectory; it is not an independent source, parameter study, or new physical result."
+    },
+    {
+      "id": "C11",
+      "status": "weaker_contrast_sign_reversal_confirmed",
+      "statement": "At the weaker tested suppression, m_min=0.3, independent confirmation sources B and C both retained junction-adjacent delay at c26.5 (+200 each) and junction-adjacent advance at c34.5 (-60 each).",
+      "support": [
+        "S15#/observations",
+        "S15#/checks",
+        "mobility_contrast.csv",
+        "numerical_checks.csv#N18-N19"
+      ],
+      "scope": "The comparison tests two discrete mobility factors, 0.1 and 0.3. It does not establish a continuous dose-response curve, a threshold, monotonic magnitude scaling, or contrast independence."
+    },
+    {
+      "id": "C12",
+      "status": "supporting_recurrence_with_one_marginal_tolerance_miss",
+      "statement": "Archived source-B and source-C fields reproduced the intermediate and outboard signs of the weak-zone rate change in all 24 arm records. Twenty-three armwise reconstructions closed below one percent; one source-C outboard arm closed at 1.1575 percent, so the strict all-arm gate did not pass.",
+      "support": [
+        "S16#/case_aggregate",
+        "S16#/frozen_checks",
+        "transport_confirmation_bc.csv",
+        "numerical_checks.csv#N20-N22"
+      ],
+      "scope": "This is a no-new-simulation analysis of archived confirmation-source fields. It supports recurrence of the signed transport response but is not a passed validation gate or a universal lifetime mechanism."
+    },
+    {
+      "id": "C13",
+      "status": "single_source_state_weighted_budget_diagnostic",
+      "statement": "On the common source-A t=100 field, the diffuse-interface-weighted mobility deficits of the c26.5 and c34.5 primary masks are 2245.1711634743924 and 2246.252630042341, a 0.048168557727021805 percent difference relative to c26.5.",
+      "support": [
+        "S02#/cases/3/surface_weighted_mobility_deficit",
+        "S02#/cases/5/surface_weighted_mobility_deficit",
+        "primary_mask_budget.csv"
+      ],
+      "scope": "This is a descriptive source-A initial-state diagnostic. The budgets are nearly matched but not exactly equal; exact equality applies only to the geometric full-domain mask integral."
+    }
+  ],
+  "primary_mask_budget_summary": {
+    "source_id": "S02",
+    "source_seed": 2292,
+    "state_time": 100,
+    "definition": "integral of 16*cbar^2*(1-cbar)^2*(1-m) over the common source field, with cbar clipped to [0,1]",
+    "c26p5": 2245.1711634743924,
+    "c34p5": 2246.252630042341,
+    "absolute_difference": 1.0814665679486097,
+    "relative_difference_vs_c26p5": 0.00048168557727021804,
+    "percent_difference_vs_c26p5": 0.048168557727021805,
+    "exact_equal_budget": false
+  },
+  "equal_budget_summary": {
+    "target_budget": 2219.2950115888916,
+    "K1_midpoint": 2545.0,
+    "K2_midpoint": 2195.0,
+    "K3_midpoint": 1765.0,
+    "K1_minus_K2": 350.0,
+    "K1_minus_K3": 780.0,
+    "K2_minus_K3": 430.0,
+    "uniform_factor_q": 0.9584163964174259,
+    "uniform_rescaling": {
+      "formula": "100 + q * (t_uniform - 100)",
+      "mapped_bracket": [
+        1690.971218052927,
+        1700.5553820171012
+      ],
+      "mapped_midpoint": 1695.7633000350143,
+      "production_untreated_midpoint": 1695.0,
+      "relative_midpoint_difference": 0.0004503245044331881,
+      "percent_midpoint_difference": 0.04503245044331881,
+      "reporting_rule": "Report as agreement within one diagnostic interval, not as sub-time-step precision."
+    }
+  },
+  "transport_summary": {
+    "source_seed": 2292,
+    "analysis_time": 1300,
+    "natural_zone": [
+      14.0,
+      22.5
+    ],
+    "observed_rate_changes": {
+      "c26p5": 0.06415581644971094,
+      "c34p5": -0.06009965533958164,
+      "c38p5": -0.0633654538054543,
+      "c64p5": -0.0022208456779481134
+    },
+    "harmful_outer_boundary_current_changes": {
+      "c34p5": 0.07186320283611417,
+      "c38p5": 0.05756642319462462
+    },
+    "maximum_full_control_volume_relative_error": 0.008545907723271252,
+    "maximum_spectral_axial_only_relative_error": 0.21291566643466878,
+    "maximum_legacy_axial_point_face_relative_error": 0.2113289168854358,
+    "minimum_transverse_fraction_of_legacy_gap": 0.9568539568649739
+  },
+  "reduced_domain_summary": {
+    "clock_id": "reduced_domain_elapsed",
+    "untreated_midpoint": 1605.0,
+    "protective_midpoint": 2355.0,
+    "harmful_midpoint": 1505.0,
+    "protective_minus_untreated": 750.0,
+    "harmful_minus_untreated": -100.0,
+    "untreated_site_abs": 18.75,
+    "protective_site_abs": 39.5,
+    "harmful_site_abs": 18.0
+  },
+  "spatial_refinement_summary": {
+    "clock_id": "reduced_domain_elapsed",
+    "grid_shape": [
+      192,
+      768,
+      768
+    ],
+    "grid_spacing": 0.25,
+    "physical_domain": [
+      48.0,
+      192.0,
+      192.0
+    ],
+    "untreated_event_bracket": [
+      1620,
+      1630
+    ],
+    "c34p5_event_bracket": [
+      1520,
+      1530
+    ],
+    "untreated_midpoint": 1625.0,
+    "c34p5_midpoint": 1525.0,
+    "paired_effect": -100.0,
+    "paired_effect_interval": [
+      -110.0,
+      -90.0
+    ],
+    "untreated_first_site_abs": 18.75,
+    "c34p5_first_site_abs": 18.25,
+    "classification": "spatial_refinement_validation_passed",
+    "passed": true
+  },
+  "detector_replay_summary": {
+    "source_id": "S14",
+    "source_seed": 2292,
+    "clock_id": "production_single_arm",
+    "start_step": 1600,
+    "target_step": 1720,
+    "simulation_steps": 120,
+    "diagnostic_interval": 10,
+    "event_bracket": [
+      1690,
+      1700
+    ],
+    "event_midpoint": 1695.0,
+    "first_candidate": 1700,
+    "confirmation": 1720,
+    "first_site": 19.25,
+    "exact_archive_parity_steps": [
+      1700,
+      1720
+    ],
+    "maximum_absolute_archive_difference": 0.0,
+    "acceptance_passed": true
+  },
+  "mobility_contrast_summary": {
+    "source_id": "S15",
+    "tested_mobility_factors": [
+      0.1,
+      0.3
+    ],
+    "weaker_contrast_factor": 0.3,
+    "source_effects_at_m03": {
+      "B": {
+        "intermediate": 200.0,
+        "outboard": -60.0
+      },
+      "C": {
+        "intermediate": 200.0,
+        "outboard": -60.0
+      }
+    },
+    "all_four_junction_adjacent": true,
+    "maximum_absolute_relative_mass_drift": 2.074753985846794e-06,
+    "sampled_energy_rebound_count": 0,
+    "classification": "weaker_contrast_sign_reversal_confirmed",
+    "passed": true
+  },
+  "transport_confirmation_summary": {
+    "source_id": "S16",
+    "source_seeds": [
+      104729,
+      130363
+    ],
+    "arm_record_count": 24,
+    "arm_sign_agreement_count": 24,
+    "arms_below_one_percent": 23,
+    "maximum_armwise_relative_error": 0.011574952039484516,
+    "maximum_source_case_mean_relative_error": 0.007373318892761357,
+    "intermediate_observed_changes": [
+      0.06359022194279534,
+      0.06425182672348453
+    ],
+    "outboard_observed_changes": [
+      -0.06005239487538344,
+      -0.06049357245516146
+    ],
+    "strict_all_arm_continuity_gate_passed": false,
+    "interpretation": "supporting signed recurrence with one marginal continuity-tolerance miss"
+  },
+  "exclusions": [
+    "No universal placement law or phase boundary is established.",
+    "No R12 or multi-radius scale-transfer claim is supported by this package.",
+    "The completed spatial check is common-source continuation-grid robustness, not full source-from-t=0 spatial convergence or a sharp-interface limit.",
+    "No experiment or material calibration is included.",
+    "The fixed Eulerian mobility landscape is not an advected coating model.",
+    "The position scan is discovery/interpolation, not independent external validation.",
+    "Source A is exploratory discovery evidence and is not counted as confirming placements selected from its own scan; sources B and C are the two independent confirmations.",
+    "The primary transport decomposition is source A at one instantaneous time; archived sources B and C provide supporting signed recurrence with one marginal continuity-tolerance miss, not a passed validation gate.",
+    "Two mobility factors are tested; no continuous contrast law, threshold, monotonic magnitude scaling, or contrast independence is established.",
+    "The equal-budget K1/K2/K3 comparison is one source.",
+    "Arms and simultaneous sites within a trajectory are correlated.",
+    "Event midpoints are bracket summaries with five-time-unit half-width, not exact breakup times.",
+    "The Roy two-arm reproduction clock is context only and is excluded from production treatment differences.",
+    "The equal-budget K2 junction cap is not the c22.5 position-scan case.",
+    "The reduced-domain gate is not an independent source or scale-transfer result.",
+    "The source-A detector replay is measurement-provenance validation and is not an independent source or robustness axis.",
+    "No nested-width, pulse-release, kernel, adjoint, selector, or other Acta-oriented claim is imported."
+  ],
+  "anti_confusion_invariants": {
+    "roy_clock_distinct_from_production_clock": true,
+    "roy_midpoint": 1715.0,
+    "production_seed2292_midpoint": 1695.0,
+    "scan_c22p5_midpoint": 2375.0,
+    "equal_budget_K2_midpoint": 2195.0,
+    "source_A_untreated_modern_detector_replay_accepted": true,
+    "arms_counted_as_independent": false,
+    "reduced_domain_counted_as_independent_source": false
+  }
+}

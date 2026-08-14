@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="368.503937pt" height="147.401575pt" viewBox="0 0 368.503937 147.401575" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 147.401575 
+L 368.503937 147.401575 
+L 368.503937 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 8.551558 135.963213 
+L 132.613704 135.963213 
+L 132.613704 11.438362 
+L 8.551558 11.438362 
+z
+" clip-path="url(#p1534592faf)" style="fill: #f8fafc; stroke: #247ba0; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #247ba0; font: 700 9px 'Arial'; text-anchor: middle" x="70.582631" y="31.931205" transform="rotate(-0 70.582631 31.931205)">INTERMEDIATE</text>
+   </g>
+   <g id="text_2">
+    <!-- $s_c=26.5$ -->
+    <g style="fill: #111111" transform="translate(52.364131 49.967985)">
+     <text>
+      <tspan style="font: oblique 8.3px 'DejaVu Sans'" x="0" y="-0.0625">s</tspan>
+      <tspan style="font: oblique 5.81px 'DejaVu Sans'" x="4.298218" y="1.25">c</tspan>
+      <tspan style="font: 8.3px 'DejaVu Sans'" x="9.29939 17.819287 23.068188 28.31709 30.939526" y="-0.0625">=26.5</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_3">
+    <text style="fill: #247ba0; font: 700 12px 'Arial'; text-anchor: middle" x="70.582631" y="76.811412" transform="rotate(-0 70.582631 76.811412)">+260 to +290</text>
+   </g>
+   <g id="text_4">
+    <!-- paired shift, $\Delta T$ -->
+    <g style="fill: #667085" transform="translate(43.582631 93.980661)">
+     <text>
+      <tspan style="font: 8px 'Arial'" x="0 4.449219 8.898438 10.675781 13.339844 17.789062 22.238281 24.460938 28.460938 32.910156 34.6875 36.910156 39.132812 41.355469" y="-0.171875">paired shift, </tspan>
+      <tspan style="font: 8px 'DejaVu Sans'" x="43.578125" y="-0.171875">Δ</tspan>
+      <tspan style="font: oblique 8px 'DejaVu Sans'" x="49.050781" y="-0.171875">T</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="fill: #247ba0; font: 700 9.2px 'Arial'; text-anchor: middle" x="70.582631" y="113.702482" transform="rotate(-0 70.582631 113.702482)">DELAYED</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #111111; font: 8px 'Arial'; text-anchor: middle" x="70.582631" y="128.304709" transform="rotate(-0 70.582631 128.304709)">junction-adjacent failure</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 153.845763 82.780724 
+L 171.220737 82.780724 
+L 171.220737 56.838047 
+L 153.845763 56.838047 
+L 153.845763 82.780724 
+z
+" clip-path="url(#p9a7986904f)" style="fill: none; stroke-dasharray: 3.6,1.8; stroke-dashoffset: 0; stroke: #247ba0; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 197.2832 82.780724 
+L 214.658174 82.780724 
+L 214.658174 56.838047 
+L 197.2832 56.838047 
+L 197.2832 82.780724 
+z
+" clip-path="url(#p9a7986904f)" style="fill: none; stroke-dasharray: 3.6,1.8; stroke-dashoffset: 0; stroke: #d55e00; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 175.824936 69.809386 
+Q 184.249892 69.809386 191.389108 69.809386 
+" clip-path="url(#p9a7986904f)" style="fill: none; stroke: #111111; stroke-width: 1.15; stroke-linecap: round"/>
+    <path d="M 187.389108 67.809386 
+L 191.389108 69.809386 
+L 187.389108 71.809386 
+z
+" clip-path="url(#p9a7986904f)" style="fill: #111111; stroke: #111111; stroke-width: 1.15; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 151.239516 69.809386 
+L 217.264421 69.809386 
+" clip-path="url(#p9a7986904f)" style="fill: none; stroke: #8b95a4; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="fill: #111111; font: 700 8.2px 'Arial'" transform="translate(159.651969 30.72102)">SAME FOUR</text>
+    <text style="fill: #111111; font: 700 8.2px 'Arial'" transform="translate(164.436797 37.915175)">COLLARS</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #111111; font: 700 8px 'Arial'" transform="translate(160.251969 96.910737)">SHIFT EACH</text>
+    <text style="fill: #111111; font: 700 8px 'Arial'" transform="translate(145.811969 103.929424)">COLLAR OUTWARD</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #667085; font: 8px 'Arial'; text-anchor: middle" x="184.251969" y="119.871464" transform="rotate(-0 184.251969 119.871464)">8 model units</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #111111; font: 700 7.8px 'Arial'; text-anchor: middle" x="184.251969" y="132.796583" transform="rotate(-0 184.251969 132.796583)">RESPONSE REVERSES</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_6">
+    <path d="M 235.890233 135.963213 
+L 359.952379 135.963213 
+L 359.952379 11.438362 
+L 235.890233 11.438362 
+z
+" clip-path="url(#pb7a6e2fa51)" style="fill: #f8fafc; stroke: #d55e00; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_11">
+    <text style="fill: #d55e00; font: 700 9px 'Arial'; text-anchor: middle" x="297.921306" y="31.931205" transform="rotate(-0 297.921306 31.931205)">OUTBOARD</text>
+   </g>
+   <g id="text_12">
+    <!-- $s_c=34.5$ -->
+    <g style="fill: #111111" transform="translate(279.702806 49.967985)">
+     <text>
+      <tspan style="font: oblique 8.3px 'DejaVu Sans'" x="0" y="-0.0625">s</tspan>
+      <tspan style="font: oblique 5.81px 'DejaVu Sans'" x="4.298218" y="1.25">c</tspan>
+      <tspan style="font: 8.3px 'DejaVu Sans'" x="9.29939 17.819287 23.068188 28.31709 30.939526" y="-0.0625">=34.5</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_13">
+    <text style="fill: #d55e00; font: 700 12px 'Arial'; text-anchor: middle" x="297.921306" y="76.811412" transform="rotate(-0 297.921306 76.811412)">-100 to -110</text>
+   </g>
+   <g id="text_14">
+    <!-- paired shift, $\Delta T$ -->
+    <g style="fill: #667085" transform="translate(270.921306 93.980661)">
+     <text>
+      <tspan style="font: 8px 'Arial'" x="0 4.449219 8.898438 10.675781 13.339844 17.789062 22.238281 24.460938 28.460938 32.910156 34.6875 36.910156 39.132812 41.355469" y="-0.171875">paired shift, </tspan>
+      <tspan style="font: 8px 'DejaVu Sans'" x="43.578125" y="-0.171875">Δ</tspan>
+      <tspan style="font: oblique 8px 'DejaVu Sans'" x="49.050781" y="-0.171875">T</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_15">
+    <text style="fill: #d55e00; font: 700 9.2px 'Arial'; text-anchor: middle" x="297.921306" y="113.702482" transform="rotate(-0 297.921306 113.702482)">ADVANCED</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #111111; font: 8px 'Arial'; text-anchor: middle" x="297.921306" y="128.304709" transform="rotate(-0 297.921306 128.304709)">junction-adjacent failure</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1534592faf">
+   <rect x="6.633071" y="8.844094" width="127.89912" height="129.713386"/>
+  </clipPath>
+  <clipPath id="p9a7986904f">
+   <rect x="140.814531" y="8.844094" width="86.874874" height="129.713386"/>
+  </clipPath>
+  <clipPath id="pb7a6e2fa51">
+   <rect x="233.971746" y="8.844094" width="127.89912" height="129.713386"/>
+  </clipPath>
+ </defs>
+</svg>

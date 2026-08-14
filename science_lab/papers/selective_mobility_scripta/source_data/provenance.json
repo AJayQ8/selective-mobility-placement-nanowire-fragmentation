@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "manifest_id": "selective_mobility_scripta_public_provenance_v1",
+  "identity_policy": "Original SHA-256 and byte length identify every source. Compact records are included when needed for direct auditing; otherwise the original content identity is recorded without copying a large runtime summary.",
+  "raw_trajectory_fields_included": false,
+  "absolute_machine_paths_included": false,
+  "sources": [
+    {
+      "id": "S01",
+      "role": "Roy reproduction and source-A untreated lineage",
+      "original_identity": {
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/summary.json",
+        "sha256": "5e385fff4874e721ba3448d1a52c638af6a2ca030b509dd0e51d12e8812b612a",
+        "bytes": 826857
+      },
+      "public_copy": null,
+      "availability": "original identity recorded; compact derived values included"
+    },
+    {
+      "id": "S02",
+      "role": "source-A exploratory placement scan",
+      "original_identity": {
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_response_rebaselined_v2/summary.json",
+        "sha256": "a50842cec1c8b394be5582e85fc423db9c116a271242a9f05ee213199fcf4514",
+        "bytes": 143047
+      },
+      "public_copy": {
+        "path": "science_lab/papers/selective_mobility_scripta/provenance/sources/S02_position_scan_response.json",
+        "sha256": "2156b3ea7bf3aa78c2da47fd4cf1fc0ca2be49d5a24f7616f79dccf421412b14",
+        "bytes": 141998,
+        "path_policy": "portable"
+      }
+    },
+    {
+      "id": "S03",
+      "role": "source-A exploratory panel and B/C confirmation panel",
+      "original_identity": {
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_analysis_v2/summary.json",
+        "sha256": "020467e37388c6c60283d8d525529338bd34f13ea0c9c87fe8da2ee43b663152",
+        "bytes": 58794
+      },
+      "public_copy": {
+        "path": "science_lab/papers/selective_mobility_scripta/provenance/sources/S03_paired_panel.json",
+        "sha256": "57adf4864d0da7afdafc84cc2701a389361a276c656152c15b82b2d4ef20195b",
+        "bytes": 57657,
+        "path_policy": "portable"
+      }
+    },
+    {
+      "id": "S04",
+      "role": "failure-mode and weld-connectivity audit",
+      "original_identity": {
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_mechanism_failure_mode_audit_v1/summary.json",
+        "sha256": "7ed3519a164e0d3c60bd6dbf199ee6ec8361a63003c80de0f1d8c23481a76139",
+        "bytes": 704179
+      },
+      "public_copy": null,
+      "availability": "original identity recorded; compact derived values included"
+    },
+    {
+      "id": "S05",
+      "role": "source-A control-volume transport audit",
+      "original_identity": {
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_transport_audit_v3/summary.json",
+        "sha256": "e81d6ed69da56a712797d20e9cbe64266ece37f54a315757370522d867f317f8",
+        "bytes": 143289
+      },
+      "public_copy": {
+        "path": "science_lab/papers/selective_mobility_scripta/provenance/sources/S05_transport_audit.json",
+        "sha256": "1468c806e69db23f0a0ae080f5c52344b4718fa079b572f6dc298f9824253c01",
+        "bytes": 141627,
+        "path_policy": "portable"
+      }
+    },
+    {
+      "id": "S06",
+      "role": "paired timestep-refinement acceptance",
+      "original_identity": {
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/timestep_refinement_pair_dt0p5_v1/summary.json",
+        "sha256": "f30c95122a6bad109e8eb933a62afb8022dd429b4752220aa70d3758a7b3352e",
+        "bytes": 12673
+      },
+      "public_copy": {
+        "path": "science_lab/papers/selective_mobility_scripta/provenance/sources/S06_timestep_refinement.json",
+        "sha256": "7810de8c516b53844f2f7914c30d7cb4f5fdf7b9022dabd4e0588d2f079db137",
+        "bytes": 12533,
+        "path_policy": "portable"
+      }
+    },
+    {
+      "id": "S07",
+      "role": "K1 equal-budget event",
+      "original_identity": {
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/k1_first_break_t3000_v1/summary.json",
+        "sha256": "9d1a013daefd06153c8f08c1778fa96329cf04d9f4564319ab718615a13833e9",
+        "bytes": 688920
+      },
+      "public_copy": null,
+      "availability": "original identity recorded; compact derived values included"
+    },
+    {
+      "id": "S08",
+      "role": "K2 equal-budget event",
+      "original_identity": {
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/k2_first_break_t3000_v1/summary.json",
+        "sha256": "011303e3e2606efffe2070672b76e07179f5629822cd64dabb067d617d2f178d",
+        "bytes": 303120
+      },
+      "public_copy": null,
+      "availability": "original identity recorded; compact derived values included"
+    },
+    {
+      "id": "S09",
+      "role": "K3 uniform equal-budget event",
+      "original_identity": {
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/k3_uniform_lifetime_v1/summary.json",
+        "sha256": "ecbe4019769eb172b5d0d3f6ca6e72b7db38eb41665aa9caf00feb1c1e2e3b47",
+        "bytes": 2200067
+      },
+      "public_copy": null,
+      "availability": "original identity recorded; compact derived values included"
+    },
+    {
+      "id": "S10",
+      "role": "reduced-domain acceptance gate",
+      "original_identity": {
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/radius_scaling_validation_v3_campaign_20260731_run1/r6/acceptance.json",
+        "sha256": "b9f92a8c20ed893916b2bd0790c39801e2b36a2a9328c28d44aa67ae25448476",
+        "bytes": 2379
+      },
+      "public_copy": {
+        "path": "science_lab/papers/selective_mobility_scripta/provenance/sources/S10_reduced_domain_acceptance.json",
+        "sha256": "b9f92a8c20ed893916b2bd0790c39801e2b36a2a9328c28d44aa67ae25448476",
+        "bytes": 2379,
+        "path_policy": "portable"
+      }
+    },
+    {
+      "id": "S11",
+      "role": "factor-two common-source continuation-grid validation",
+      "original_identity": {
+        "archive_path": "science_lab/papers/selective_mobility_scripta/spatial_refinement/results/r6_h0p25_untreated_c34_v1/analysis/summary.json",
+        "sha256": "95a8512e78626d438bb851c067cc1f4370e0b962e6a9db71f530e29b12728324",
+        "bytes": 3590
+      },
+      "public_copy": {
+        "path": "science_lab/papers/selective_mobility_scripta/provenance/sources/S11_spatial_refinement.json",
+        "sha256": "c5b0a9f0217d6143ba08cb632100c2887023d7390fac8e92f544ab6e4297eee7",
+        "bytes": 3497,
+        "path_policy": "portable"
+      }
+    },
+    {
+      "id": "S12",
+      "role": "reduced-domain untreated event",
+      "original_identity": {
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/radius_scaling_validation_v3_campaign_20260731_run1/r6/case-untreated/summary.json",
+        "sha256": "ec4b8f79d1a4cefe5793cb126025c7ccfe28537c4074b1dd41feae39e7d403d8",
+        "bytes": 2628887
+      },
+      "public_copy": null,
+      "availability": "original identity recorded; compact derived values included"
+    },
+    {
+      "id": "S13",
+      "role": "reduced-domain outboard event",
+      "original_identity": {
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/radius_scaling_validation_v3_campaign_20260731_run1/r6/case-harmful/summary.json",
+        "sha256": "aea7466a58b6d9c2de0f8475cd1ba1f11477658015ddf0ac932bc8483591f7d0",
+        "bytes": 2497509
+      },
+      "public_copy": null,
+      "availability": "original identity recorded; compact derived values included"
+    },
+    {
+      "id": "S14",
+      "role": "source-A exact modern-detector replay",
+      "original_identity": {
+        "archive_path": "science_lab/papers/selective_mobility_scripta/provenance/detector_replay/results/source_a_untreated_detector_replay_v1/result.json",
+        "sha256": "96d06f78c550c6c95521965d930624319b43edf0ec3ce717c14f3745c4b885f8",
+        "bytes": 16692
+      },
+      "public_copy": {
+        "path": "science_lab/papers/selective_mobility_scripta/provenance/detector_replay/result_portable.json",
+        "sha256": "f2e6be836e0a48c776ec4256d052a647f97aa600dc20ab9d781efdbbea148688",
+        "bytes": 16361,
+        "path_policy": "portable"
+      }
+    },
+    {
+      "id": "S15",
+      "role": "weaker-mobility-contrast B/C confirmation",
+      "original_identity": {
+        "archive_path": "science_lab/papers/selective_mobility_scripta/mobility_contrast/results/m03_bc_v1/analysis.json",
+        "sha256": "da3a19c2b814981c9e2e83e0f7db41fc6c4f0058386fe9d79a36165e023cf357",
+        "bytes": 8219
+      },
+      "public_copy": {
+        "path": "science_lab/papers/selective_mobility_scripta/provenance/mobility_contrast/analysis_portable.json",
+        "sha256": "809982ae19b6992d51b67cc7a4ca8aabd55b29d6bf3255eafa3d204f2d818969",
+        "bytes": 8076,
+        "path_policy": "portable"
+      }
+    },
+    {
+      "id": "S16",
+      "role": "B/C control-volume transport recurrence",
+      "original_identity": {
+        "archive_path": "science_lab/papers/selective_mobility_scripta/provenance/transport_confirmation_bc/results/bc_transport_confirmation_v1/summary.json",
+        "sha256": "63e8851315babfe90e80307e5e6511c6d8d29fc83b88a1985cceb96943aaff5e",
+        "bytes": 34439
+      },
+      "public_copy": {
+        "path": "science_lab/papers/selective_mobility_scripta/provenance/transport_confirmation_bc/results/bc_transport_confirmation_v1/summary.json",
+        "sha256": "9c2aa1ac49ad8acbf4e2f4a7c9c52a7298669392752ffbf6ed5394b065d81cef",
+        "bytes": 34406,
+        "path_policy": "portable"
+      },
+      "companion": {
+        "path": "science_lab/papers/selective_mobility_scripta/provenance/transport_confirmation_bc/results/bc_transport_confirmation_v1/arm_rates.csv",
+        "sha256": "b9569d7d74fd69311b1e3791e267392e66a24145beb11e32d70563824fbaca6c",
+        "bytes": 5538
+      }
+    }
+  ],
+  "derived_artifacts": [
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/evidence.json",
+      "sha256": "530e686cf92821df14d2ce32b4fe03b6b770b4c80753d85041c9ae13225b2203",
+      "bytes": 22060
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/position_response.csv",
+      "sha256": "a1322b0b04813b4f2892e9366736580f2031b51f06ea67d7cdfb70407b2e27b0",
+      "bytes": 2369
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/paired_panel.csv",
+      "sha256": "8d55b840b1fc6ca3a7bf23824111ec94ebdf5f7bd9f61a8f7d428b77a29655e9",
+      "bytes": 2794
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/equal_budget_controls.csv",
+      "sha256": "f0b78839d21d3dc63e9d1db778356dc854dfeeff964c1039b443a8f5de006d5b",
+      "bytes": 1377
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/primary_mask_budget.csv",
+      "sha256": "4d51549ebfd7407b3f8c9bcae4b10f6cdd3e1affca8558c0b502930b164b530e",
+      "bytes": 376
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/transport_response.csv",
+      "sha256": "9cdee316de44458e2af111c2a7400ba2119e20a98ff8c12684f43cbe6f2a07a8",
+      "bytes": 2072
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/mobility_contrast.csv",
+      "sha256": "fbb69d6691ad48616e8322d4aacc5777b9db1425ebaec481e81fa4993607e523",
+      "bytes": 1469
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/transport_confirmation_bc.csv",
+      "sha256": "48b056f4378ed760ec2d3cbb81f0e8e747b77933b95f224aa6686e0bcbd01cdd",
+      "bytes": 1393
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/timestep_refinement.csv",
+      "sha256": "5b75c1e73e31481e01b8771b7dc9c5045c186f8d8bbfab4026f607c6a47a255f",
+      "bytes": 561
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/spatial_refinement.csv",
+      "sha256": "63eff94a599bc5cec1c7a2e35ce6f261eeb0dae860e83e1e41c27947f3717284",
+      "bytes": 1181
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/detector_replay.csv",
+      "sha256": "06d5e9bc4d5953577f2918c630c0a9cbc1a0366beadc439ab09e9cf7b7c71e00",
+      "bytes": 839
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/numerical_checks.csv",
+      "sha256": "d90e2c3bd06c995c9b15ccfc064c70576b529397fc6b3eb798b9c2cf6241991a",
+      "bytes": 3991
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/morphology_event_projections.json",
+      "sha256": "6389de9a56aa60f3c97dac16038e0a782df6c876f6b8c62cc885742b446b8cb7",
+      "bytes": 2394
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/morphology_event_projections.npz",
+      "sha256": "160ad4f3233a5980781d90ec201b2c58d46db67744765502dd3153607b1f8b19",
+      "bytes": 469325
+    }
+  ]
+}

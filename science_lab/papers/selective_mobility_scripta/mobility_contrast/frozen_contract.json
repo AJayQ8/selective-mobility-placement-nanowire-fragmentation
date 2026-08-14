@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_simulation",
+  "campaign_id": "m03_bc_position_sign_validation_v1",
+  "frozen_at_utc": "2026-08-11T16:05:08Z",
+  "scientific_question": "Does the intermediate-versus-outboard sign reversal persist when the protected mobility factor is weakened from 0.1 to 0.3?",
+  "scope": {
+    "sources": {
+      "104729": "confirmation_source_B",
+      "130363": "confirmation_source_C"
+    },
+    "treated_cases": {
+      "c26p5_m03": {
+        "center_model_units": 26.5,
+        "role": "intermediate"
+      },
+      "c34p5_m03": {
+        "center_model_units": 34.5,
+        "role": "outboard"
+      }
+    },
+    "case_order": [
+      "104729/c26p5_m03",
+      "104729/c34p5_m03",
+      "130363/c26p5_m03",
+      "130363/c34p5_m03"
+    ],
+    "existing_untreated_baselines": {
+      "104729": {
+        "event_bracket": [
+          1680,
+          1690
+        ],
+        "event_midpoint": 1685,
+        "failure_mode": "junction_adjacent",
+        "summary_sha256": "0808c2307328b2d1d3b3af3dc5934283159b3ef1b789a7e972c335620c75f16f"
+      },
+      "130363": {
+        "event_bracket": [
+          1650,
+          1660
+        ],
+        "event_midpoint": 1655,
+        "failure_mode": "junction_adjacent",
+        "summary_sha256": "320e0968dfcf3c7acd41b0f1200fcb4cad43ff32e585a2200a9aa379a5e266f3"
+      }
+    },
+    "no_source_A_case": true,
+    "no_additional_contrast": true,
+    "no_position_sweep": true,
+    "no_rescue_run": true,
+    "frozen_implementation_snapshot_must_remain_unchanged_until_results_are_audited": true
+  },
+  "frozen_model": {
+    "protected_mobility_factor": 0.3,
+    "original_protected_mobility_factor": 0.1,
+    "suppression_amplitude_ratio_vs_original": 0.7777777777777778,
+    "collar_support_width_model_units": 12.0,
+    "transition_width_model_units": 3.0,
+    "wire_radius_model_units": 6.0,
+    "interface_width_model_units": 2.8284271247461903,
+    "fixed_eulerian_mask": true,
+    "lattice_shape": [
+      96,
+      768,
+      768
+    ],
+    "grid_spacing": 0.5,
+    "time_step": 1.0,
+    "start_step": 100,
+    "target_step": 3000,
+    "diagnostic_interval": 10,
+    "energy_interval": 50,
+    "milestone_interval": 100,
+    "checkpoint_steps": [
+      500,
+      900,
+      1300,
+      1700,
+      2000,
+      2200,
+      2400,
+      2600,
+      2800,
+      3000
+    ],
+    "maximum_event_checkpoints": 3,
+    "fft_workers": 12,
+    "event_detector": "persistent_single_arm_modern",
+    "stop_on_robust_event": true,
+    "all_other_solver_detector_geometry_and_health_settings": "identical_to_the_frozen_paired_repeat_campaign"
+  },
+  "frozen_acceptance_criteria": {
+    "completion": "all four treated cases must terminate by robust persistent event under the frozen detector before or at t=3000 with numerical health passing",
+    "pairing": "each treated case must start from the exact bound t=100 checkpoint of its own source",
+    "intermediate_sign": "for each source, the conservative paired interval [treated_lower-untreated_upper, treated_upper-untreated_lower] for c26p5_m03 must lie strictly above zero",
+    "outboard_sign": "for each source, the conservative paired interval [treated_lower-untreated_upper, treated_upper-untreated_lower] for c34p5_m03 must lie strictly below zero",
+    "failure_class": "all four treated first events must remain junction-adjacent under the existing site classifier",
+    "pass_rule": "all completion, pairing, sign, topology, and numerical-health criteria must pass in both sources",
+    "failure_rule": "retain and report the result as contrast dependence, null response, or failure; do not change contrast, placement, source, horizon, detector, timestep, grid, or acceptance criteria"
+  },
+  "bound_sources": {
+    "104729": {
+      "source_summary_sha256": "80ba42da99e09e8c7b3f385f90bac752436df463cb5afc85e2d2b0e61e7c54ee",
+      "source_checkpoint_metadata_sha256": "762256c5cc66083c5fae871e814e120a1f50a1cc8cb9d698ff44cc59771915ae",
+      "source_checkpoint_field_sha256": "dbee74afc8a04568f72cb25f40a84d6f3bc939fc1b55802ac7aabac17c6f720b",
+      "source_checkpoint_field_bytes": 452984960
+    },
+    "130363": {
+      "source_summary_sha256": "1106217969684630bca92d6382a6013d32b7981b26fbc4df367d1b7cd22b92e3",
+      "source_checkpoint_metadata_sha256": "3f4152c5c5539a4fed04cc6e3b378ab1789f2ad515b0cba28af7ca72714d4864",
+      "source_checkpoint_field_sha256": "03718e7bb43d822cb2e40920e7d054714d4c3523a2c695670d9decb71559b581",
+      "source_checkpoint_field_bytes": 452984960
+    }
+  },
+  "bound_parent_implementation": {
+    "paired_case_runner_sha256": "84fd4ac61c9033b0459ca490dd7f435506184d923fd932ffe45e74dc1a0ddab3",
+    "case_engine_sha256": "8f0361c610b9a7bdf8ab705a1ca078240bd7faabf9b6e02671422d87d278bce5",
+    "paired_protocol_sha256": "344f448e65a8b19a0447287278e6fe8a6f80fcd71510feac2399e814dbc6eb2e",
+    "position_protocol_sha256": "608191ed61c12561711790d40996d82d16a13ee609770d8136d7e973624adb96",
+    "geometry_sha256": "d146ece555168ed06733d888a76e0298ead2ed38617be8e895c47fd0380e90e5",
+    "spatial_mobility_model_sha256": "38ea302bec8456d645c5f212082a92efbc4d3e97dc9ca198c292ef76cade2a7a",
+    "roy_model_sha256": "3d335de207dabbb11c670e5fafea453348e2323f6740088325f100f93f062106",
+    "paired_source_runner_sha256": "d3e170c8d3308a00c5381abde844c5849a46f6847c3bf602aba93bf7095152c0"
+  }
+}

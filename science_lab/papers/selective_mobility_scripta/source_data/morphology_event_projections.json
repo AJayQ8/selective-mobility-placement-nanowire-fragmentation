@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "artifact": "source_data/morphology_event_projections.npz",
+  "artifact_sha256": "160ad4f3233a5980781d90ec201b2c58d46db67744765502dd3153607b1f8b19",
+  "construction": "maximum concentration over the short x axis on the integer-centered grid",
+  "spacing": 0.5,
+  "crop_abs_limit": 52.0,
+  "event_threshold": 0.45,
+  "cases": {
+    "untreated": {
+      "label": "Untreated",
+      "step": 1700,
+      "reported_event_site": 19.25,
+      "source_path": "science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/checkpoint-step-1700.npy",
+      "source_sha256": "012f54db686f23577e0e66886438a15cbd16b0cfdeef3c4109b201a78c6ab331",
+      "projection_shape": [
+        209,
+        209
+      ],
+      "projection_minimum": 0.0016948356060311198,
+      "projection_maximum": 1.0188496112823486,
+      "threshold_gap_runs_in_crop": [
+        {
+          "lower": 17.75,
+          "upper": 20.25,
+          "midpoint": 19.0
+        }
+      ]
+    },
+    "near": {
+      "label": "Near collar (18.5)",
+      "step": 2450,
+      "reported_event_site": 39.5,
+      "source_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c18p5_v1/checkpoint-position_scan-step-2450.npy",
+      "source_sha256": "0b85554285f3190229ea6f87605c0c817c3615585985dfee064adfda8cea1490",
+      "projection_shape": [
+        209,
+        209
+      ],
+      "projection_minimum": 0.003914494067430496,
+      "projection_maximum": 1.0194648504257202,
+      "threshold_gap_runs_in_crop": [
+        {
+          "lower": 38.25,
+          "upper": 40.25,
+          "midpoint": 39.25
+        }
+      ]
+    },
+    "outboard": {
+      "label": "Outboard collar (34.5)",
+      "step": 1590,
+      "reported_event_site": 18.75,
+      "source_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c34p5_v1/checkpoint-position_scan-step-1590.npy",
+      "source_sha256": "c54aeb555315af55551a48da488d80fce547352efb2ff5122c15c2ecf7652c25",
+      "projection_shape": [
+        209,
+        209
+      ],
+      "projection_minimum": 0.0015334667405113578,
+      "projection_maximum": 1.0246258974075317,
+      "threshold_gap_runs_in_crop": [
+        {
+          "lower": 17.75,
+          "upper": 19.25,
+          "midpoint": 18.5
+        }
+      ]
+    }
+  }
+}

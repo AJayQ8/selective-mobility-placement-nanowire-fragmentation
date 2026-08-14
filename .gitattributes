@@ -1,0 +1,12 @@
+* text=auto
+*.md whitespace=-blank-at-eof
+*.py whitespace=-blank-at-eof
+*.json whitespace=-blank-at-eof
+*.txt whitespace=-blank-at-eof
+*.svg -whitespace
+*.pdf binary
+*.png binary
+*.npz binary
+*.csv binary
+*.jpg binary
+*.jpeg binary

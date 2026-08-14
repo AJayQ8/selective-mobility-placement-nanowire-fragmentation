@@ -1,0 +1,9 @@
+source_label,seed,source_role,m_min,case_id,placement_role,untreated_event_lower,untreated_event_upper,untreated_midpoint,event_lower,event_upper,event_midpoint,paired_shift,paired_interval_lower,paired_interval_upper,confirmation,first_sites_abs,minimum_abs_site,maximum_abs_site,failure_mode,source_ids
+B,104729,independent_confirmation,0.1,c26p5,intermediate,1680,1690,1685,1950,1960,1955,270,260,280,1980,17.5,17.5,17.5,junction_adjacent,S03;S04
+B,104729,independent_confirmation,0.1,c34p5,outboard,1680,1690,1685,1570,1580,1575,-110,-120,-100,1600,18.75,18.75,18.75,junction_adjacent,S03;S04
+C,130363,independent_confirmation,0.1,c26p5,intermediate,1650,1660,1655,1910,1920,1915,260,250,270,1940,16.75,16.75,16.75,junction_adjacent,S03;S04
+C,130363,independent_confirmation,0.1,c34p5,outboard,1650,1660,1655,1550,1560,1555,-100,-110,-90,1580,18.0,18.0,18.0,junction_adjacent,S03;S04
+B,104729,independent_confirmation,0.3,c26p5_m03,intermediate,1680,1690,1685,1880,1890,1885,200,190,210,1910,18.0,18.0,18.0,junction_adjacent,S15
+B,104729,independent_confirmation,0.3,c34p5_m03,outboard,1680,1690,1685,1620,1630,1625,-60,-70,-50,1650,18.25;18.75,18.25,18.75,junction_adjacent,S15
+C,130363,independent_confirmation,0.3,c26p5_m03,intermediate,1650,1660,1655,1850,1860,1855,200,190,210,1880,17.5,17.5,17.5,junction_adjacent,S15
+C,130363,independent_confirmation,0.3,c34p5_m03,outboard,1650,1660,1655,1590,1600,1595,-60,-70,-50,1620,18.0,18.0,18.0,junction_adjacent,S15

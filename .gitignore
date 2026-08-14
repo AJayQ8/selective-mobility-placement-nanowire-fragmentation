@@ -1,0 +1,14 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+reproduced_artifacts/
+science_lab/papers/selective_mobility_scripta/mobility_contrast/results/
+science_lab/papers/selective_mobility_scripta/mobility_contrast/raw_results/
+science_lab/papers/selective_mobility_scripta/spatial_refinement/results/

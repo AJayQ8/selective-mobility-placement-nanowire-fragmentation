@@ -1,0 +1,558 @@
+{
+  "acceptance_checks": {
+    "confirmation_step": true,
+    "diagnostic_interval": true,
+    "event_bracket": true,
+    "event_detected": true,
+    "expected_persistent_gap": true,
+    "first_candidate_step": true,
+    "heuristic_fallback_unused": true,
+    "required_records": true,
+    "t1700_exact": true,
+    "t1720_exact": true
+  },
+  "accepted": true,
+  "archive_parity": {
+    "1700": {
+      "accepted": true,
+      "archive_fingerprint": "f6bfa8343adde775dd0dc3cb364747bca0613100f1e9426081a16a5481df6578",
+      "exact_array_equal": true,
+      "expected_fingerprint": "f6bfa8343adde775dd0dc3cb364747bca0613100f1e9426081a16a5481df6578",
+      "maximum_absolute_difference": 0.0,
+      "mismatch_count": 0,
+      "replay_fingerprint": "f6bfa8343adde775dd0dc3cb364747bca0613100f1e9426081a16a5481df6578"
+    },
+    "1720": {
+      "accepted": true,
+      "archive_fingerprint": "a90061f7d05d011a6b56dc66de4fc9cfdf881486c399aed46ce53d8a71f17ecb",
+      "exact_array_equal": true,
+      "expected_fingerprint": "a90061f7d05d011a6b56dc66de4fc9cfdf881486c399aed46ce53d8a71f17ecb",
+      "maximum_absolute_difference": 0.0,
+      "mismatch_count": 0,
+      "replay_fingerprint": "a90061f7d05d011a6b56dc66de4fc9cfdf881486c399aed46ce53d8a71f17ecb"
+    }
+  },
+  "classification": "source_a_untreated_modern_detector_replay_accepted",
+  "diagnostics": [
+    {
+      "pinches": {
+        "candidate": false,
+        "candidate_gaps": [],
+        "heuristic_fallback_allowed": false,
+        "minimum_slice_areas": {
+          "first_wire_z": {
+            "0.45": 20.75,
+            "0.50": 17.75,
+            "0.55": 16.25
+          },
+          "second_wire_y": {
+            "0.45": 25.25,
+            "0.50": 22.25,
+            "0.55": 19.5
+          }
+        }
+      },
+      "step": 1600
+    },
+    {
+      "pinches": {
+        "candidate": false,
+        "candidate_gaps": [],
+        "heuristic_fallback_allowed": false,
+        "minimum_slice_areas": {
+          "first_wire_z": {
+            "0.45": 20.0,
+            "0.50": 17.25,
+            "0.55": 15.25
+          },
+          "second_wire_y": {
+            "0.45": 24.5,
+            "0.50": 21.0,
+            "0.55": 19.0
+          }
+        }
+      },
+      "step": 1610
+    },
+    {
+      "pinches": {
+        "candidate": false,
+        "candidate_gaps": [],
+        "heuristic_fallback_allowed": false,
+        "minimum_slice_areas": {
+          "first_wire_z": {
+            "0.45": 19.0,
+            "0.50": 16.25,
+            "0.55": 14.25
+          },
+          "second_wire_y": {
+            "0.45": 23.5,
+            "0.50": 20.5,
+            "0.55": 17.75
+          }
+        }
+      },
+      "step": 1620
+    },
+    {
+      "pinches": {
+        "candidate": false,
+        "candidate_gaps": [],
+        "heuristic_fallback_allowed": false,
+        "minimum_slice_areas": {
+          "first_wire_z": {
+            "0.45": 17.25,
+            "0.50": 15.25,
+            "0.55": 12.5
+          },
+          "second_wire_y": {
+            "0.45": 22.0,
+            "0.50": 19.25,
+            "0.55": 17.0
+          }
+        }
+      },
+      "step": 1630
+    },
+    {
+      "pinches": {
+        "candidate": false,
+        "candidate_gaps": [],
+        "heuristic_fallback_allowed": false,
+        "minimum_slice_areas": {
+          "first_wire_z": {
+            "0.45": 16.25,
+            "0.50": 14.0,
+            "0.55": 11.25
+          },
+          "second_wire_y": {
+            "0.45": 20.75,
+            "0.50": 18.25,
+            "0.55": 15.75
+          }
+        }
+      },
+      "step": 1640
+    },
+    {
+      "pinches": {
+        "candidate": false,
+        "candidate_gaps": [],
+        "heuristic_fallback_allowed": false,
+        "minimum_slice_areas": {
+          "first_wire_z": {
+            "0.45": 15.0,
+            "0.50": 11.5,
+            "0.55": 10.25
+          },
+          "second_wire_y": {
+            "0.45": 20.0,
+            "0.50": 17.25,
+            "0.55": 15.0
+          }
+        }
+      },
+      "step": 1650
+    },
+    {
+      "pinches": {
+        "candidate": false,
+        "candidate_gaps": [],
+        "heuristic_fallback_allowed": false,
+        "minimum_slice_areas": {
+          "first_wire_z": {
+            "0.45": 12.25,
+            "0.50": 10.25,
+            "0.55": 8.5
+          },
+          "second_wire_y": {
+            "0.45": 19.0,
+            "0.50": 16.5,
+            "0.55": 14.25
+          }
+        }
+      },
+      "step": 1660
+    },
+    {
+      "pinches": {
+        "candidate": false,
+        "candidate_gaps": [],
+        "heuristic_fallback_allowed": false,
+        "minimum_slice_areas": {
+          "first_wire_z": {
+            "0.45": 10.25,
+            "0.50": 8.25,
+            "0.55": 5.5
+          },
+          "second_wire_y": {
+            "0.45": 17.25,
+            "0.50": 15.25,
+            "0.55": 12.5
+          }
+        }
+      },
+      "step": 1670
+    },
+    {
+      "pinches": {
+        "candidate": false,
+        "candidate_gaps": [],
+        "heuristic_fallback_allowed": false,
+        "minimum_slice_areas": {
+          "first_wire_z": {
+            "0.45": 6.5,
+            "0.50": 5.25,
+            "0.55": 2.25
+          },
+          "second_wire_y": {
+            "0.45": 16.25,
+            "0.50": 14.0,
+            "0.55": 11.25
+          }
+        }
+      },
+      "step": 1680
+    },
+    {
+      "pinches": {
+        "candidate": false,
+        "candidate_gaps": [],
+        "heuristic_fallback_allowed": false,
+        "minimum_slice_areas": {
+          "first_wire_z": {
+            "0.45": 2.25,
+            "0.50": 0.0,
+            "0.55": 0.0
+          },
+          "second_wire_y": {
+            "0.45": 14.75,
+            "0.50": 11.75,
+            "0.55": 10.25
+          }
+        }
+      },
+      "step": 1690
+    },
+    {
+      "pinches": {
+        "candidate": true,
+        "candidate_gaps": [
+          {
+            "branch": "plus",
+            "cell_count": 5,
+            "midpoint": 19.25,
+            "site_robust": true,
+            "threshold_gap_midpoint_spread": 0.25,
+            "width": 2.5,
+            "wire": "first_wire_z"
+          }
+        ],
+        "heuristic_fallback_allowed": false,
+        "minimum_slice_areas": {
+          "first_wire_z": {
+            "0.45": 0.0,
+            "0.50": 0.0,
+            "0.55": 0.0
+          },
+          "second_wire_y": {
+            "0.45": 12.25,
+            "0.50": 10.25,
+            "0.55": 8.5
+          }
+        }
+      },
+      "step": 1700
+    },
+    {
+      "pinches": {
+        "candidate": true,
+        "candidate_gaps": [
+          {
+            "branch": "plus",
+            "cell_count": 7,
+            "midpoint": 19.25,
+            "site_robust": true,
+            "threshold_gap_midpoint_spread": 0.0,
+            "width": 3.5,
+            "wire": "first_wire_z"
+          }
+        ],
+        "heuristic_fallback_allowed": false,
+        "minimum_slice_areas": {
+          "first_wire_z": {
+            "0.45": 0.0,
+            "0.50": 0.0,
+            "0.55": 0.0
+          },
+          "second_wire_y": {
+            "0.45": 10.25,
+            "0.50": 8.25,
+            "0.55": 5.5
+          }
+        }
+      },
+      "step": 1710
+    },
+    {
+      "pinches": {
+        "candidate": true,
+        "candidate_gaps": [
+          {
+            "branch": "minus",
+            "cell_count": 4,
+            "midpoint": -19.0,
+            "site_robust": true,
+            "threshold_gap_midpoint_spread": 0.25,
+            "width": 2.0,
+            "wire": "first_wire_z"
+          },
+          {
+            "branch": "plus",
+            "cell_count": 9,
+            "midpoint": 19.25,
+            "site_robust": true,
+            "threshold_gap_midpoint_spread": 0.25,
+            "width": 4.5,
+            "wire": "first_wire_z"
+          }
+        ],
+        "heuristic_fallback_allowed": false,
+        "minimum_slice_areas": {
+          "first_wire_z": {
+            "0.45": 0.0,
+            "0.50": 0.0,
+            "0.55": 0.0
+          },
+          "second_wire_y": {
+            "0.45": 6.25,
+            "0.50": 4.5,
+            "0.55": 2.25
+          }
+        }
+      },
+      "step": 1720
+    }
+  ],
+  "event": {
+    "confirmation_step": 1720,
+    "detected": true,
+    "diagnostic_interval": 10,
+    "event_bracket": [
+      1690,
+      1700
+    ],
+    "first_candidate_step": 1700,
+    "heuristic_fallback_used": false,
+    "last_nonmatching_observation_step": 1690,
+    "latched": true,
+    "maximum_gap_displacement": 2.8284271247461903,
+    "persistent_gaps": [
+      {
+        "branch_history": [
+          "plus",
+          "plus",
+          "plus"
+        ],
+        "confirmation_midpoint": 19.25,
+        "first_branch": "plus",
+        "first_midpoint": 19.25,
+        "gap_history": [
+          {
+            "axial_axis": 2,
+            "axial_length": 384.0,
+            "branch": "plus",
+            "cell_count": 5,
+            "crosses_periodic_seam": false,
+            "midpoint": 19.25,
+            "start_index": 420,
+            "width": 2.5,
+            "wire": "first_wire_z"
+          },
+          {
+            "axial_axis": 2,
+            "axial_length": 384.0,
+            "branch": "plus",
+            "cell_count": 7,
+            "crosses_periodic_seam": false,
+            "midpoint": 19.25,
+            "start_index": 419,
+            "width": 3.5,
+            "wire": "first_wire_z"
+          },
+          {
+            "axial_axis": 2,
+            "axial_length": 384.0,
+            "branch": "plus",
+            "cell_count": 9,
+            "crosses_periodic_seam": false,
+            "midpoint": 19.25,
+            "start_index": 418,
+            "width": 4.5,
+            "wire": "first_wire_z"
+          }
+        ],
+        "maximum_step_displacement": 0.0,
+        "wire": "first_wire_z"
+      }
+    ],
+    "required_records": 3,
+    "simultaneous_persistent_gap_count": 1
+  },
+  "execution": {
+    "elapsed_wall_seconds": 354.90310491599666,
+    "maximum_discarded_inverse_imaginary_linf": 1.9428517816777457e-07,
+    "maximum_step_wall_seconds": 3.0731450829989626,
+    "median_step_wall_seconds": 2.9221590210036084,
+    "peak_rss_bytes": 6944980992
+  },
+  "provenance": {
+    "contract_path": "source://study-archive/science_lab/papers/selective_mobility_scripta/provenance/detector_replay/frozen_contract.json",
+    "contract_sha256": "e131ba201be2fbc4946e13a4ee722c66459bf8d5fc75c71224864f6c22d51668",
+    "evidence_root": "source://legacy-nanowire",
+    "preconditions": {
+      "checkpoints": {
+        "1600": {
+          "checks": {
+            "dtype": true,
+            "field_bytes": true,
+            "field_fingerprint": true,
+            "field_sha256": true,
+            "shape": true,
+            "step": true
+          },
+          "dtype": "<f8",
+          "field": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/checkpoint-step-1600.npy",
+            "sha256": "59266fbabef32ee364cfe1af3ae1facb7f0e2a018e8c2d10c3162d0ac99bd349"
+          },
+          "field_fingerprint": "5cc8419af98dc017c069e7554ac21789526831874167242ac759c8c63b022707",
+          "metadata": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/checkpoint-step-1600.json",
+            "sha256": "3fff49c070f37b4f4a5e1f4ba00a4b30da438b98a780421647da30791c2f5041"
+          },
+          "shape": [
+            96,
+            768,
+            768
+          ],
+          "step": 1600
+        },
+        "1700": {
+          "checks": {
+            "dtype": true,
+            "field_bytes": true,
+            "field_fingerprint": true,
+            "field_sha256": true,
+            "shape": true,
+            "step": true
+          },
+          "dtype": "<f8",
+          "field": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/checkpoint-step-1700.npy",
+            "sha256": "012f54db686f23577e0e66886438a15cbd16b0cfdeef3c4109b201a78c6ab331"
+          },
+          "field_fingerprint": "f6bfa8343adde775dd0dc3cb364747bca0613100f1e9426081a16a5481df6578",
+          "metadata": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/checkpoint-step-1700.json",
+            "sha256": "00af35d5fc5dca312673023231c41c69e5c7f1ea1790cbe4f1f05fcbb278d00e"
+          },
+          "shape": [
+            96,
+            768,
+            768
+          ],
+          "step": 1700
+        },
+        "1720": {
+          "checks": {
+            "dtype": true,
+            "field_bytes": true,
+            "field_fingerprint": true,
+            "field_sha256": true,
+            "shape": true,
+            "step": true
+          },
+          "dtype": "<f8",
+          "field": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/checkpoint-step-1720.npy",
+            "sha256": "3b95717e8ff9112974f3e2ec1edad1879595aca77d5768e9126c41826b7f2c14"
+          },
+          "field_fingerprint": "a90061f7d05d011a6b56dc66de4fc9cfdf881486c399aed46ce53d8a71f17ecb",
+          "metadata": {
+            "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/checkpoint-step-1720.json",
+            "sha256": "2fef2144a9f00b5a52fb8882f1846a716071a636c83ef749b0ada5bdf82fe7ee"
+          },
+          "shape": [
+            96,
+            768,
+            768
+          ],
+          "step": 1720
+        }
+      },
+      "code": {
+        "modern_detector": {
+          "path": "source://study-archive/science_lab/papers/nanowire_gb_junction/roy_gb_junction_sentinel/diagnostics.py",
+          "sha256": "ce5dfd6e022a57049ace1a8622bfcd0d2fb095208b0563adfa2038811604fcde"
+        },
+        "replay_runner": {
+          "path": "source://study-archive/science_lab/papers/selective_mobility_scripta/provenance/detector_replay/run_replay.py",
+          "sha256": "bf2f168b11dffae008cc35844015bd9facef1b570e2525b207820cc97b226af0"
+        },
+        "roy_solver": {
+          "path": "source://study-archive/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/model.py",
+          "sha256": "3d335de207dabbb11c670e5fafea453348e2323f6740088325f100f93f062106"
+        }
+      },
+      "environment": {
+        "checks": {
+          "numpy": true,
+          "platform": true,
+          "python": true,
+          "scipy": true
+        },
+        "expected": {
+          "numpy": "1.26.4",
+          "platform": "macOS-26.5.2-arm64-arm-64bit",
+          "python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+          "scipy": "1.13.1"
+        },
+        "measured": {
+          "numpy": "1.26.4",
+          "platform": "macOS-26.5.2-arm64-arm-64bit",
+          "python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+          "scipy": "1.13.1"
+        }
+      },
+      "evidence": {
+        "archived_continuation_runner": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/run_t2000_continuation.py",
+          "sha256": "ade8387b916a409bfa0d2f35377ff9028e913912d17476a710647e9d7a3ed1f4"
+        },
+        "archived_continuation_summary": {
+          "path": "source://legacy-nanowire/science_lab/papers/nanowire_gb_junction/roy_2021_reproduction/results/t2000_continuation_source_semantic_seed2292/summary.json",
+          "sha256": "5e385fff4874e721ba3448d1a52c638af6a2ca030b509dd0e51d12e8812b612a"
+        }
+      },
+      "model_checks": {
+        "radius_1": true,
+        "radius_2": true,
+        "shape": true,
+        "spacing": true,
+        "timestep": true
+      }
+    }
+  },
+  "schema_version": 1,
+  "scope": {
+    "diagnostic_interval": 10,
+    "diagnostics_evaluated": 13,
+    "parameter_study_performed": false,
+    "replay_fields_written": 0,
+    "simulation_steps_performed": 120,
+    "start_step": 1600,
+    "target_step": 1720
+  },
+  "status": "completed"
+}

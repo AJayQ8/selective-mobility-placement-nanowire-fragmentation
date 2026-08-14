@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "generator": "science_lab/papers/selective_mobility_scripta/figures/supporting_figures.py",
+  "scope": "overlap guide and scalar controls",
+  "source_validation": {
+    "passed": true,
+    "failures": [],
+    "independent_source_count": 3,
+    "fine_grid_result_included": true,
+    "science_validation_complete": true
+  },
+  "figures": {
+    "overlap_guide": {
+      "compact_outputs": [
+        {
+          "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/supporting/supporting_overlap_guide.pdf",
+          "sha256": "350754370d1e424a682fef7ec984e5ccb26f4c457298ab9b5ec0d438236dfd49",
+          "bytes": 23958
+        },
+        {
+          "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/supporting/supporting_overlap_guide.png",
+          "sha256": "95080c6952e0dfd6332786027f8811338ec4d9420a2e537c9e39a48adbe6c98b",
+          "bytes": 275015
+        },
+        {
+          "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/supporting/supporting_overlap_guide.svg",
+          "sha256": "239a08a8790b2b35a200d7aa638bcb2af69c864877fbc67e030bd8515fd3c41c",
+          "bytes": 24734
+        }
+      ],
+      "full_width_outputs": [
+        {
+          "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/supporting/full_width/supporting_overlap_guide.pdf",
+          "sha256": "6b881375e86423d8d208ab7cbff67c499d3ddc6bc92cc7feed3a405be54b36a9",
+          "bytes": 24034
+        },
+        {
+          "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/supporting/full_width/supporting_overlap_guide.png",
+          "sha256": "49ebf8d6df25d5e1287d67c643e445bcff09475cbd1759531d74698f903a8f45",
+          "bytes": 346215
+        },
+        {
+          "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/supporting/full_width/supporting_overlap_guide.svg",
+          "sha256": "e97536a16326cd4e9c982de206b4ddfa6b0a7842fd12b0de0c0ffa1e48b05d20",
+          "bytes": 25970
+        }
+      ],
+      "compact_physical_size": {
+        "width_mm": 137.0,
+        "height_mm": 103.42738888888887,
+        "native_scale_factor": 1.0,
+        "minimum_semantic_text_pt": 9.4,
+        "minimum_data_marker_pt": 7.2,
+        "minimum_data_marker_mm": 2.54,
+        "pdf_mediabox_asserted": true
+      },
+      "full_width_physical_size": {
+        "width_mm": 190.0,
+        "height_mm": 143.43944444444443,
+        "native_scale_factor": 1.0,
+        "minimum_semantic_text_pt": 9.4,
+        "minimum_data_marker_pt": 7.2,
+        "minimum_data_marker_mm": 2.54,
+        "pdf_mediabox_asserted": true
+      }
+    },
+    "scalar_controls": {
+      "compact_outputs": [
+        {
+          "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/supporting/supporting_scalar_controls.pdf",
+          "sha256": "6670e231cf570585658347d83e33a25cd60b279bdeef455322811a6254f7060e",
+          "bytes": 20745
+        },
+        {
+          "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/supporting/supporting_scalar_controls.png",
+          "sha256": "d4eec333342062dd4cb1a8bd1280b7577daec399fe126e0d30f75c82e357776a",
+          "bytes": 170221
+        },
+        {
+          "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/supporting/supporting_scalar_controls.svg",
+          "sha256": "0f450acc4a86d380c9f394111f459fc2e834f1446567ca1388179ea7982bd68a",
+          "bytes": 17192
+        }
+      ],
+      "full_width_outputs": [
+        {
+          "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/supporting/full_width/supporting_scalar_controls.pdf",
+          "sha256": "6bf12e59b62fbba7b63914438a5e021cf3d2c9ce0dc0321ca0c9553ed17b3900",
+          "bytes": 20744
+        },
+        {
+          "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/supporting/full_width/supporting_scalar_controls.png",
+          "sha256": "1c088fc031fded1843b64009c7d6af254c028782221198fc6bf4689940e928db",
+          "bytes": 196790
+        },
+        {
+          "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/supporting/full_width/supporting_scalar_controls.svg",
+          "sha256": "e32948c8c5c917b9952f1cb45aa600ad4ef2369e0ba7556e87913cb89bbab352",
+          "bytes": 17132
+        }
+      ],
+      "compact_physical_size": {
+        "width_mm": 137.0,
+        "height_mm": 66.69616666666667,
+        "native_scale_factor": 1.0,
+        "minimum_semantic_text_pt": 9.4,
+        "minimum_data_marker_pt": 7.2,
+        "minimum_data_marker_mm": 2.54,
+        "pdf_mediabox_asserted": true
+      },
+      "full_width_physical_size": {
+        "width_mm": 190.0,
+        "height_mm": 92.49833333333335,
+        "native_scale_factor": 1.0,
+        "minimum_semantic_text_pt": 9.4,
+        "minimum_data_marker_pt": 7.2,
+        "minimum_data_marker_mm": 2.54,
+        "pdf_mediabox_asserted": true
+      }
+    }
+  },
+  "sources": [
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/position_response.csv",
+      "sha256": "a1322b0b04813b4f2892e9366736580f2031b51f06ea67d7cdfb70407b2e27b0"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/paired_panel.csv",
+      "sha256": "8d55b840b1fc6ca3a7bf23824111ec94ebdf5f7bd9f61a8f7d428b77a29655e9"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/transport_response.csv",
+      "sha256": "9cdee316de44458e2af111c2a7400ba2119e20a98ff8c12684f43cbe6f2a07a8"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/equal_budget_controls.csv",
+      "sha256": "f0b78839d21d3dc63e9d1db778356dc854dfeeff964c1039b443a8f5de006d5b"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/timestep_refinement.csv",
+      "sha256": "5b75c1e73e31481e01b8771b7dc9c5045c186f8d8bbfab4026f607c6a47a255f"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/spatial_refinement.csv",
+      "sha256": "63eff94a599bc5cec1c7a2e35ce6f261eeb0dae860e83e1e41c27947f3717284"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/morphology_event_projections.npz",
+      "sha256": "160ad4f3233a5980781d90ec201b2c58d46db67744765502dd3153607b1f8b19"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/morphology_event_projections.json",
+      "sha256": "6389de9a56aa60f3c97dac16038e0a782df6c876f6b8c62cc885742b446b8cb7"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "adaptive_follow_on_authorized": false,
+  "checks": {
+    "all_event_gaps_natural_local_sites": true,
+    "both_event_gap_multiplicities_between_one_and_two": true,
+    "both_events_detected_by_horizon": true,
+    "both_trajectories_terminal_and_healthy": true,
+    "c34_complete_bracket_strictly_earlier": true,
+    "c34_midpoint_within_five_percent": true,
+    "discarded_timestep_guard_passed": true,
+    "paired_effect_within_minus_125_minus_75": true,
+    "untreated_midpoint_within_five_percent": true
+  },
+  "classification": "spatial_refinement_validation_passed",
+  "coarse_reference": {
+    "event_brackets": {
+      "c34": [
+        1500,
+        1510
+      ],
+      "untreated": [
+        1600,
+        1610
+      ]
+    },
+    "event_gaps": {
+      "c34": [
+        {
+          "site": -18.0,
+          "wire": "first_wire_z"
+        },
+        {
+          "site": 18.5,
+          "wire": "second_wire_y"
+        }
+      ],
+      "untreated": [
+        {
+          "site": -18.75,
+          "wire": "first_wire_z"
+        }
+      ]
+    },
+    "event_midpoints": {
+      "c34": 1505.0,
+      "untreated": 1605.0
+    },
+    "exact_gap_multiplicity_convergence_claimed": false,
+    "paired_effect": -100.0
+  },
+  "events": {
+    "c34": {
+      "confirmation_step": 1550,
+      "detected": true,
+      "event_bracket": [
+        1520,
+        1530
+      ],
+      "event_midpoint": 1525.0,
+      "persistent_gap_count": 1,
+      "persistent_gaps": [
+        {
+          "site": -18.25,
+          "site_abs": 18.25,
+          "wire": "first_wire_z"
+        }
+      ]
+    },
+    "untreated": {
+      "confirmation_step": 1650,
+      "detected": true,
+      "event_bracket": [
+        1620,
+        1630
+      ],
+      "event_midpoint": 1625.0,
+      "persistent_gap_count": 1,
+      "persistent_gaps": [
+        {
+          "site": -18.75,
+          "site_abs": 18.75,
+          "wire": "first_wire_z"
+        }
+      ]
+    }
+  },
+  "generated_unix_time": 1786317778.072478,
+  "health": {
+    "c34": {
+      "health_passed": true,
+      "maximum_relative_mass_drift": 2.410986525637337e-08,
+      "maximum_sampled_relative_energy_rebound": 0.0
+    },
+    "untreated": {
+      "health_passed": true,
+      "maximum_relative_mass_drift": 2.009821042481793e-07,
+      "maximum_sampled_relative_energy_rebound": 0.0
+    }
+  },
+  "inputs": {
+    "timestep_guard_summary": {
+      "path": "source://study-archive/science_lab/papers/selective_mobility_scripta/spatial_refinement/results/r6_h0p25_untreated_c34_v1/timestep-guard/summary.json",
+      "sha256": "8b21a301784ec607c5beceb6623794da6946339a23f48662b5ad2cb7f6bae4bd"
+    },
+    "trajectories": {
+      "c34": {
+        "path": "source://study-archive/science_lab/papers/selective_mobility_scripta/spatial_refinement/results/r6_h0p25_untreated_c34_v1/case-c34/summary.json",
+        "sha256": "8d19c48de3ab8639b571beba378d917bcd6469210229ba6b52dfbbaf7d9db21c"
+      },
+      "untreated": {
+        "path": "source://study-archive/science_lab/papers/selective_mobility_scripta/spatial_refinement/results/r6_h0p25_untreated_c34_v1/case-untreated/summary.json",
+        "sha256": "ea253ec81981e7b24f62f81436afd708803ad31654deb36138da36df152969e5"
+      }
+    }
+  },
+  "interpretation": "factor_two_spatial_refinement_supports_the_coarse_harmful_effect",
+  "paired_effect_c34_minus_untreated": -100.0,
+  "passed": true,
+  "protocol_id": "selective_mobility_scripta_r6_spatial_refinement_v1",
+  "schema_version": 1,
+  "status": "completed"
+}

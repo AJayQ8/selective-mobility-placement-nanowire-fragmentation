@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_bc_transport_calculation",
+  "frozen_at_utc": "2026-08-11T15:22:34Z",
+  "study_id": "archived_bc_control_volume_transport_confirmation_v1",
+  "scope": {
+    "source_roles": {
+      "104729": "confirmation_source_B",
+      "130363": "confirmation_source_C"
+    },
+    "cases": [
+      "untreated",
+      "c26p5",
+      "c34p5"
+    ],
+    "archived_profile_steps": [
+      1200,
+      1300,
+      1400
+    ],
+    "archived_field_step": 1300,
+    "new_solver_steps": 0,
+    "retrospective_archived_trajectory_analysis": true,
+    "not_a_preregistered_simulation_campaign": true,
+    "frozen_implementation_snapshot_is_not_an_analysis_input_and_must_remain_unchanged": true
+  },
+  "scientific_question": "Do the intermediate and outboard collars reproduce, in each confirmation source, the opposite weak-zone volume-rate changes observed in exploratory source A?",
+  "analysis_definition": {
+    "natural_zone_bounds_model_units_inclusive": [
+      14.0,
+      22.5
+    ],
+    "natural_zone_provenance": "frozen untreated-source-A contour interval; no B/C outcome is used to choose it",
+    "phase_volume": "integral of c over each arm control volume",
+    "observed_rate": "centered slope from archived t=1200 and t=1400 profiles",
+    "reconstructed_rate": "instantaneous t=1300 physical-operator rate from periodic pseudospectral summation by parts",
+    "axial_weight": "trapezoidal over 14 <= |s| <= 22.5",
+    "finite_in_plane_transverse_crop_nodes": 96,
+    "finite_in_plane_transverse_crop_model_units": 48.0,
+    "thin_x_span": "full periodic span with exactly zero net contribution",
+    "source_level_summary": "unweighted mean over the four arm-branch records; arms are not treated as replicates",
+    "precision_and_fft_path": "identical to the source-A transport audit and archived production solver"
+  },
+  "frozen_acceptance_criteria": {
+    "input_integrity": "all bound artifacts must match SHA-256; checkpoint metadata must match shape [96,768,768], dtype <f8, 452984960 bytes, finite=true, and the field hash",
+    "continuity": "for every source and case, all four reconstructed arm rates must have the same sign as their centered observed rates and the maximum armwise relative magnitude error must be <= 0.01",
+    "intermediate_direction": "for each source separately, both the observed and reconstructed source-mean c26p5 rate changes from untreated must be > 0",
+    "outboard_direction": "for each source separately, both the observed and reconstructed source-mean c34p5 rate changes from untreated must be < 0",
+    "no_magnitude_gate": true,
+    "no_arm_independence_claim": true,
+    "pass_rule": "all integrity, continuity, intermediate-direction, and outboard-direction checks must pass for both sources",
+    "failure_rule": "publish the calculated values and classify the archived-data confirmation as not confirmed or inconclusive; do not retune the interval, crop, time window, precision, cases, or threshold"
+  },
+  "frozen_implementation_references": {
+    "source_a_transport_script_sha256": "8169d8264becc50e69dd89026ccb295d4c8660595b92a162a4c45ae5214d8f3a",
+    "source_a_transport_summary_sha256": "e81d6ed69da56a712797d20e9cbe64266ece37f54a315757370522d867f317f8",
+    "source_a_profile_audit_module_sha256": "1e83685c9e8e2009823deac16675047641e8c82e4c328f8c3558a907d91b6e3f",
+    "geometry_module_sha256": "d146ece555168ed06733d888a76e0298ead2ed38617be8e895c47fd0380e90e5",
+    "spatial_mobility_model_module_sha256": "38ea302bec8456d645c5f212082a92efbc4d3e97dc9ca198c292ef76cade2a7a",
+    "position_scan_protocol_module_sha256": "608191ed61c12561711790d40996d82d16a13ee609770d8136d7e973624adb96",
+    "roy_base_model_module_sha256": "3d335de207dabbb11c670e5fafea453348e2323f6740088325f100f93f062106"
+  },
+  "bound_inputs": {
+    "104729": {
+      "untreated": {
+        "case_contract_sha256": "97c685bf8299f66360a73698b47e087e87981b47b8c23335a830370222dc56c8",
+        "case_summary_sha256": "0808c2307328b2d1d3b3af3dc5934283159b3ef1b789a7e972c335620c75f16f",
+        "checkpoint_metadata_sha256": "1b1000c0b786d640f86c85928d4f5e03a1538384a36d9961fd08dcb99d7a2bb6",
+        "checkpoint_field_sha256": "b7732714bd514bec3bd91ddfcbbbdfd0330cdfe7bb5cc093297958dcfed36c33",
+        "profile_1200_sha256": "fbc37d76c1dd8504cc9ab4dfb4596c0a80a403947ca6ea9e00eb9700f211d00e",
+        "profile_1300_sha256": "81b0f50ad2b5b7e6599779e75ad1c8c5286c7dce87574194ca0564d1f14c3d1d",
+        "profile_1400_sha256": "d6db3bf5c71328bdc39051eb05028e425a787287edaba640b957c67974f1e7bc"
+      },
+      "c26p5": {
+        "case_contract_sha256": "cc24d5234a3e72bc3dbedbfa49887582cae7e3179e57a1fdc920655fe4b1ec54",
+        "case_summary_sha256": "023c81a20fdc3c13887a2925870486b4bbef074bc213354a5fd4cd3add20c925",
+        "checkpoint_metadata_sha256": "117b523f5ead1ad78d5200579f3472ae1c6200ecb9d65ca03a4f80012b3f60ed",
+        "checkpoint_field_sha256": "ba157971728c27eec4f9f753610fcf91bc1af84743881cb3d6f87678bc5db70c",
+        "profile_1200_sha256": "391c73f4513c5688cbb0afaf1d18af9adc21d5756bc13e7b9d7206f4135a4821",
+        "profile_1300_sha256": "c251f9e3234c850c8fa3995eb765b447a0661074a9656d888efb3ca0cbb4ccba",
+        "profile_1400_sha256": "b18ec7f8e6d995c630ea085279c55fe20ccb07597cb2d4ebe8dcc9d25da98dd7"
+      },
+      "c34p5": {
+        "case_contract_sha256": "bea473ce6f99db237d436ba069c1d4182ce84f96751965fdbf8192e824856c7c",
+        "case_summary_sha256": "3be497fe9efe9e4fe1bca0144da2e05030d7e5e5406e557a6054c119f1d79670",
+        "checkpoint_metadata_sha256": "00de0213e3c1c159a1de815a90df95ce3b7bda9c94556f56b9a1206320c9ba1b",
+        "checkpoint_field_sha256": "ee40d7fd7011ab77f2fae341fa7919db7b77a21356b3656a65c7e0a81b4bcd99",
+        "profile_1200_sha256": "4a455676ed520b3d7f1bee95deec0d506a53d04396a47556c5932fe6ab3211c5",
+        "profile_1300_sha256": "e970dcd2336a3ff0ca83c1a8a484b3616e323b8b5f67249b9edeb58ef146b966",
+        "profile_1400_sha256": "77e84923cd09ca810d8cbd4b864984a2c29b796a2c8414c33493c799983fbe1f"
+      }
+    },
+    "130363": {
+      "untreated": {
+        "case_contract_sha256": "943684a19aed7df03b57b81ecdb2b5a476dd856dc6726c5f6dd759b7631960b7",
+        "case_summary_sha256": "320e0968dfcf3c7acd41b0f1200fcb4cad43ff32e585a2200a9aa379a5e266f3",
+        "checkpoint_metadata_sha256": "afe238356d36b0a3fffc7ae0b30cc98fd7ad3f78b43baafe98bd02744195d4a7",
+        "checkpoint_field_sha256": "dfe79e3e911731b4f14bb258a75b9abc3fed3a116f0aed5fc1872f8c1712dd56",
+        "profile_1200_sha256": "4f0372de0169df1e7d53d7b30849e30def2a66a33d6a0ecd05b6aa68b5069bb6",
+        "profile_1300_sha256": "9c4d302a53c2152aa427478f8a0cccf834e264f8c260ffd79baf569ccfb3e8c8",
+        "profile_1400_sha256": "bc5e8061200185a0caa141bdd0ed2418ff00384457e9bef9c75a44e4452ac895"
+      },
+      "c26p5": {
+        "case_contract_sha256": "37e9f74872e908a19e3bad2b119ec5d91ef87078df589d95a7f341daeb49dd5d",
+        "case_summary_sha256": "14dc34c850208e57daacdfe3190390bba4de3917407f75e59148a7e960253ee5",
+        "checkpoint_metadata_sha256": "4f7e8abd0d0fafffe5c8508270f61deff6c99c544aa08142f3c765997adee5ad",
+        "checkpoint_field_sha256": "f9bba40b7b2e9d1f954f2ebe767d90407ce307387646d1e2a9286f9ee4b062bf",
+        "profile_1200_sha256": "f0c7164209ed8d9c7620dd2edd96bd7c8c161a44bf6e242f7e6c0c08fb41c678",
+        "profile_1300_sha256": "05280b4fcc86fa0db17e2de95bc98b4b9449f9401568365d6bfcc7a1c1b8d471",
+        "profile_1400_sha256": "12fdcaa65ff899681808835a21187ad7ca522ca783e1a692f2d380c1cb6f6717"
+      },
+      "c34p5": {
+        "case_contract_sha256": "ecc4fe5a2fe323e8a4920a15999df9224771a65d430ceff402ca6e8b656411b9",
+        "case_summary_sha256": "40f7bc8d7efd235ab347e491416e59b4e10c4c40946531e1b8e63bf6dd2fefb5",
+        "checkpoint_metadata_sha256": "d74e83461b2fb9640eb58bde361e2e7daf7d276ea1ea3d16fbb239f6805aefa2",
+        "checkpoint_field_sha256": "24cd48f8fcfbf262fbc9bd5e58dabfcc5b0258acf12edbd6ffa920a3122e5191",
+        "profile_1200_sha256": "8e41f2a40058de3d607644a34ec6fdc6c097883ecfbc805f57f8628d6d914581",
+        "profile_1300_sha256": "e7d27b7009b9199894202a6ae37d7359fb05393a6680f620c7ea57cff3589037",
+        "profile_1400_sha256": "420af95937a55fa444f6ebc2de4aaf0cbd3f389258a77de161d2de0df6d1a29c"
+      }
+    }
+  }
+}

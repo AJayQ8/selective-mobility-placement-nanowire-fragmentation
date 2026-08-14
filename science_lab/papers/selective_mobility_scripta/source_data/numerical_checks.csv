@@ -1,0 +1,23 @@
+check_id,category,scope,metric,value,value_type,comparison,limit,passed,source_ids,interpretation
+N01,reproduction,R6_seed2292,max_absolute_relative_mass_drift,0.0000029158023862404736,number,less_than,0.0001,true,S01,Roy-context trajectory remains conservative and finite
+N02,reproduction,R6_seed2292,event_in_reported_reference_window,true,boolean,equals,true,true,S01,Two-arm Roy reproduction only
+N03,trajectory_health,position_scan_all_eight,all_health_checks_passed,true,boolean,equals,true,true,S02,Finite bounded fields nonincreasing sampled energy and bounded mass drift
+N04,trajectory_health,position_scan_all_eight,max_absolute_relative_mass_drift,0.0000026068903009647336,number,less_than,0.0001,true,S02,Maximum over the eight scanned placements
+N05,transport,all_five_t1300_cases,max_corrected_relative_magnitude_error,0.008545907723271252,number,less_than,0.01,true,S05,Full spectral control-volume continuity closes below one percent
+N06,transport,all_five_t1300_cases,max_spectral_axial_only_relative_magnitude_error,0.21291566643466878,number,descriptive,,true,S05,Omitting the in-plane-transverse term changes the centered measured arm rate by up to 21.3 percent
+N07,timestep,untreated_seed104729,relative_event_time_error,0,number,less_than_or_equal,0.05,true,S06,dt 1 versus dt 0.5
+N08,timestep,c34p5_seed104729,relative_event_time_error,0.006349206349206349,number,less_than_or_equal,0.05,true,S06,dt 1 versus dt 0.5
+N09,timestep,paired_effect_seed104729,relative_effect_error,0.09090909090909091,number,less_than_or_equal,0.25,true,S06,Paired effect is -110 versus -100
+N10,domain_robustness,R6_reduced_domain,acceptance_passed,true,boolean,equals,true,true,S10,Same sign and site classes in reduced in-plane domain
+N11,trajectory_health,K1_seed2292,max_absolute_relative_mass_drift,0.0000020530323458905014,number,less_than,0.0001,true,S07,All sampled energies nonincreasing
+N12,trajectory_health,K2_seed2292,max_absolute_relative_mass_drift,0.0000018712679726257952,number,less_than,0.0001,true,S08,All sampled energies nonincreasing
+N13,trajectory_health,K3_seed2292,max_absolute_relative_mass_drift,0.000001952135356925454,number,less_than,0.0001,true,S09,All sampled energies nonincreasing
+N14,spatial_refinement,R6_common_source_h0p25,acceptance_passed,true,boolean,equals,true,true,S11,All nine frozen continuation-grid checks passed
+N15,spatial_refinement,R6_common_source_h0p25,paired_effect,-100,number,within_inclusive_interval,-125:-75,true,S11,Harmful paired shift remains within the frozen magnitude window
+N16,trajectory_health,R6_common_source_h0p25,max_absolute_relative_mass_drift,0.0000002009821042481793,number,less_than,0.0001,true,S11,Both fine-grid trajectories remain finite conservative and energy-dissipative
+N17,detector_acceptance,source_A_untreated_modern_replay,acceptance_passed,true,boolean,equals,true,true,S14,Exact archive parity permits the reconstructed t1710 diagnostic and modern three-record event
+N18,mobility_contrast,B_C_m_min_0p3,weaker_contrast_sign_reversal_confirmed,true,boolean,equals,true,true,S15,Both independent confirmation sources retain positive intermediate and negative outboard shifts with junction-adjacent sites
+N19,trajectory_health,B_C_m_min_0p3,max_absolute_relative_mass_drift,0.000002074753985846794,number,less_than,0.0001,true,S15,All four weaker-contrast trajectories are finite with zero sampled energy rebound
+N20,transport_recurrence,B_C_archived_t1300,armwise_sign_agreement_count,24,integer,equals,24,true,S16,All 24 archived arm records reproduce the reconstructed continuity sign
+N21,transport_recurrence,B_C_archived_t1300,max_source_case_mean_relative_error,0.007373318892761357,number,less_than,0.01,true,S16,Every source-case mean reconstruction closes below one percent
+N22,transport_recurrence,B_C_archived_t1300,strict_all_arm_continuity_gate_passed,false,boolean,equals,false,true,S16,One of 24 arms closes at 1.1575 percent so this is supporting recurrence rather than a passed gate

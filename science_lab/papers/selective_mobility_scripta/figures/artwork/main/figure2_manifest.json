@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "figure": 2,
+  "generator": "science_lab/papers/selective_mobility_scripta/figures/figure2.py",
+  "scope": "source-level confirmation of the placement ordering",
+  "source_validation": {
+    "passed": true,
+    "failures": [],
+    "independent_source_count": 3,
+    "fine_grid_result_included": true,
+    "science_validation_complete": true
+  },
+  "science_values_changed": false,
+  "compact_physical_size": {
+    "width_mm": 137.0,
+    "height_mm": 147.32,
+    "native_scale_factor": 1.0,
+    "minimum_semantic_text_pt": 9.4,
+    "minimum_data_marker_pt": 7.2,
+    "minimum_data_marker_mm": 2.54,
+    "pdf_mediabox_asserted": true
+  },
+  "compact_outputs": [
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/figure2_confirmation.pdf",
+      "sha256": "3e487dd2c6efcd93d7dfa44630ed990a49f62134006ec7cddaad4b233f093e6f",
+      "bytes": 25568
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/figure2_confirmation.png",
+      "sha256": "4b46a7ae34f80d8ce7dbfdffbebde1ebe3a343a95dd45b1b18717f25d6c61805",
+      "bytes": 340511
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/figure2_confirmation.svg",
+      "sha256": "b68836c5624bb9355c62d3809a1995f19edf8af26f23ebdbb0662456896c7927",
+      "bytes": 24341
+    }
+  ],
+  "full_width_physical_size": {
+    "width_mm": 190.0,
+    "height_mm": 204.31240875912408,
+    "native_scale_factor": 1.0,
+    "minimum_semantic_text_pt": 9.4,
+    "minimum_data_marker_pt": 7.2,
+    "minimum_data_marker_mm": 2.54,
+    "pdf_mediabox_asserted": true
+  },
+  "full_width_outputs": [
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/full_width/figure2_confirmation.pdf",
+      "sha256": "8d6519954a36da8293a253a57f56847153fd23a8538e734e7e52b5eadb39ab06",
+      "bytes": 25751
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/full_width/figure2_confirmation.png",
+      "sha256": "783c8cc16056bfea10002fdfd3f030eca0761127556796b7804c191ae2b679c9",
+      "bytes": 397864
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/full_width/figure2_confirmation.svg",
+      "sha256": "c9530a76a7ad1bf3c5f7130572727bc0be45c718b2a8e6ca14c0e9bd8ed4fac6",
+      "bytes": 24576
+    }
+  ],
+  "sources": [
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/position_response.csv",
+      "sha256": "a1322b0b04813b4f2892e9366736580f2031b51f06ea67d7cdfb70407b2e27b0"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/paired_panel.csv",
+      "sha256": "8d55b840b1fc6ca3a7bf23824111ec94ebdf5f7bd9f61a8f7d428b77a29655e9"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/transport_response.csv",
+      "sha256": "9cdee316de44458e2af111c2a7400ba2119e20a98ff8c12684f43cbe6f2a07a8"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/equal_budget_controls.csv",
+      "sha256": "f0b78839d21d3dc63e9d1db778356dc854dfeeff964c1039b443a8f5de006d5b"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/timestep_refinement.csv",
+      "sha256": "5b75c1e73e31481e01b8771b7dc9c5045c186f8d8bbfab4026f607c6a47a255f"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/spatial_refinement.csv",
+      "sha256": "63eff94a599bc5cec1c7a2e35ce6f261eeb0dae860e83e1e41c27947f3717284"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/morphology_event_projections.npz",
+      "sha256": "160ad4f3233a5980781d90ec201b2c58d46db67744765502dd3153607b1f8b19"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/morphology_event_projections.json",
+      "sha256": "6389de9a56aa60f3c97dac16038e0a782df6c876f6b8c62cc885742b446b8cb7"
+    }
+  ]
+}
