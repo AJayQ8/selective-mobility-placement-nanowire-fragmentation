@@ -227,9 +227,9 @@ def check_repository_metadata() -> list[str]:
             'cff-version: 1.2.0',
             'family-names: "Al-Zanki"',
             'given-names: "Ayas"',
-            'version: "1.0.0"',
+            'version: "1.0.1"',
             "license: GPL-3.0-only",
-            "https://github.com/AJayQ8/selective-mobility-scripta",
+            "https://github.com/AJayQ8/selective-mobility-placement-nanowire-fragmentation",
         )
         for fragment in required_citation_fragments:
             if fragment not in citation:
@@ -538,7 +538,7 @@ def main() -> None:
     failures = [f"{name}: {message}" for name, messages in checks.items() for message in messages]
     report = {
         "schema_version": 1,
-        "release": "selective-mobility-scripta-1.0.0",
+        "release": "selective-mobility-placement-nanowire-fragmentation-1.0.1",
         "passed": not failures,
         "checks": {name: not messages for name, messages in checks.items()},
         "failures": failures,
