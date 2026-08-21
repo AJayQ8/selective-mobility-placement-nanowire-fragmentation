@@ -221,13 +221,53 @@
         "sha256": "b9569d7d74fd69311b1e3791e267392e66a24145beb11e32d70563824fbaca6c",
         "bytes": 5538
       }
+    },
+    {
+      "id": "S17",
+      "role": "source-A eight-placement pre-fragmentation morphology audit",
+      "original_identity": {
+        "archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_mechanism_profile_audit_v1/summary.json",
+        "sha256": "3cca0747f1cefd2cdb331dbfe04f936d7aea0fa7471869b95a09571c34cdd973",
+        "bytes": 231043
+      },
+      "public_copy": {
+        "path": "science_lab/papers/selective_mobility_scripta/source_data/raw/position_scan_mechanism_profile_audit_v1.json",
+        "sha256": "a0fd8a4b7f36392d255b6df5bc14aecdb538d15575277fb908c2a39a75ac2b6e",
+        "bytes": 231025,
+        "path_policy": "portable"
+      },
+      "companion": {
+        "path": "science_lab/papers/selective_mobility_scripta/source_data/raw/position_scan_mechanism_profile_metrics_v1.csv",
+        "sha256": "5ad0bb6f7c45a9f824fa47a758774de221e5dd5711fa01694137fb8b65220c96",
+        "bytes": 4991
+      }
+    },
+    {
+      "id": "S18",
+      "role": "zero-step matched four-arm phase-radius extraction in sources A, B, and C",
+      "original_identity": {
+        "archive_path": "81 archived one-dimensional profile files enumerated in the extraction manifest",
+        "sha256": "9ca9bdd1bb1208f02e2300e8765ad0b301bfb36b1f2870c147cb159fd1e8c855",
+        "bytes": 33931
+      },
+      "public_copy": {
+        "path": "science_lab/papers/selective_mobility_scripta/source_data/raw/precursor_phase_radius_time_series_v1.csv",
+        "sha256": "9ca9bdd1bb1208f02e2300e8765ad0b301bfb36b1f2870c147cb159fd1e8c855",
+        "bytes": 33931,
+        "path_policy": "portable"
+      },
+      "companion": {
+        "path": "science_lab/papers/selective_mobility_scripta/source_data/raw/precursor_phase_radius_time_series_v1_manifest.json",
+        "sha256": "f453ae9aa431991e4ed73d8bb840fcc54f93a9e012dde9bc18212b0acd2f13c1",
+        "bytes": 26915
+      }
     }
   ],
   "derived_artifacts": [
     {
       "path": "science_lab/papers/selective_mobility_scripta/source_data/evidence.json",
-      "sha256": "530e686cf92821df14d2ce32b4fe03b6b770b4c80753d85041c9ae13225b2203",
-      "bytes": 22060
+      "sha256": "a59b1b99d9ad88ed75de5bdbc8d7c30aee216ab5b888613739eeb1bca2f7c4d9",
+      "bytes": 26454
     },
     {
       "path": "science_lab/papers/selective_mobility_scripta/source_data/position_response.csv",
@@ -293,6 +333,81 @@
       "path": "science_lab/papers/selective_mobility_scripta/source_data/morphology_event_projections.npz",
       "sha256": "160ad4f3233a5980781d90ec201b2c58d46db67744765502dd3153607b1f8b19",
       "bytes": 469325
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/cms_benchmark_inputs.json",
+      "sha256": "3b64f71f3c8a9ebdea772e7d886b51d8c641ea0d1f6ae0d05271e2bf523b85d9",
+      "bytes": 919
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/cms_normalized_response.csv",
+      "sha256": "9f02b4f4acbc864b2f38568a3ad91df856b36aef23c0644202ac3090ff08ae84",
+      "bytes": 1606
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/cms_validation_matrix.csv",
+      "sha256": "5d5a233b51eafb12511edfece792827ec34a2a97b0fd4d7c5baa3fae9f2b6ae7",
+      "bytes": 2782
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/cms_analysis_receipt.json",
+      "sha256": "efb2781e4c19692477a21673138150674ac2dd184de97b444c8739eee151c3ae",
+      "bytes": 1146
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/precursor_synthesis/readout_v1/source_a_placement_precursor.csv",
+      "sha256": "b2335dde19106f7f035e930fbd341488eb3767dc44fdc48acccee1ea7711d0c3",
+      "bytes": 786
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/precursor_synthesis/readout_v1/matched_phase_radius_time_series.csv",
+      "sha256": "919679f0ffcce9ef3e6190eee1fca69d0d010679913b76b356d2165d46435748",
+      "bytes": 6028
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/precursor_synthesis/readout_v1/summary.json",
+      "sha256": "dafcc3e05ac031e0fdaa65f8aefda9f1e7685a8fe1934b30d3742e92886a7e21",
+      "bytes": 7987
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/precursor_synthesis/readout_v1/manifest.json",
+      "sha256": "aeccc3f80fcaeef5116e2e27dd03abc2a346300bc413d0adca738c09ec21d983",
+      "bytes": 929
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/precursor_context_audit/readout_v1/summary.json",
+      "sha256": "0a251ff084897ffa09ffd2d58a3e8966370b2b37e883dec0e3a7ba40f022cf7d",
+      "bytes": 3588
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/precursor_context_audit/readout_v1/probe_context.csv",
+      "sha256": "781889769e8fee35a9d1e2458d027a26a821a5fbcdb52fa4b5ad314979a7c0d5",
+      "bytes": 964
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/precursor_context_audit/readout_v1/early_sign_lead.csv",
+      "sha256": "1a1b12cf515ebfaff7e83375bff9a7eaeb03f573a943a111c59a57ebca6ba87e",
+      "bytes": 492
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/precursor_context_audit/readout_v1/manifest.json",
+      "sha256": "7728349315b4aa26dc39610d2102f9c1bd9700f1181b38988806da800cc549b6",
+      "bytes": 686
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/failed_benchmarks/cylinder_dispersion_summary.json",
+      "sha256": "aaaf68b46b6cb0a4e15b31097abd212428c0ca848ed8e7b7f64c3a0c15698990",
+      "bytes": 21824
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/failed_benchmarks/conditioned_cylinder_summary.json",
+      "sha256": "154beaf9e1b4079d59ec28f23cb60e2b97695e178ba3ff0b09aae6fe2fca78dd",
+      "bytes": 42372
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/failed_benchmarks/rw_source_screen_summary.json",
+      "sha256": "9121b85ebf3146f5dc314eb8c94aaafe4ec220d9ec06b5e058f92b2baa89e2ab",
+      "bytes": 127960
     }
   ]
 }

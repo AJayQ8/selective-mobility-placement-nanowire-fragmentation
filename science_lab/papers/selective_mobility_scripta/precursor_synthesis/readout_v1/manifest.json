@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "analysis": {
+    "path": "science_lab/papers/selective_mobility_scripta/precursor_synthesis/analyze.py",
+    "sha256": "79d55e5888200ed9e3c3c8b580e88b8ac0a981832aca9ab6084bfd59a9a7340d"
+  },
+  "contract": {
+    "path": "science_lab/papers/selective_mobility_scripta/precursor_synthesis/SCIENTIFIC_CONTRACT.md",
+    "sha256": "b03bc468e170a6f138f5dd3112ff381dd16f9e1cf390fcfe0d3f10bf2773d0f8"
+  },
+  "outputs": [
+    {
+      "path": "summary.json",
+      "bytes": 7987,
+      "sha256": "dafcc3e05ac031e0fdaa65f8aefda9f1e7685a8fe1934b30d3742e92886a7e21"
+    },
+    {
+      "path": "source_a_placement_precursor.csv",
+      "bytes": 786,
+      "sha256": "b2335dde19106f7f035e930fbd341488eb3767dc44fdc48acccee1ea7711d0c3"
+    },
+    {
+      "path": "matched_phase_radius_time_series.csv",
+      "bytes": 6028,
+      "sha256": "919679f0ffcce9ef3e6190eee1fca69d0d010679913b76b356d2165d46435748"
+    }
+  ]
+}

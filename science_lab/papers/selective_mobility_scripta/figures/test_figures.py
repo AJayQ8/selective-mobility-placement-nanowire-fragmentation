@@ -13,7 +13,7 @@ import numpy as np
 from PIL import Image
 from pypdf import PdfReader
 
-from . import figure1, figure2, figure3, figure4
+from . import figure1, figure2, figure3, figure4, figure5
 from . import figure_common as common
 
 
@@ -109,8 +109,40 @@ class FigureTests(unittest.TestCase):
         finally:
             plt.close(figure)
 
-    def test_figure3_implemented_geometry_and_values(self) -> None:
-        figure = figure3.build_figure(self.transport)
+    def test_figure3_precursor_hierarchy_and_values(self) -> None:
+        data = figure3.load_and_validate()
+        primary = data["context"]["probe_context"][
+            "primary_outside_support_common_mode_association"
+        ]
+        self.assertEqual(primary["n"], 5)
+        self.assertAlmostEqual(primary["pearson_r"], 0.9493485905736291)
+        self.assertEqual(
+            data["summary"]["matched_phase_radius_confirmation"]["passed_count"],
+            8,
+        )
+        figure = figure3.build_figure(data, figure3.REVIEW_WIDTH_MM)
+        try:
+            self.assertEqual(len(figure.axes), 3)
+            axis_a, axis_b, _ = figure.axes
+            visible_a = " ".join(text.get_text() for text in axis_a.texts)
+            self.assertIn("r=0.95", visible_a)
+            self.assertIn("n=5", visible_a)
+            self.assertNotIn("0.980", visible_a)
+            series = {line.get_gid() for line in axis_b.lines if line.get_gid()}
+            self.assertEqual(
+                series,
+                {
+                    "c26p5-bc-mean",
+                    "c26p5-source-a",
+                    "c34p5-bc-mean",
+                    "c34p5-source-a",
+                },
+            )
+        finally:
+            plt.close(figure)
+
+    def test_figure4_implemented_geometry_and_values(self) -> None:
+        figure = figure4.build_figure(self.transport)
         try:
             labels = [label.get_text() for label in figure.axes[0].get_yticklabels()]
             self.assertIn("farther-out 38.5", labels)
@@ -127,9 +159,9 @@ class FigureTests(unittest.TestCase):
         finally:
             plt.close(figure)
 
-    def test_figure4_layout_and_values(self) -> None:
-        data = figure4.load_and_validate()
-        figure = figure4.build_figure(data, common.COMPACT_WIDTH_MM)
+    def test_figure5_layout_and_values(self) -> None:
+        data = figure5.load_and_validate()
+        figure = figure5.build_figure(data, common.COMPACT_WIDTH_MM)
         try:
             self.assertEqual(len(data["contrast"]), 8)
             self.assertEqual(
@@ -157,13 +189,18 @@ class FigureTests(unittest.TestCase):
 
     def test_artifact_manifests_and_physical_widths(self) -> None:
         records = [
-            (ARTWORK / "main" / f"figure{index}_manifest.json", "compact_outputs", "full_width_outputs")
-            for index in range(1, 5)
+            (
+                ARTWORK / "main" / f"figure{index}_manifest.json",
+                "review_outputs" if index == 3 else "compact_outputs",
+                "full_width_outputs",
+                160.0 if index == 3 else 137.0,
+            )
+            for index in range(1, 6)
         ]
-        for manifest_path, compact_key, full_key in records:
+        for manifest_path, compact_key, full_key, review_width in records:
             manifest = load_manifest(manifest_path)
             self.assertEqual(manifest["schema_version"], 1)
-            for key, expected_width in ((compact_key, 137.0), (full_key, 190.0)):
+            for key, expected_width in ((compact_key, review_width), (full_key, 190.0)):
                 outputs = manifest[key]
                 self.assertEqual(len(outputs), 3)
                 for output in outputs:

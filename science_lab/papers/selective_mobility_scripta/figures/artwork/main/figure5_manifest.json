@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "figure": 5,
+  "generator": "science_lab/papers/selective_mobility_scripta/figures/figure5.py",
+  "scope": "targeted numerical validation and two-factor mobility-contrast robustness",
+  "sources": [
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/timestep_refinement.csv",
+      "sha256": "5b75c1e73e31481e01b8771b7dc9c5045c186f8d8bbfab4026f607c6a47a255f",
+      "bytes": 561
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/spatial_refinement.csv",
+      "sha256": "63eff94a599bc5cec1c7a2e35ce6f261eeb0dae860e83e1e41c27947f3717284",
+      "bytes": 1181
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/mobility_contrast.csv",
+      "sha256": "fbb69d6691ad48616e8322d4aacc5777b9db1425ebaec481e81fa4993607e523",
+      "bytes": 1469
+    }
+  ],
+  "science": {
+    "production_dt1_shift": -110.0,
+    "production_dt05_shift": -100.0,
+    "reduced_shift": -100.0,
+    "refined_shift": -100.0,
+    "fine_acceptance_interval": [
+      -125.0,
+      -75.0
+    ],
+    "contrast_factors": [
+      0.1,
+      0.3
+    ],
+    "m03_intermediate_shifts": {
+      "B": 200.0,
+      "C": 200.0
+    },
+    "m03_outboard_shifts": {
+      "B": -60.0,
+      "C": -60.0
+    },
+    "all_contrast_events_junction_adjacent": true,
+    "continuous_contrast_law_claimed": false
+  },
+  "geometry": {
+    "compact_width_mm": 137.0,
+    "compact_height_mm": 145.0,
+    "full_width_mm": 190.0,
+    "full_height_mm": 201.09489051094891,
+    "minimum_semantic_text_pt": 9.4,
+    "marker_size_pt": 8.2,
+    "panel_count": 2
+  },
+  "compact_outputs": [
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/figure5_robustness.pdf",
+      "sha256": "c085ae55ab8ca1255dfab959bda04bf4df015698220f2cc8d59b0b25b12b01ca",
+      "bytes": 27346
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/figure5_robustness.png",
+      "sha256": "d9a824d95e004b2a147652c7dfb931eca027974d78a40ab1d571de98037299b4",
+      "bytes": 306272
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/figure5_robustness.svg",
+      "sha256": "ff3632265650f64344a4091d846ebe6697d220e0c9c51073aab13fb2c514567d",
+      "bytes": 30980
+    }
+  ],
+  "full_width_outputs": [
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/full_width/figure5_robustness.pdf",
+      "sha256": "a89cf61f23f66d03212f6abed76f76dab420a246a9d58c7289875a9bd00d0d0f",
+      "bytes": 27372
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/full_width/figure5_robustness.png",
+      "sha256": "b61fe639774246bed0707e4a3ef0b857368a34090073fef3c3a34031a011eff1",
+      "bytes": 363739
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/full_width/figure5_robustness.svg",
+      "sha256": "265c0b9130c29883c9a7715f6677b3f0f972548a99b177ed9fb21d5dd8b71850",
+      "bytes": 30961
+    }
+  ]
+}

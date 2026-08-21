@@ -227,7 +227,9 @@ def check_repository_metadata() -> list[str]:
             'cff-version: 1.2.0',
             'family-names: "Alzanki"',
             'given-names: "Ayas"',
-            'version: "1.0.1"',
+            'orcid: "https://orcid.org/0009-0004-3121-3778"',
+            'affiliation: "Energy and Building Research Center, Kuwait Institute for Scientific Research"',
+            'version: "1.1.0"',
             "license: GPL-3.0-only",
             "https://github.com/AJayQ8/selective-mobility-placement-nanowire-fragmentation",
         )
@@ -398,6 +400,48 @@ def check_core_numbers() -> list[str]:
     checks = load_csv("numerical_checks.csv")
     if len(checks) == 0 or any(row.get("passed", "").lower() != "true" for row in checks):
         failures.append("numerical-check ledger contains a nonpassing record")
+
+    precursor = load_json(PAPER / "precursor_synthesis" / "readout_v1" / "summary.json")
+    if precursor["scope"]["simulation_steps_performed"] != 0:
+        failures.append("precursor synthesis is not a zero-step analysis")
+    confirmation = precursor["matched_phase_radius_confirmation"]
+    if (confirmation["passed_count"], confirmation["required_count"]) != (8, 8):
+        failures.append("matched precursor confirmation is not 8/8")
+    contour = precursor["existing_three_contour_confirmation"]
+    if (contour["passed_count"], contour["required_count"]) != (24, 24):
+        failures.append("three-contour precursor gate is not 24/24")
+
+    context = load_json(PAPER / "precursor_context_audit" / "readout_v1" / "summary.json")
+    primary = context["probe_context"]["primary_outside_support_common_mode_association"]
+    full = context["probe_context"]["full_eight_point_association"]
+    if primary["n"] != 5 or abs(primary["pearson_r"] - 0.9493485905736291) > 1e-12:
+        failures.append("primary outside-support precursor association changed")
+    if full["n"] != 8 or abs(full["pearson_r"] - 0.9802650393895559) > 1e-12:
+        failures.append("confounded eight-point sensitivity association changed")
+    if context["early_time_separation"]["minimum_lead_to_event_bracket_lower"] != 850:
+        failures.append("minimum stored precursor lead is not 850")
+
+    receipt = load_json(DATA / "cms_analysis_receipt.json")
+    if receipt.get("simulation_steps_performed") != 0 or not receipt.get(
+        "all_required_gates_satisfied"
+    ):
+        failures.append("CMS analysis receipt is not a passing zero-step receipt")
+    matrix = load_csv("cms_validation_matrix.csv")
+    statuses = [row["status"] for row in matrix]
+    if len(matrix) != 9 or statuses.count("pass") != 8 or statuses.count("supporting") != 1:
+        failures.append("CMS validation matrix does not contain eight pass and one supporting rows")
+
+    failed_dir = DATA / "failed_benchmarks"
+    for name in (
+        "cylinder_dispersion_summary.json",
+        "conditioned_cylinder_summary.json",
+        "rw_source_screen_summary.json",
+    ):
+        record = load_json(failed_dir / name)
+        decision = record.get("decision", {})
+        passed = decision.get("passed", decision.get("primary_gate_passed"))
+        if passed is not False:
+            failures.append(f"preserved negative gate is no longer failed: {name}")
     return failures
 
 
@@ -408,8 +452,8 @@ def check_portable_provenance() -> list[str]:
         failures.append("public provenance manifest ID is wrong")
         return failures
     sources = manifest.get("sources", [])
-    if {record.get("id") for record in sources} != {f"S{index:02d}" for index in range(1, 17)}:
-        failures.append("public provenance does not contain exactly S01-S16")
+    if {record.get("id") for record in sources} != {f"S{index:02d}" for index in range(1, 19)}:
+        failures.append("public provenance does not contain exactly S01-S18")
     for record in sources:
         public = record.get("public_copy")
         if public:
@@ -443,14 +487,14 @@ def check_figures() -> list[str]:
     failures: list[str] = []
     manifests = [
         FIGURES / "artwork" / "main" / f"figure{index}_manifest.json"
-        for index in range(1, 5)
+        for index in range(1, 6)
     ] + [FIGURES / "artwork" / "graphical_abstract" / "graphical_abstract_manifest.json"]
     for path in manifests:
         if not path.is_file():
             failures.append(f"missing figure manifest: {path.name}")
             continue
         record = load_json(path)
-        for key in ("compact_outputs", "full_width_outputs", "outputs"):
+        for key in ("review_outputs", "compact_outputs", "full_width_outputs", "outputs"):
             for output in record.get(key, []):
                 output_path = Path(output["path"])
                 if output_path.parts and output_path.parts[0] == "science_lab":
@@ -510,6 +554,7 @@ def check_figures() -> list[str]:
         "figure2.py",
         "figure3.py",
         "figure4.py",
+        "figure5.py",
         "figure_common.py",
         "generate_all.py",
         "graphical_abstract.py",
@@ -538,7 +583,7 @@ def main() -> None:
     failures = [f"{name}: {message}" for name, messages in checks.items() for message in messages]
     report = {
         "schema_version": 1,
-        "release": "selective-mobility-placement-nanowire-fragmentation-1.0.1",
+        "release": "selective-mobility-placement-nanowire-fragmentation-1.1.0",
         "passed": not failures,
         "checks": {name: not messages for name, messages in checks.items()},
         "failures": failures,

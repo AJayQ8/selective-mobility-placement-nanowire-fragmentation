@@ -4,7 +4,7 @@ This directory contains compact, inspectable evidence for the campaign
 contracts, pre-run protocol, detector replay, weaker-contrast confirmation,
 B/C transport recurrence, time-step check, and factor-two refinement.
 
-`source_index.json` records the original SHA-256 and byte length for S01--S16.
+`source_index.json` records the original SHA-256 and byte length for S01--S18.
 Compact source records are included where they support direct auditing.
 Large runtime summaries are represented by their original identities and the
 normalized values derived from them. `scripts/build_public_provenance.py`

@@ -1,22 +1,28 @@
 cff-version: 1.2.0
 message: "Please cite the associated study and this archived software release."
-title: "Placement-dependent mobility suppression in a welded nanowire junction"
+title: "Data and code for: Placement can reverse the fragmentation-time response to localized mobility suppression in a welded nanowire junction"
 type: software
 authors:
   - family-names: "Alzanki"
     given-names: "Ayas"
-version: "1.0.1"
-date-released: 2026-08-14
+    orcid: "https://orcid.org/0009-0004-3121-3778"
+    affiliation: "Energy and Building Research Center, Kuwait Institute for Scientific Research"
+version: "1.1.0"
+date-released: 2026-08-21
 license: GPL-3.0-only
 repository-code: "https://github.com/AJayQ8/selective-mobility-placement-nanowire-fragmentation"
 url: "https://github.com/AJayQ8/selective-mobility-placement-nanowire-fragmentation"
 abstract: >-
-  Code, normalized data, provenance, and figures for a phase-field study showing
-  that outward placement of otherwise identical low-mobility collars can reverse
-  their fragmentation-time response.
+  Code, normalized data, provenance, figures, and zero-step validation analyses
+  for a conserved diffuse-interface study showing that outward placement of
+  otherwise identical low-mobility collars can reverse their fragmentation-time
+  response. This release adds the audited pre-fragmentation morphology evidence,
+  the CMS validation matrix, and preserved negative benchmark gates.
 keywords:
   - phase field
-  - surface diffusion
+  - conserved diffuse-interface transport
   - nanowire junction
   - localized mobility
   - fragmentation
+  - first-passage time
+  - kinetic patterning

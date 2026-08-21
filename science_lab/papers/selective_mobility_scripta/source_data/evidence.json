@@ -1,9 +1,10 @@
 {
   "schema_version": 1,
   "evidence_id": "selective_mobility_scripta_evidence_v5",
-  "study_scope": {
+  "paper_scope": {
     "system": "welded crossed nanowire junction under conserved phase-field evolution",
     "question": "How does the spatial placement of a finite kinetic barrier change first-fragmentation time and site?",
+    "primary_target": "Scripta Materialia",
     "model_change_in_this_package": false,
     "simulation_steps_in_this_package": 9980,
     "simulation_scope_note": "The package completed 1650 untreated and 1550 c34.5 fine-grid continuation proposals, a 120-step source-A untreated detector replay, and 6660 proposals in four frozen weaker-contrast treatment branches. The archived B/C transport recurrence analysis performed no new simulation."
@@ -118,7 +119,7 @@
       "maximum_gap_displacement": 2.8284271247461903
     },
     "persistent_single_arm_legacy_adapter": {
-      "status": "superseded_by_S14_for_reported_measurement",
+      "status": "superseded_for_paper_facing_measurement_by_S14",
       "required_records": 3,
       "diagnostic_interval": 10,
       "seed": 2292,
@@ -161,7 +162,9 @@
     "timestep_refinement": "timestep_refinement.csv",
     "spatial_refinement": "spatial_refinement.csv",
     "detector_replay": "detector_replay.csv",
-    "numerical_checks": "numerical_checks.csv"
+    "numerical_checks": "numerical_checks.csv",
+    "source_a_placement_precursor": "../precursor_synthesis/readout_v1/source_a_placement_precursor.csv",
+    "matched_phase_radius_time_series": "../precursor_synthesis/readout_v1/matched_phase_radius_time_series.csv"
   },
   "claims": [
     {
@@ -361,6 +364,33 @@
         "primary_mask_budget.csv"
       ],
       "scope": "This is a descriptive source-A initial-state diagnostic. The budgets are nearly matched but not exactly equal; exact equality applies only to the geometric full-domain mask integral."
+    },
+    {
+      "id": "C14",
+      "status": "exploratory_pre_fragmentation_association",
+      "statement": "At common t=1300, while all eight source-A welds remain connected, the five placements for which the fixed probe lies outside collar support and the first-event mode is common show a post-hoc descriptive association between four-arm mean phase-radius response and corrected lifetime shift (Pearson r=0.949, n=5).",
+      "support": [
+        "S17#/weld_connectivity_t1300",
+        "S17#/profile_rows",
+        "S02#/descriptive_summary/corrected_position_response",
+        "../precursor_synthesis/readout_v1/source_a_placement_precursor.csv",
+        "../precursor_context_audit/readout_v1/probe_context.csv",
+        "../precursor_context_audit/readout_v1/summary.json#/probe_context"
+      ],
+      "scope": "This is a post-hoc descriptive association within exploratory source A. The all-eight r=0.980 association is retained only as a confounded sensitivity calculation because its three remote-event cases are exactly the three probe/collar-overlap cases. No fitted lifetime law, inferential population result, or independently calibrated predictor is supported."
+    },
+    {
+      "id": "C15",
+      "status": "matched_pre_fragmentation_precursor_confirmed",
+      "statement": "The same four-arm mean phase-radius observable has the protective c26.5 sign and harmful c34.5 sign from the first stored diagnostic at t=700 in sources A-C, at least 850 model-time units before an event-bracket lower bound. The frozen t=1300 and t=1500 checks pass in both independent confirmation sources B and C (8/8), and the separately frozen three-contour weak-zone audit remains passed at 24/24 checks.",
+      "support": [
+        "S18#/output",
+        "../precursor_synthesis/readout_v1/summary.json#/matched_phase_radius_confirmation",
+        "../mechanism_audit/readout_v1/summary.json#/primary_held_out_gate",
+        "../precursor_context_audit/readout_v1/early_sign_lead.csv",
+        "../precursor_context_audit/readout_v1/summary.json#/early_time_separation"
+      ],
+      "scope": "Sources B and C confirm two representative placement signs, not the continuous eight-position curve. Arms are correlated diagnostics and are not counted as replicates."
     }
   ],
   "primary_mask_budget_summary": {
@@ -504,7 +534,7 @@
       }
     },
     "all_four_junction_adjacent": true,
-    "maximum_absolute_relative_mass_drift": 2.074753985846794e-06,
+    "maximum_absolute_relative_mass_drift": 0.000002074753985846794,
     "sampled_energy_rebound_count": 0,
     "classification": "weaker_contrast_sign_reversal_confirmed",
     "passed": true
@@ -531,6 +561,37 @@
     "strict_all_arm_continuity_gate_passed": false,
     "interpretation": "supporting signed recurrence with one marginal continuity-tolerance miss"
   },
+  "precursor_synthesis_summary": {
+    "source_ids": [
+      "S17",
+      "S18"
+    ],
+    "simulation_steps_performed": 0,
+    "primary_time": 1300,
+    "natural_event_site": 19.25,
+    "source_a_full_sweep_pearson_r": 0.9802650393895559,
+    "source_a_full_sweep_spearman_rho": 0.9761904761904763,
+    "source_a_full_sweep_role": "confounded_sensitivity_only",
+    "source_a_same_failure_mode_pearson_r": 0.9493485905736291,
+    "source_a_same_failure_mode_spearman_rho": 0.9999999999999999,
+    "source_a_primary_subset_definition": "probe outside collar support and common first-event mode",
+    "source_a_primary_subset_count": 5,
+    "source_a_probe_collar_overlap_cases": [
+      "c14p5",
+      "c18p5",
+      "c22p5"
+    ],
+    "source_a_all_welds_connected_at_t1300": true,
+    "far_control_phase_radius_response": -0.0036865200954232513,
+    "far_control_corrected_lifetime_shift": 0.0,
+    "matched_bc_check_count": 8,
+    "matched_bc_passed_count": 8,
+    "three_contour_bc_check_count": 24,
+    "three_contour_bc_passed_count": 24,
+    "representative_first_stored_persistent_sign_time": 700,
+    "representative_minimum_lead_to_event_bracket_lower": 850,
+    "classification": "exploratory_outside_support_association_with_matched_held_out_precursor_passed"
+  },
   "exclusions": [
     "No universal placement law or phase boundary is established.",
     "No R12 or multi-radius scale-transfer claim is supported by this package.",
@@ -538,6 +599,9 @@
     "No experiment or material calibration is included.",
     "The fixed Eulerian mobility landscape is not an advected coating model.",
     "The position scan is discovery/interpolation, not independent external validation.",
+    "The primary source-A morphology/lifetime correlation is a post-hoc descriptive five-case association within one source; no p-value, fitted lifetime law, or population-prediction claim is supported.",
+    "The all-eight source-A morphology/lifetime correlation is confounded by exact coincidence between the three remote-event cases and the three probe/collar-overlap cases; it is sensitivity context, not primary evidence.",
+    "The matched source-B/source-C precursor analysis confirms c26.5 and c34.5 signs at two times, not the continuous eight-position response.",
     "Source A is exploratory discovery evidence and is not counted as confirming placements selected from its own scan; sources B and C are the two independent confirmations.",
     "The primary transport decomposition is source A at one instantaneous time; archived sources B and C provide supporting signed recurrence with one marginal continuity-tolerance miss, not a passed validation gate.",
     "Two mobility factors are tested; no continuous contrast law, threshold, monotonic magnitude scaling, or contrast independence is established.",

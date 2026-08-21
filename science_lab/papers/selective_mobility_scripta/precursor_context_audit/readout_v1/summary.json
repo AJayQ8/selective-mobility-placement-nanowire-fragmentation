@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "analysis_id": "precursor_context_audit_v1",
+  "status": "complete",
+  "scope": {
+    "simulation_steps_performed": 0,
+    "probe_distance": 19.25,
+    "support_half_width": 6.0,
+    "plateau_half_width": 3.0,
+    "minimum_multiplier": 0.1,
+    "source_a_role": "exploratory_discovery",
+    "arms_are_independent_replicates": false
+  },
+  "probe_context": {
+    "overlap_cases": [
+      "c14p5",
+      "c18p5",
+      "c22p5"
+    ],
+    "primary_outside_support_common_mode_cases": [
+      "c26p5",
+      "c30p5",
+      "c34p5",
+      "c38p5",
+      "c64p5"
+    ],
+    "overlap_case_count": 3,
+    "primary_case_count": 5,
+    "full_eight_point_association": {
+      "n": 8,
+      "case_order": [
+        "c14p5",
+        "c18p5",
+        "c22p5",
+        "c26p5",
+        "c30p5",
+        "c34p5",
+        "c38p5",
+        "c64p5"
+      ],
+      "pearson_r": 0.9802650393895559,
+      "spearman_rho": 0.9761904761904762,
+      "inferential_statistics_reported": false,
+      "interpretation": "Confounded sensitivity: the three remote-event cases are also the three cases whose fixed probe intersects collar support."
+    },
+    "primary_outside_support_common_mode_association": {
+      "n": 5,
+      "case_order": [
+        "c26p5",
+        "c30p5",
+        "c34p5",
+        "c38p5",
+        "c64p5"
+      ],
+      "pearson_r": 0.949348590573629,
+      "spearman_rho": 1.0,
+      "inferential_statistics_reported": false,
+      "interpretation": "Primary post-hoc descriptive association. The probe is outside collar support and the first-event mode is common for all five cases."
+    },
+    "cluster_summary": {
+      "overlap_metric_min": 0.4760994212630989,
+      "overlap_metric_max": 0.8118091887877654,
+      "overlap_metric_spread": 0.3357097675246665,
+      "outside_support_metric_min": -0.20162910425356184,
+      "outside_support_metric_max": 0.13587917308038544,
+      "outside_support_metric_spread": 0.3375082773339473,
+      "between_cluster_gap": 0.34022024818271346
+    }
+  },
+  "early_time_separation": {
+    "first_stored_time": 700,
+    "representative_source_case_count": 6,
+    "minimum_lead_to_event_bracket_lower": 850,
+    "interpretation": "Both representative signs are already present at the first stored diagnostic in all three sources. This supports early mechanistic separation, not a calibrated lifetime predictor."
+  },
+  "acceptance_checks": {
+    "zero_simulation_steps": true,
+    "three_overlap_cases_identified": true,
+    "five_primary_cases_outside_support": true,
+    "overlap_and_event_mode_are_confounded": true,
+    "primary_pearson_matches_frozen_same_mode_value": true,
+    "all_representative_series_signed_from_first_stored_time": true,
+    "minimum_early_sign_lead_at_least_850": true
+  },
+  "claim_boundary": [
+    "The full eight-point correlation is not used as primary evidence.",
+    "The five-point association is post-hoc and descriptive.",
+    "The early-time series cover two representative placements.",
+    "No p-value, confidence interval, fitted law, or population claim is made."
+  ],
+  "provenance": {
+    "analysis_sha256": "2ba37584083b133b9cf84d120ffe8f59930df340042d7372e0c0fbd8e82be648",
+    "source_a_precursor_sha256": "b2335dde19106f7f035e930fbd341488eb3767dc44fdc48acccee1ea7711d0c3",
+    "time_series_sha256": "919679f0ffcce9ef3e6190eee1fca69d0d010679913b76b356d2165d46435748",
+    "precursor_summary_sha256": "dafcc3e05ac031e0fdaa65f8aefda9f1e7685a8fe1934b30d3742e92886a7e21",
+    "normalized_response_sha256": "9f02b4f4acbc864b2f38568a3ad91df856b36aef23c0644202ac3090ff08ae84"
+  }
+}

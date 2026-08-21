@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "classification": "exploratory_full_scan_association_with_matched_held_out_precursor_passed",
+  "scope": {
+    "simulation_steps_performed": 0,
+    "source_a_role": "exploratory_discovery",
+    "independent_confirmation_sources": [
+      "B",
+      "C"
+    ],
+    "independent_source_count": 3,
+    "arms_are_independent_replicates": false,
+    "primary_time": 1300,
+    "natural_event_site": 19.25
+  },
+  "source_a_placement_sweep": {
+    "full_sweep": {
+      "case_order": [
+        "c14p5",
+        "c18p5",
+        "c22p5",
+        "c26p5",
+        "c30p5",
+        "c34p5",
+        "c38p5",
+        "c64p5"
+      ],
+      "metric_values": [
+        0.776064640438362,
+        0.8118091887877654,
+        0.4760994212630989,
+        0.13587917308038544,
+        -0.09673151998616736,
+        -0.20162910425356184,
+        -0.16373987120155697,
+        -0.0036865200954232513
+      ],
+      "corrected_lifetime_shifts": [
+        850.0,
+        750.0,
+        680.0,
+        290.0,
+        -10.0,
+        -110.0,
+        -100.0,
+        0.0
+      ],
+      "pearson_r": 0.9802650393895559,
+      "spearman_rho": 0.9761904761904763,
+      "inferential_p_value_reported": false,
+      "interpretation": "Post-hoc within-one-source descriptive association, not an independently calibrated predictor or population law."
+    },
+    "same_failure_mode_sensitivity": {
+      "case_order": [
+        "c26p5",
+        "c30p5",
+        "c34p5",
+        "c38p5",
+        "c64p5"
+      ],
+      "metric_values": [
+        0.13587917308038544,
+        -0.09673151998616736,
+        -0.20162910425356184,
+        -0.16373987120155697,
+        -0.0036865200954232513
+      ],
+      "corrected_lifetime_shifts": [
+        290.0,
+        -10.0,
+        -110.0,
+        -100.0,
+        0.0
+      ],
+      "pearson_r": 0.9493485905736291,
+      "spearman_rho": 0.9999999999999999,
+      "inferential_p_value_reported": false,
+      "interpretation": "Post-hoc within-one-source descriptive association, not an independently calibrated predictor or population law."
+    },
+    "far_control": {
+      "case_id": "c64p5",
+      "center": 64.5,
+      "mode_label": "natural",
+      "phase_radius_response_t1300": -0.0036865200954232513,
+      "corrected_lifetime_shift": 0.0,
+      "event_midpoint": 1695.0,
+      "event_lower": 1690.0,
+      "event_upper": 1700.0,
+      "weld_connected_all_three_thresholds_t1300": true,
+      "source_ids": "S02"
+    },
+    "all_welds_connected_t1300": true
+  },
+  "matched_phase_radius_confirmation": {
+    "primary_checks": [
+      {
+        "source": "B",
+        "seed": 104729,
+        "case": "c26p5",
+        "time": 1300,
+        "mean_phase_radius_response": 0.13324744978163938,
+        "expected_sign": 1,
+        "passed": true
+      },
+      {
+        "source": "B",
+        "seed": 104729,
+        "case": "c26p5",
+        "time": 1500,
+        "mean_phase_radius_response": 0.2272947102457783,
+        "expected_sign": 1,
+        "passed": true
+      },
+      {
+        "source": "B",
+        "seed": 104729,
+        "case": "c34p5",
+        "time": 1300,
+        "mean_phase_radius_response": -0.20137952713974827,
+        "expected_sign": -1,
+        "passed": true
+      },
+      {
+        "source": "B",
+        "seed": 104729,
+        "case": "c34p5",
+        "time": 1500,
+        "mean_phase_radius_response": -0.2848387331778155,
+        "expected_sign": -1,
+        "passed": true
+      },
+      {
+        "source": "C",
+        "seed": 130363,
+        "case": "c26p5",
+        "time": 1300,
+        "mean_phase_radius_response": 0.13433567853944095,
+        "expected_sign": 1,
+        "passed": true
+      },
+      {
+        "source": "C",
+        "seed": 130363,
+        "case": "c26p5",
+        "time": 1500,
+        "mean_phase_radius_response": 0.2303324479484281,
+        "expected_sign": 1,
+        "passed": true
+      },
+      {
+        "source": "C",
+        "seed": 130363,
+        "case": "c34p5",
+        "time": 1300,
+        "mean_phase_radius_response": -0.20043847157997474,
+        "expected_sign": -1,
+        "passed": true
+      },
+      {
+        "source": "C",
+        "seed": 130363,
+        "case": "c34p5",
+        "time": 1500,
+        "mean_phase_radius_response": -0.2873948187173976,
+        "expected_sign": -1,
+        "passed": true
+      }
+    ],
+    "passed_count": 8,
+    "required_count": 8,
+    "persistent_onsets": [
+      {
+        "source": "A",
+        "seed": 2292,
+        "evidence_role": "exploratory_discovery",
+        "case": "c26p5",
+        "expected_sign": 1,
+        "persistent_expected_sign_onset": 700,
+        "onset_no_later_than_t1300": true
+      },
+      {
+        "source": "A",
+        "seed": 2292,
+        "evidence_role": "exploratory_discovery",
+        "case": "c34p5",
+        "expected_sign": -1,
+        "persistent_expected_sign_onset": 700,
+        "onset_no_later_than_t1300": true
+      },
+      {
+        "source": "B",
+        "seed": 104729,
+        "evidence_role": "independent_confirmation",
+        "case": "c26p5",
+        "expected_sign": 1,
+        "persistent_expected_sign_onset": 700,
+        "onset_no_later_than_t1300": true
+      },
+      {
+        "source": "B",
+        "seed": 104729,
+        "evidence_role": "independent_confirmation",
+        "case": "c34p5",
+        "expected_sign": -1,
+        "persistent_expected_sign_onset": 700,
+        "onset_no_later_than_t1300": true
+      },
+      {
+        "source": "C",
+        "seed": 130363,
+        "evidence_role": "independent_confirmation",
+        "case": "c26p5",
+        "expected_sign": 1,
+        "persistent_expected_sign_onset": 700,
+        "onset_no_later_than_t1300": true
+      },
+      {
+        "source": "C",
+        "seed": 130363,
+        "evidence_role": "independent_confirmation",
+        "case": "c34p5",
+        "expected_sign": -1,
+        "persistent_expected_sign_onset": 700,
+        "onset_no_later_than_t1300": true
+      }
+    ]
+  },
+  "existing_three_contour_confirmation": {
+    "passed": true,
+    "passed_count": 24,
+    "required_count": 24,
+    "pre_event_gate_passed": true
+  },
+  "acceptance_checks": {
+    "all_source_a_welds_connected_t1300": true,
+    "full_sweep_pearson_at_least_0p90": true,
+    "same_mode_pearson_at_least_0p90": true,
+    "far_phase_radius_response_below_0p01": true,
+    "far_lifetime_shift_at_most_one_interval": true,
+    "all_eight_matched_bc_checks_pass": true,
+    "all_bc_signs_persistent_by_t1300": true,
+    "existing_three_contour_gate_remains_24_of_24": true
+  },
+  "decision": {
+    "passed": true,
+    "interpretation": "An early source-A morphology response tracks the corrected placement-lifetime curve, including within the common junction-adjacent failure mode, and the same signed metric recurs in B/C. This is not a universal predictive law."
+  },
+  "provenance": {
+    "contract_sha256": "b03bc468e170a6f138f5dd3112ff381dd16f9e1cf390fcfe0d3f10bf2773d0f8",
+    "analysis_sha256": "79d55e5888200ed9e3c3c8b580e88b8ac0a981832aca9ab6084bfd59a9a7340d",
+    "imported_scan_summary_sha256": "a0fd8a4b7f36392d255b6df5bc14aecdb538d15575277fb908c2a39a75ac2b6e",
+    "imported_scan_metrics_sha256": "5ad0bb6f7c45a9f824fa47a758774de221e5dd5711fa01694137fb8b65220c96",
+    "position_response_sha256": "a1322b0b04813b4f2892e9366736580f2031b51f06ea67d7cdfb70407b2e27b0",
+    "matched_raw_sha256": "9ca9bdd1bb1208f02e2300e8765ad0b301bfb36b1f2870c147cb159fd1e8c855",
+    "matched_raw_manifest_sha256": "f453ae9aa431991e4ed73d8bb840fcc54f93a9e012dde9bc18212b0acd2f13c1",
+    "contour_summary_sha256": "5bfb9edc6eb6c263bcb89f32fc00e48ee9a9ca81d5b4d09b5bc445dd513350e8"
+  },
+  "claim_boundary": [
+    "The eight-position correlation is post-hoc and within one source.",
+    "B/C confirm two frozen placement signs, not a continuous law.",
+    "Arms are correlated diagnostics, not independent replicates.",
+    "No radius, angle, material, or sharp-interface transfer is shown."
+  ]
+}

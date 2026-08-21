@@ -6,7 +6,8 @@ The archive directly supports three levels of checking:
 
 1. **Claim audit** — recompute the reported timing shifts, propagated
    diagnostic intervals, source roles, transport signs, numerical checks, and
-   refinement outcomes from the normalized CSV/JSON layer.
+   refinement outcomes, precursor associations, probe context, and CMS
+   validation outcomes from the normalized CSV/JSON layer.
 2. **Figure regeneration** — rebuild the reported figures from those normalized
    inputs and the compact morphology projections.
 3. **Implementation inspection and unit tests** — inspect and test the CPU
@@ -64,7 +65,7 @@ make figures
 ```
 
 The command writes a new set under `reproduced_artifacts/`; it never overwrites
-the checked-in artwork. Figures 1--4 and the supporting figures use bundled
+the checked-in artwork. Figures 1--5 and the supporting figures use bundled
 normalized inputs. The graphical abstract is regenerated only when Arial is
 available; otherwise the script reports that the font is unavailable and
 leaves the included hash-verified copy unchanged.
@@ -72,9 +73,23 @@ leaves the included hash-verified copy unchanged.
 Raster pixels are deterministic under the pinned environment. Scientific
 values, geometry, physical sizes, and artifact hashes are checked separately.
 
-Compact figures are native 137-mm artwork. Full-width artwork is native 190-mm
-output and is provided separately so it is not downscaled through a smaller
-layout.
+Figures 1, 2, 4, and 5 have native 137-mm review artwork. The taller three-panel
+Figure 3 has a native 160-mm review version. Full-width artwork is native
+190-mm output and is provided separately so it is not downscaled through a
+smaller layout.
+
+## Rebuild the archived zero-step analyses
+
+```sh
+.venv/bin/python -m science_lab.papers.selective_mobility_scripta.precursor_synthesis.analyze
+.venv/bin/python -m science_lab.papers.selective_mobility_scripta.precursor_context_audit
+.venv/bin/python -m science_lab.papers.selective_mobility_scripta.source_data.build_cms_analysis
+```
+
+These commands read only committed compact evidence. They perform zero model
+time steps and do not launch a simulation. The first command can optionally
+refresh its compact extraction from a separately available archive, but that
+is not required for the shipped readout.
 
 ## Large simulations
 

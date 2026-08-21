@@ -1,0 +1,718 @@
+{
+  "case_analyses": [
+    {
+      "case": {
+        "amplitude": 0.3,
+        "axial_length": 32.0,
+        "barrier": 1.0,
+        "checkpoint_time_interval": 100.0,
+        "diagnostic_time_interval": 5.0,
+        "energy_time_interval": 10.0,
+        "kappa": 1.0,
+        "mobility_prefactor": 1.0,
+        "nz": 64,
+        "q": 1.1780972450961724,
+        "radius": 6.0,
+        "shape": [
+          96,
+          96,
+          64
+        ],
+        "slug": "h0p5_dt0p5_a0p3_nz64",
+        "spacing": 0.5,
+        "stabilizer_alpha": 0.5,
+        "theory_rate_shape": -0.5383897067203922,
+        "timestep": 0.5,
+        "transverse_length": 48.0
+      },
+      "completed_time": 400.0,
+      "fit": {
+        "amplitude_range": [
+          0.2554002208198582,
+          0.2902647920826012
+        ],
+        "fit_amplitude_bounds": [
+          0.1,
+          0.6
+        ],
+        "fit_time_bounds": [
+          20.0,
+          300.0
+        ],
+        "growth_rate": -0.00045759275182010237,
+        "growth_rate_standard_error": 1.7975836012111866e-06,
+        "log_amplitude_intercept": -1.2299460039073886,
+        "measurable": true,
+        "r_squared": 0.9991519642563906,
+        "residual_sum_squares": 6.854732687272475e-05,
+        "sample_count": 57,
+        "time_range": [
+          20.0,
+          300.0
+        ]
+      },
+      "fit_health_passed": true,
+      "numerical_health": {
+        "checks": {
+          "all_fields_finite": true,
+          "energy_rebound_at_most_1e-5": true,
+          "mass_drift_at_most_1e-5": true,
+          "positive_mode_1_amplitudes": true
+        },
+        "energy_sample_count": 41,
+        "maximum_relative_energy_rebound": -0.0009645259339346363,
+        "maximum_relative_mass_drift": 7.206730511509484e-06,
+        "passed": true
+      },
+      "passed_health_gate": true,
+      "record_count": 81
+    },
+    {
+      "case": {
+        "amplitude": 0.3,
+        "axial_length": 36.0,
+        "barrier": 1.0,
+        "checkpoint_time_interval": 100.0,
+        "diagnostic_time_interval": 5.0,
+        "energy_time_interval": 10.0,
+        "kappa": 1.0,
+        "mobility_prefactor": 1.0,
+        "nz": 72,
+        "q": 1.0471975511965976,
+        "radius": 6.0,
+        "shape": [
+          96,
+          96,
+          72
+        ],
+        "slug": "h0p5_dt0p5_a0p3_nz72",
+        "spacing": 0.5,
+        "stabilizer_alpha": 0.5,
+        "theory_rate_shape": -0.1059586595580023,
+        "timestep": 0.5,
+        "transverse_length": 48.0
+      },
+      "completed_time": 400.0,
+      "fit": {
+        "amplitude_range": [
+          0.27409726000359735,
+          0.2915626625792874
+        ],
+        "fit_amplitude_bounds": [
+          0.1,
+          0.6
+        ],
+        "fit_time_bounds": [
+          20.0,
+          300.0
+        ],
+        "growth_rate": -0.00022022171519951378,
+        "growth_rate_standard_error": 1.855556122554793e-06,
+        "log_amplitude_intercept": -1.230497824002208,
+        "measurable": true,
+        "r_squared": 0.9961104612924028,
+        "residual_sum_squares": 7.303995840282558e-05,
+        "sample_count": 57,
+        "time_range": [
+          20.0,
+          300.0
+        ]
+      },
+      "fit_health_passed": true,
+      "numerical_health": {
+        "checks": {
+          "all_fields_finite": true,
+          "energy_rebound_at_most_1e-5": true,
+          "mass_drift_at_most_1e-5": true,
+          "positive_mode_1_amplitudes": true
+        },
+        "energy_sample_count": 41,
+        "maximum_relative_energy_rebound": -0.0009647384693227448,
+        "maximum_relative_mass_drift": 5.158887826394647e-07,
+        "passed": true
+      },
+      "passed_health_gate": true,
+      "record_count": 81
+    },
+    {
+      "case": {
+        "amplitude": 0.3,
+        "axial_length": 40.0,
+        "barrier": 1.0,
+        "checkpoint_time_interval": 100.0,
+        "diagnostic_time_interval": 5.0,
+        "energy_time_interval": 10.0,
+        "kappa": 1.0,
+        "mobility_prefactor": 1.0,
+        "nz": 80,
+        "q": 0.9424777960769379,
+        "radius": 6.0,
+        "shape": [
+          96,
+          96,
+          80
+        ],
+        "slug": "h0p5_dt0p5_a0p3_nz80",
+        "spacing": 0.5,
+        "stabilizer_alpha": 0.5,
+        "theory_rate_shape": 0.0992507587226226,
+        "timestep": 0.5,
+        "transverse_length": 48.0
+      },
+      "completed_time": 400.0,
+      "fit": {
+        "amplitude_range": [
+          0.2846823794629538,
+          0.2922846526795382
+        ],
+        "fit_amplitude_bounds": [
+          0.1,
+          0.6
+        ],
+        "fit_time_bounds": [
+          20.0,
+          300.0
+        ],
+        "growth_rate": -9.328499152562297e-05,
+        "growth_rate_standard_error": 1.8379412606363186e-06,
+        "log_amplitude_intercept": -1.2306293013831826,
+        "measurable": true,
+        "r_squared": 0.9790960814696916,
+        "residual_sum_squares": 7.165979862309463e-05,
+        "sample_count": 57,
+        "time_range": [
+          20.0,
+          300.0
+        ]
+      },
+      "fit_health_passed": false,
+      "numerical_health": {
+        "checks": {
+          "all_fields_finite": true,
+          "energy_rebound_at_most_1e-5": true,
+          "mass_drift_at_most_1e-5": true,
+          "positive_mode_1_amplitudes": true
+        },
+        "energy_sample_count": 41,
+        "maximum_relative_energy_rebound": -0.0009656480920271561,
+        "maximum_relative_mass_drift": 5.858401700448047e-06,
+        "passed": true
+      },
+      "passed_health_gate": false,
+      "record_count": 81
+    },
+    {
+      "case": {
+        "amplitude": 0.3,
+        "axial_length": 48.0,
+        "barrier": 1.0,
+        "checkpoint_time_interval": 100.0,
+        "diagnostic_time_interval": 5.0,
+        "energy_time_interval": 10.0,
+        "kappa": 1.0,
+        "mobility_prefactor": 1.0,
+        "nz": 96,
+        "q": 0.7853981633974483,
+        "radius": 6.0,
+        "shape": [
+          96,
+          96,
+          96
+        ],
+        "slug": "h0p5_dt0p5_a0p3_nz96",
+        "spacing": 0.5,
+        "stabilizer_alpha": 0.5,
+        "theory_rate_shape": 0.2363460132165129,
+        "timestep": 0.5,
+        "transverse_length": 48.0
+      },
+      "completed_time": 400.0,
+      "fit": {
+        "amplitude_range": [
+          0.29245060581356236,
+          0.294128173278907
+        ],
+        "fit_amplitude_bounds": [
+          0.1,
+          0.6
+        ],
+        "fit_time_bounds": [
+          20.0,
+          300.0
+        ],
+        "growth_rate": 1.52533383339131e-05,
+        "growth_rate_standard_error": 1.6780012119129303e-06,
+        "log_amplitude_intercept": -1.230336534656749,
+        "measurable": true,
+        "r_squared": 0.6003819755734061,
+        "residual_sum_squares": 5.973059881314973e-05,
+        "sample_count": 57,
+        "time_range": [
+          20.0,
+          300.0
+        ]
+      },
+      "fit_health_passed": false,
+      "numerical_health": {
+        "checks": {
+          "all_fields_finite": true,
+          "energy_rebound_at_most_1e-5": true,
+          "mass_drift_at_most_1e-5": true,
+          "positive_mode_1_amplitudes": true
+        },
+        "energy_sample_count": 41,
+        "maximum_relative_energy_rebound": -0.0009674427425213907,
+        "maximum_relative_mass_drift": 2.160966228112077e-06,
+        "passed": true
+      },
+      "passed_health_gate": false,
+      "record_count": 81
+    },
+    {
+      "case": {
+        "amplitude": 0.3,
+        "axial_length": 54.0,
+        "barrier": 1.0,
+        "checkpoint_time_interval": 100.0,
+        "diagnostic_time_interval": 5.0,
+        "energy_time_interval": 10.0,
+        "kappa": 1.0,
+        "mobility_prefactor": 1.0,
+        "nz": 108,
+        "q": 0.6981317007977318,
+        "radius": 6.0,
+        "shape": [
+          96,
+          96,
+          108
+        ],
+        "slug": "h0p5_dt0p5_a0p3_nz108",
+        "spacing": 0.5,
+        "stabilizer_alpha": 0.5,
+        "theory_rate_shape": 0.24984093421870346,
+        "timestep": 0.5,
+        "transverse_length": 48.0
+      },
+      "completed_time": 400.0,
+      "fit": {
+        "amplitude_range": [
+          0.29316438783762766,
+          0.2966748000330459
+        ],
+        "fit_amplitude_bounds": [
+          0.1,
+          0.6
+        ],
+        "fit_time_bounds": [
+          20.0,
+          300.0
+        ],
+        "growth_rate": 4.336412543313245e-05,
+        "growth_rate_standard_error": 1.5176175924947504e-06,
+        "log_amplitude_intercept": -1.229955570251212,
+        "measurable": true,
+        "r_squared": 0.9368877353877036,
+        "residual_sum_squares": 4.88581516320709e-05,
+        "sample_count": 57,
+        "time_range": [
+          20.0,
+          300.0
+        ]
+      },
+      "fit_health_passed": false,
+      "numerical_health": {
+        "checks": {
+          "all_fields_finite": true,
+          "energy_rebound_at_most_1e-5": true,
+          "mass_drift_at_most_1e-5": false,
+          "positive_mode_1_amplitudes": true
+        },
+        "energy_sample_count": 41,
+        "maximum_relative_energy_rebound": -0.0009688482217716298,
+        "maximum_relative_mass_drift": 1.293589893814172e-05,
+        "passed": false
+      },
+      "passed_health_gate": false,
+      "record_count": 81
+    },
+    {
+      "case": {
+        "amplitude": 0.3,
+        "axial_length": 64.0,
+        "barrier": 1.0,
+        "checkpoint_time_interval": 100.0,
+        "diagnostic_time_interval": 5.0,
+        "energy_time_interval": 10.0,
+        "kappa": 1.0,
+        "mobility_prefactor": 1.0,
+        "nz": 128,
+        "q": 0.5890486225480862,
+        "radius": 6.0,
+        "shape": [
+          96,
+          96,
+          128
+        ],
+        "slug": "h0p5_dt0p5_a0p3_nz128",
+        "spacing": 0.5,
+        "stabilizer_alpha": 0.5,
+        "theory_rate_shape": 0.2265843531243238,
+        "timestep": 0.5,
+        "transverse_length": 48.0
+      },
+      "completed_time": 400.0,
+      "fit": {
+        "amplitude_range": [
+          0.293330213487797,
+          0.2978888694227932
+        ],
+        "fit_amplitude_bounds": [
+          0.1,
+          0.6
+        ],
+        "fit_time_bounds": [
+          20.0,
+          300.0
+        ],
+        "growth_rate": 5.587737956157329e-05,
+        "growth_rate_standard_error": 1.2538706786463862e-06,
+        "log_amplitude_intercept": -1.2293128482657016,
+        "measurable": true,
+        "r_squared": 0.9730516599806106,
+        "residual_sum_squares": 3.335168817756934e-05,
+        "sample_count": 57,
+        "time_range": [
+          20.0,
+          300.0
+        ]
+      },
+      "fit_health_passed": false,
+      "numerical_health": {
+        "checks": {
+          "all_fields_finite": true,
+          "energy_rebound_at_most_1e-5": true,
+          "mass_drift_at_most_1e-5": true,
+          "positive_mode_1_amplitudes": true
+        },
+        "energy_sample_count": 41,
+        "maximum_relative_energy_rebound": -0.0009693214622900899,
+        "maximum_relative_mass_drift": 5.307290272127621e-06,
+        "passed": true
+      },
+      "passed_health_gate": false,
+      "record_count": 81
+    },
+    {
+      "case": {
+        "amplitude": 0.3,
+        "axial_length": 80.0,
+        "barrier": 1.0,
+        "checkpoint_time_interval": 100.0,
+        "diagnostic_time_interval": 5.0,
+        "energy_time_interval": 10.0,
+        "kappa": 1.0,
+        "mobility_prefactor": 1.0,
+        "nz": 160,
+        "q": 0.47123889803846897,
+        "radius": 6.0,
+        "shape": [
+          96,
+          96,
+          160
+        ],
+        "slug": "h0p5_dt0p5_a0p3_nz160",
+        "spacing": 0.5,
+        "stabilizer_alpha": 0.5,
+        "theory_rate_shape": 0.17275274668854682,
+        "timestep": 0.5,
+        "transverse_length": 48.0
+      },
+      "completed_time": 400.0,
+      "fit": {
+        "amplitude_range": [
+          0.29339993718223695,
+          0.29753545124499053
+        ],
+        "fit_amplitude_bounds": [
+          0.1,
+          0.6
+        ],
+        "fit_time_bounds": [
+          20.0,
+          300.0
+        ],
+        "growth_rate": 5.054806319838043e-05,
+        "growth_rate_standard_error": 9.184018726091978e-07,
+        "log_amplitude_intercept": -1.2285019734805116,
+        "measurable": true,
+        "r_squared": 0.9821678025612126,
+        "residual_sum_squares": 1.7892781128770886e-05,
+        "sample_count": 57,
+        "time_range": [
+          20.0,
+          300.0
+        ]
+      },
+      "fit_health_passed": true,
+      "numerical_health": {
+        "checks": {
+          "all_fields_finite": true,
+          "energy_rebound_at_most_1e-5": true,
+          "mass_drift_at_most_1e-5": true,
+          "positive_mode_1_amplitudes": true
+        },
+        "energy_sample_count": 41,
+        "maximum_relative_energy_rebound": -0.0009699890336117147,
+        "maximum_relative_mass_drift": 5.322996583820479e-06,
+        "passed": true
+      },
+      "passed_health_gate": true,
+      "record_count": 81
+    }
+  ],
+  "classification": "primary_classical_dispersion_gate_failed",
+  "decision": {
+    "benchmark_validated": false,
+    "primary_gate_passed": false,
+    "required_action": "Do not claim classical Nichols--Mullins dispersion validation for the selected finite-interface model. Diagnose or redesign prospectively before manuscript work."
+  },
+  "posthoc_diagnosis": {
+    "acceptance_role": "diagnosis_only; cannot rescue primary gate",
+    "interpretation": "The near-cutoff q=0.942 mode remains decaying and the late peak remains at Nz=128 (q=0.589), so the primary failure is not explained solely by the initial 0--30 relaxation.",
+    "late_measured_peak_nz": 128,
+    "late_measured_peak_q": 0.5890486225480862,
+    "late_window": [
+      300.0,
+      400.0
+    ],
+    "linearly_interpolated_apparent_cutoff_q": 0.8905341863976176,
+    "near_cutoff_nz80_growth_rate": -3.385695785337277e-05,
+    "near_cutoff_nz96_growth_rate": 6.852788863853442e-05
+  },
+  "primary_theory_gate": {
+    "checks": {
+      "all_case_health_gates_passed": false,
+      "five_unstable_modes_grow": false,
+      "normalized_rmse_at_most_0p15": false,
+      "panel_r_squared_at_least_0p90": false,
+      "peak_at_nz96_or_nz108": false,
+      "positive_scale": true,
+      "two_stable_modes_decay": true
+    },
+    "measured_peak_nz": 128,
+    "normalized_rmse": 0.26435475433841493,
+    "passed": false,
+    "r_squared": 0.5385200988133076,
+    "rows": [
+      {
+        "case_health_passed": true,
+        "fit_r_squared": 0.9991519642563906,
+        "measured_growth_rate": -0.00045759275182010237,
+        "nz": 64,
+        "q": 1.1780972450961724,
+        "residual": -0.00014507738278756046,
+        "scaled_theory_rate": -0.0003125153690325419,
+        "theory_rate_shape": -0.5383897067203922
+      },
+      {
+        "case_health_passed": true,
+        "fit_r_squared": 0.9961104612924028,
+        "measured_growth_rate": -0.00022022171519951378,
+        "nz": 72,
+        "q": 1.0471975511965976,
+        "residual": -0.00015871662106300966,
+        "scaled_theory_rate": -6.150509413650411e-05,
+        "theory_rate_shape": -0.1059586595580023
+      },
+      {
+        "case_health_passed": false,
+        "fit_r_squared": 0.9790960814696916,
+        "measured_growth_rate": -9.328499152562297e-05,
+        "nz": 80,
+        "q": 0.9424777960769379,
+        "residual": -0.00015089639661340407,
+        "scaled_theory_rate": 5.7611405087781096e-05,
+        "theory_rate_shape": 0.0992507587226226
+      },
+      {
+        "case_health_passed": false,
+        "fit_r_squared": 0.6003819755734061,
+        "measured_growth_rate": 1.52533383339131e-05,
+        "nz": 96,
+        "q": 0.7853981633974483,
+        "residual": -0.00012193680593845499,
+        "scaled_theory_rate": 0.0001371901442723681,
+        "theory_rate_shape": 0.2363460132165129
+      },
+      {
+        "case_health_passed": false,
+        "fit_r_squared": 0.9368877353877036,
+        "measured_growth_rate": 4.336412543313245e-05,
+        "nz": 108,
+        "q": 0.6981317007977318,
+        "residual": -0.00010165932279067029,
+        "scaled_theory_rate": 0.00014502344822380273,
+        "theory_rate_shape": 0.24984093421870346
+      },
+      {
+        "case_health_passed": false,
+        "fit_r_squared": 0.9730516599806106,
+        "measured_growth_rate": 5.587737956157329e-05,
+        "nz": 128,
+        "q": 0.5890486225480862,
+        "residual": -7.564648103560366e-05,
+        "scaled_theory_rate": 0.00013152386059717694,
+        "theory_rate_shape": 0.2265843531243238
+      },
+      {
+        "case_health_passed": true,
+        "fit_r_squared": 0.9821678025612126,
+        "measured_growth_rate": 5.054806319838043e-05,
+        "nz": 160,
+        "q": 0.47123889803846897,
+        "residual": -4.9728535163100794e-05,
+        "scaled_theory_rate": 0.00010027659836148123,
+        "theory_rate_shape": 0.17275274668854682
+      }
+    ],
+    "scale_B_eff_over_R4": 0.0005804631201741082
+  },
+  "provenance": {
+    "analysis_sha256": "cb2ac809365aa6a11c72a228274458a7f12e360771c793b8b6bbdb08895d7fe6",
+    "benchmark_sha256": "e48fd70d2307fbc7d0bcb3c67e06c1c140be30fa74d225d98f17986d3edcc869",
+    "contract_sha256": "7868951573d21afe3f267abae240f9f6d56f06c98f87bc777a87d3712e07989c",
+    "roy_model_sha256": "3d335de207dabbb11c670e5fafea453348e2323f6740088325f100f93f062106",
+    "runner_sha256": "23a9947a619ba010f5da96950e2aa7d825cae9e2253e980d2eb4c3150452a6da",
+    "trajectory_sources": [
+      {
+        "final_checkpoint": {
+          "bytes": 4718720,
+          "sha256": "ad9218f0e8c29551160822e9177da9b9edd7bd83397f52f1eb1ab7f1c6db48b6",
+          "step": 800,
+          "validation": {
+            "finite": true,
+            "shape": true,
+            "step": true
+          }
+        },
+        "nz": 64,
+        "slug": "h0p5_dt0p5_a0p3_nz64",
+        "summary_bytes": 86935,
+        "summary_sha256": "ec1ade18a79c64a90c0b07e35b864af64ab9da7209aad363fa57249b7e8cc66e",
+        "summary_uri": "runtime://panel_v1/h0p5_dt0p5_a0p3_nz64/summary.json"
+      },
+      {
+        "final_checkpoint": {
+          "bytes": 5308544,
+          "sha256": "203dee54b73dad80ad0ab436e647a3aa3a1174c8e039ea985438ca08911220fe",
+          "step": 800,
+          "validation": {
+            "finite": true,
+            "shape": true,
+            "step": true
+          }
+        },
+        "nz": 72,
+        "slug": "h0p5_dt0p5_a0p3_nz72",
+        "summary_bytes": 86824,
+        "summary_sha256": "505bc248d4cd8e37aecc0454695a75ab821b55f24a085bbb36e5315f49e9016b",
+        "summary_uri": "runtime://panel_v1/h0p5_dt0p5_a0p3_nz72/summary.json"
+      },
+      {
+        "final_checkpoint": {
+          "bytes": 5898368,
+          "sha256": "23ef5e752f601bea2490da73f4a81a7a5fcb993845357c86d23f6ebc23f96f1f",
+          "step": 800,
+          "validation": {
+            "finite": true,
+            "shape": true,
+            "step": true
+          }
+        },
+        "nz": 80,
+        "slug": "h0p5_dt0p5_a0p3_nz80",
+        "summary_bytes": 86785,
+        "summary_sha256": "e912e6d9ca67d3a435b4d48f23d091121cd8428b51783d3fc711d02856d4438d",
+        "summary_uri": "runtime://panel_v1/h0p5_dt0p5_a0p3_nz80/summary.json"
+      },
+      {
+        "final_checkpoint": {
+          "bytes": 7078016,
+          "sha256": "cf678e827f16c4ae487610a3b88669dd7d16a337a0a5d96c5456b628db68b6e6",
+          "step": 800,
+          "validation": {
+            "finite": true,
+            "shape": true,
+            "step": true
+          }
+        },
+        "nz": 96,
+        "slug": "h0p5_dt0p5_a0p3_nz96",
+        "summary_bytes": 86895,
+        "summary_sha256": "6cee52ed1a046d0301e06c7eecde1ec15f63ea028e448db855f048314c72e993",
+        "summary_uri": "runtime://panel_v1/h0p5_dt0p5_a0p3_nz96/summary.json"
+      },
+      {
+        "final_checkpoint": {
+          "bytes": 7962752,
+          "sha256": "872de0b2daa000dc0849a7c97fad9abb82f55cdfb68d82becc63b462454d1062",
+          "step": 800,
+          "validation": {
+            "finite": true,
+            "shape": true,
+            "step": true
+          }
+        },
+        "nz": 108,
+        "slug": "h0p5_dt0p5_a0p3_nz108",
+        "summary_bytes": 87111,
+        "summary_sha256": "e69f0aebf5f4891ece4a8568fa49610731b5f7530422f11e302ba83162059100",
+        "summary_uri": "runtime://panel_v1/h0p5_dt0p5_a0p3_nz108/summary.json"
+      },
+      {
+        "final_checkpoint": {
+          "bytes": 9437312,
+          "sha256": "0bda5e2d994d3ac999aba9a800aeb049b87a23e0571eb46d193d2ad35166c834",
+          "step": 800,
+          "validation": {
+            "finite": true,
+            "shape": true,
+            "step": true
+          }
+        },
+        "nz": 128,
+        "slug": "h0p5_dt0p5_a0p3_nz128",
+        "summary_bytes": 86886,
+        "summary_sha256": "38b4d2a933903a3be8bd120d0b874a4de90e6523c5924ce4a63fb70d93db2233",
+        "summary_uri": "runtime://panel_v1/h0p5_dt0p5_a0p3_nz128/summary.json"
+      },
+      {
+        "final_checkpoint": {
+          "bytes": 11796608,
+          "sha256": "b60e3e3d1866a9e93e2581dd5d4b21703314bc97d999785a6d205d44811a079e",
+          "step": 800,
+          "validation": {
+            "finite": true,
+            "shape": true,
+            "step": true
+          }
+        },
+        "nz": 160,
+        "slug": "h0p5_dt0p5_a0p3_nz160",
+        "summary_bytes": 86905,
+        "summary_sha256": "00e54636d742969133b519f4af1d8d09e46dbb7d9ca955777a48c336e991b3e6",
+        "summary_uri": "runtime://panel_v1/h0p5_dt0p5_a0p3_nz160/summary.json"
+      }
+    ]
+  },
+  "schema_version": 1,
+  "scope": {
+    "completed_time_each": 400.0,
+    "confirmatory_amplitude_check_run": false,
+    "confirmatory_timestep_checks_run": false,
+    "mode_count": 7,
+    "new_trajectory_count": 7,
+    "reason_confirmatory_checks_not_run": "primary_gate_failed"
+  },
+  "status": "complete"
+}

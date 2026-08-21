@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "extractor": {
+    "path": "science_lab/papers/selective_mobility_scripta/precursor_synthesis/analyze.py",
+    "sha256": "373a43647e953ae7e98dab36ee8af9bd112966b36d44a8fb3a204471a30827cf"
+  },
+  "contract": {
+    "path": "science_lab/papers/selective_mobility_scripta/precursor_synthesis/SCIENTIFIC_CONTRACT.md",
+    "sha256": "b03bc468e170a6f138f5dd3112ff381dd16f9e1cf390fcfe0d3f10bf2773d0f8"
+  },
+  "scope": {
+    "archive_read_only": true,
+    "simulation_steps_performed": 0,
+    "source_count": 3,
+    "treated_case_count": 2,
+    "time_count": 9,
+    "row_count": 54,
+    "arm_values_are_correlated_diagnostics": true
+  },
+  "inputs": [
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/inward_full_lifetime_t2000_v1/profiles-step-0700.npz",
+      "bytes": 94030,
+      "sha256": "04dc2a2ead4e054490cb33a6fe5f313ddee985a5447d1e7e854f2847983223a1"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/inward_full_lifetime_t2000_v1/profiles-step-0800.npz",
+      "bytes": 94183,
+      "sha256": "2fdfe42291e9619f917dd5274ce477d812fcf320e194df49eaf3fbf0917078da"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/inward_full_lifetime_t2000_v1/profiles-step-0900.npz",
+      "bytes": 94234,
+      "sha256": "7f810c6eb786f365b5048d785341e94fde0cd43fe5754a2b2a09cc5f1a131144"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/inward_full_lifetime_t2000_v1/profiles-step-1000.npz",
+      "bytes": 94462,
+      "sha256": "e2991e1975c72893ebcf9fbd9a7042143e34f3c63d240884af96e17236cddb24"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/inward_full_lifetime_t2000_v1/profiles-step-1100.npz",
+      "bytes": 94771,
+      "sha256": "74d78ac45d6278ee153955b62912fad7aefd34a894156c4d5a992dccfc0780e3"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/inward_full_lifetime_t2000_v1/profiles-step-1200.npz",
+      "bytes": 95084,
+      "sha256": "182a11cf15759b1f6cc1dba020e12a2b9ca71cc7a0f65f112bcfa1fb33b1870c"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/inward_full_lifetime_t2000_v1/profiles-step-1300.npz",
+      "bytes": 95394,
+      "sha256": "b0c795a6aea0e0e99b28a1c75a8e28a3dccaa89e497d3de6af325cf5ce6e5923"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/inward_full_lifetime_t2000_v1/profiles-step-1400.npz",
+      "bytes": 95704,
+      "sha256": "690a0885e788bc437823bf75a0658f0dac77b35d5d0978d7e0a5fca822c039e2"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/inward_full_lifetime_t2000_v1/profiles-step-1500.npz",
+      "bytes": 95995,
+      "sha256": "5f88b3bc9dc2b28c5b0f0e328da78dd18e1aee1b857ebe2addbe43cf50cb7dcd"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c26p5/profiles-step-0700.npz",
+      "bytes": 48161,
+      "sha256": "3857fd7fd25927a81dfa0535bad12d37c78cbf6fc861c6d84228643071ba1efa"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c26p5/profiles-step-0800.npz",
+      "bytes": 48279,
+      "sha256": "d1a03d91f5d64bec85f671269257173bbad29d5124e693e9f63e920dd633c7c9"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c26p5/profiles-step-0900.npz",
+      "bytes": 48327,
+      "sha256": "3a37e1c97c9fb9b586c89476e9ad420e88f74383e6eb6698d826321b51234fcf"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c26p5/profiles-step-1000.npz",
+      "bytes": 48393,
+      "sha256": "420bce66ed7a98447b2bd6338d62b5a29da30693ca01e278d049b2983947f73d"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c26p5/profiles-step-1100.npz",
+      "bytes": 48558,
+      "sha256": "3cc7e8cc68b93598add68edfab7ca105949cbb887c4f07b9ebde735e2151696f"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c26p5/profiles-step-1200.npz",
+      "bytes": 48644,
+      "sha256": "391c73f4513c5688cbb0afaf1d18af9adc21d5756bc13e7b9d7206f4135a4821"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c26p5/profiles-step-1300.npz",
+      "bytes": 48845,
+      "sha256": "c251f9e3234c850c8fa3995eb765b447a0661074a9656d888efb3ca0cbb4ccba"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c26p5/profiles-step-1400.npz",
+      "bytes": 48989,
+      "sha256": "b18ec7f8e6d995c630ea085279c55fe20ccb07597cb2d4ebe8dcc9d25da98dd7"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c26p5/profiles-step-1500.npz",
+      "bytes": 49126,
+      "sha256": "fd0ad2efad1c7f20053d964570436de64b3b4fc49c5202030de966eca4523a34"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c34p5/profiles-step-0700.npz",
+      "bytes": 48504,
+      "sha256": "ce100688867491a67b1fea031fbe3a3dced57e4a014edaead9e964a7f13b7033"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c34p5/profiles-step-0800.npz",
+      "bytes": 48534,
+      "sha256": "c5a9bd34561f384baa0608522e9e11a1dbf49d72c9757a1ad87ad25e2f0edb97"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c34p5/profiles-step-0900.npz",
+      "bytes": 48640,
+      "sha256": "64a43905d111253ed31d7b6125ed9c3b02726be5506ed6946bf405a2a657fb3c"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c34p5/profiles-step-1000.npz",
+      "bytes": 48706,
+      "sha256": "20f48dd5346cc719641211f7d42273fd7b9ecfb7276275cae623ccbaa7c6fce4"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c34p5/profiles-step-1100.npz",
+      "bytes": 48872,
+      "sha256": "1490d00b970137444ac89020916ba3d1aa19a09b98fcb92ee2b39144a18fb7dc"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c34p5/profiles-step-1200.npz",
+      "bytes": 48988,
+      "sha256": "4a455676ed520b3d7f1bee95deec0d506a53d04396a47556c5932fe6ab3211c5"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c34p5/profiles-step-1300.npz",
+      "bytes": 49125,
+      "sha256": "e970dcd2336a3ff0ca83c1a8a484b3616e323b8b5f67249b9edeb58ef146b966"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c34p5/profiles-step-1400.npz",
+      "bytes": 49334,
+      "sha256": "77e84923cd09ca810d8cbd4b864984a2c29b796a2c8414c33493c799983fbe1f"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-c34p5/profiles-step-1500.npz",
+      "bytes": 49516,
+      "sha256": "9e6430dd8a59c9569833463e0769cd22f360fb7368b2a532a1983aaf1923ccfd"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-untreated/profiles-step-0700.npz",
+      "bytes": 47825,
+      "sha256": "3ab1754cecf659791360dd4995cfd207ad9f2f252c081ac2ed0cc4929fe88084"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-untreated/profiles-step-0800.npz",
+      "bytes": 47891,
+      "sha256": "52c9a071e8ce3101e3353f53a29c50ebc3dc9b79a7f50c696873ba106100ef13"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-untreated/profiles-step-0900.npz",
+      "bytes": 47955,
+      "sha256": "facafd0550c7a737e7cd7b7d001ea78d871ea0fe4d09a460750ea4cf261da0d6"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-untreated/profiles-step-1000.npz",
+      "bytes": 48071,
+      "sha256": "aa68209e38ebcd031bd4aed1f49a64f7af1a67c5e6d3db3809b8fa8ff29e70b4"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-untreated/profiles-step-1100.npz",
+      "bytes": 48207,
+      "sha256": "4704115e3ea3e0ba6489e7b9fbdad53460c088a004c638650f6cf2dd79afa26a"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-untreated/profiles-step-1200.npz",
+      "bytes": 48344,
+      "sha256": "fbc37d76c1dd8504cc9ab4dfb4596c0a80a403947ca6ea9e00eb9700f211d00e"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-untreated/profiles-step-1300.npz",
+      "bytes": 48495,
+      "sha256": "81b0f50ad2b5b7e6599779e75ad1c8c5286c7dce87574194ca0564d1f14c3d1d"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-untreated/profiles-step-1400.npz",
+      "bytes": 48695,
+      "sha256": "d6db3bf5c71328bdc39051eb05028e425a787287edaba640b957c67974f1e7bc"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-104729/case-untreated/profiles-step-1500.npz",
+      "bytes": 48897,
+      "sha256": "c8f6b84b9cc46d6d8f194b43599be39c7817d9461038476a56a951221b9516d1"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c26p5/profiles-step-0700.npz",
+      "bytes": 48978,
+      "sha256": "64810cde7c39c526d091f419f79e403680666f0ed156c6a6ab271a423a6525dd"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c26p5/profiles-step-0800.npz",
+      "bytes": 49106,
+      "sha256": "3366cecf891d8e5d281497e9d84417bb46bbcb3d2a8af321a5d1de0621e9f65d"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c26p5/profiles-step-0900.npz",
+      "bytes": 49169,
+      "sha256": "d24c95ac74894db056f231ced24c2bba2607f5f1ad65a198d674d16674061876"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c26p5/profiles-step-1000.npz",
+      "bytes": 49297,
+      "sha256": "c2ea78219133681cdccff65494b91559121cf3216b59f963d7e776cc27c19dba"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c26p5/profiles-step-1100.npz",
+      "bytes": 49362,
+      "sha256": "b79ad7eb51f0dd9fb088ebfb694f6971247eeb598f91a9d4c3ab77aff9ce75d7"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c26p5/profiles-step-1200.npz",
+      "bytes": 49444,
+      "sha256": "f0c7164209ed8d9c7620dd2edd96bd7c8c161a44bf6e242f7e6c0c08fb41c678"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c26p5/profiles-step-1300.npz",
+      "bytes": 49533,
+      "sha256": "05280b4fcc86fa0db17e2de95bc98b4b9449f9401568365d6bfcc7a1c1b8d471"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c26p5/profiles-step-1400.npz",
+      "bytes": 49628,
+      "sha256": "12fdcaa65ff899681808835a21187ad7ca522ca783e1a692f2d380c1cb6f6717"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c26p5/profiles-step-1500.npz",
+      "bytes": 49817,
+      "sha256": "e4b0eb173cd7cb983c87c9faf21ea2eccf1f70d68576b08b992ff09527b01e44"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c34p5/profiles-step-0700.npz",
+      "bytes": 49171,
+      "sha256": "8252f5c24d46218ef02199c67cb812c7bbfd799f20452b5438f58bb598b28a54"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c34p5/profiles-step-0800.npz",
+      "bytes": 49248,
+      "sha256": "862c5223d483ebb2104832f0fe9485c2e6aa5ca04b57a9db21456d4b2b2d15f0"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c34p5/profiles-step-0900.npz",
+      "bytes": 49338,
+      "sha256": "0102ab0162f829f1b9156f0a5caf79eb8ee1fbbef685b004fe1fa196d86fa838"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c34p5/profiles-step-1000.npz",
+      "bytes": 49469,
+      "sha256": "94801809adf6321ccf5a32ad58b0c66cf0aba77e1418e04910ccc8fbdfdf5a30"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c34p5/profiles-step-1100.npz",
+      "bytes": 49621,
+      "sha256": "bc35deb1920fcfb13d463f9d7fd705b657369832bdda880581f24c14376c5fcc"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c34p5/profiles-step-1200.npz",
+      "bytes": 49682,
+      "sha256": "8e41f2a40058de3d607644a34ec6fdc6c097883ecfbc805f57f8628d6d914581"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c34p5/profiles-step-1300.npz",
+      "bytes": 49825,
+      "sha256": "e7d27b7009b9199894202a6ae37d7359fb05393a6680f620c7ea57cff3589037"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c34p5/profiles-step-1400.npz",
+      "bytes": 49976,
+      "sha256": "420af95937a55fa444f6ebc2de4aaf0cbd3f389258a77de161d2de0df6d1a29c"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-c34p5/profiles-step-1500.npz",
+      "bytes": 50177,
+      "sha256": "0e4ca760a79043ce7c11d5742dfe1761a21d3d7b3ab6cba2faf857bbf8b3459b"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-untreated/profiles-step-0700.npz",
+      "bytes": 48582,
+      "sha256": "43c5bbc59da418890244fceeca995021ba9b08bb4d4a781b466e559c29b2c063"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-untreated/profiles-step-0800.npz",
+      "bytes": 48695,
+      "sha256": "6a0815d2507fd1f86d36140ed46cf9f3d1171a39386e9fe7d5d3a473308c53cb"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-untreated/profiles-step-0900.npz",
+      "bytes": 48753,
+      "sha256": "8036d0135307fee87f19c7a97acc45b1b0003d123c24f85eb1612e0946b4c599"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-untreated/profiles-step-1000.npz",
+      "bytes": 48867,
+      "sha256": "4e28c11699cca87b41a38ecbff4653e130c6a31eb96429c19716c48e9dd86927"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-untreated/profiles-step-1100.npz",
+      "bytes": 49008,
+      "sha256": "5a62839234d54f09d46b63a1b51038d3b3da24078f765f82d48bc57e0a8e02e4"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-untreated/profiles-step-1200.npz",
+      "bytes": 49179,
+      "sha256": "4f0372de0169df1e7d53d7b30849e30def2a66a33d6a0ecd05b6aa68b5069bb6"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-untreated/profiles-step-1300.npz",
+      "bytes": 49309,
+      "sha256": "9c4d302a53c2152aa427478f8a0cccf834e264f8c260ffd79baf569ccfb3e8c8"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-untreated/profiles-step-1400.npz",
+      "bytes": 49458,
+      "sha256": "bc5e8061200185a0caa141bdd0ed2418ff00384457e9bef9c75a44e4452ac895"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/paired_repeat_panel_v1/seed-130363/case-untreated/profiles-step-1500.npz",
+      "bytes": 49580,
+      "sha256": "b8eb1214ecdf66d16ffadc001f045c949958596c2122375f9d8637d95704bb55"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c26p5_v1/profiles-step-0700.npz",
+      "bytes": 48514,
+      "sha256": "9115d0933ca7dbfba06807412a3b306b76b7a4c71ff6549adf94a68fc955aacf"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c26p5_v1/profiles-step-0800.npz",
+      "bytes": 48606,
+      "sha256": "201d147ec4c9420ddee80ae1faf00471e905b3e042e6096861cd632b132a5655"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c26p5_v1/profiles-step-0900.npz",
+      "bytes": 48662,
+      "sha256": "7b2d25e6002616211ab40989160ed043987b29ff571e109344a50a79af9dadf5"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c26p5_v1/profiles-step-1000.npz",
+      "bytes": 48795,
+      "sha256": "f368395b35b7790bb28696ea5ab77d71fa70286fa5e118223f7cf460287e66c1"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c26p5_v1/profiles-step-1100.npz",
+      "bytes": 48922,
+      "sha256": "bad867f2d547bda53e287375361cd2166f21c9b2247fe6c154a3b5c92622040c"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c26p5_v1/profiles-step-1200.npz",
+      "bytes": 49031,
+      "sha256": "3169b464fa67c121cb3542175404a5ab60139ba0832f9d9c17f4229f24c330dc"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c26p5_v1/profiles-step-1300.npz",
+      "bytes": 49195,
+      "sha256": "7a4baa113901124b6e7acd39c8df24c9925eeec86ba65076c9661c819b886a86"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c26p5_v1/profiles-step-1400.npz",
+      "bytes": 49337,
+      "sha256": "010dfa24af9821f8620e86ea697162c015ebd798b22d5da68127ae28b618491d"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c26p5_v1/profiles-step-1500.npz",
+      "bytes": 49491,
+      "sha256": "10c4aebafd3d0f24aebe5571a5b3e4075c5f9456beafe9931b92af629f703e31"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c34p5_v1/profiles-step-0700.npz",
+      "bytes": 48825,
+      "sha256": "52db260efcc21aa11850ab81662afc82cca05c4268dc4f715a58bedb2f908ac5"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c34p5_v1/profiles-step-0800.npz",
+      "bytes": 48915,
+      "sha256": "c2fda89be698100e765d83b5198a216baa1fd1e32bf9979d06867fa125d5daaf"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c34p5_v1/profiles-step-0900.npz",
+      "bytes": 48963,
+      "sha256": "38c8b308afa111be76e2b6bb20f3f8da47b9741251a08227f4a6644f343d0b09"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c34p5_v1/profiles-step-1000.npz",
+      "bytes": 49096,
+      "sha256": "3f601d5c0a6d4e4d99cffd2a08431e69e44f5228f169b3bc6395341049f5554d"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c34p5_v1/profiles-step-1100.npz",
+      "bytes": 49252,
+      "sha256": "236a675b381bed192dbaa2246355e6115bd02272cbe1029867431f0ca3d7b377"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c34p5_v1/profiles-step-1200.npz",
+      "bytes": 49332,
+      "sha256": "e3ee894dca61e42168c3d95114038f2d408acfac4fb608ad52e4056ed7e2b3e6"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c34p5_v1/profiles-step-1300.npz",
+      "bytes": 49470,
+      "sha256": "184f8231e7d63c70d44441db39560f869c4c2e35987821f943c8393c7cdf5588"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c34p5_v1/profiles-step-1400.npz",
+      "bytes": 49600,
+      "sha256": "629b36b0dd5542a4c496af78e8baeb9677d548805362eaf1aec62a241d2a16cf"
+    },
+    {
+      "uri": "archive://aj-physics-nanowire-gb-junction/science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_c34p5_v1/profiles-step-1500.npz",
+      "bytes": 49749,
+      "sha256": "a3f685eee77e20aae38bb67b7c60f391d83d632c75c06ff0e20a3b090aaa0633"
+    }
+  ],
+  "output": {
+    "path": "science_lab/papers/selective_mobility_scripta/source_data/raw/precursor_phase_radius_time_series_v1.csv",
+    "bytes": 33931,
+    "sha256": "9ca9bdd1bb1208f02e2300e8765ad0b301bfb36b1f2870c147cb159fd1e8c855"
+  }
+}
