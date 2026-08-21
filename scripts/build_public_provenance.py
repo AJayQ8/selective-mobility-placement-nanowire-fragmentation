@@ -70,10 +70,35 @@ def main() -> None:
         "numerical_checks.csv",
         "morphology_event_projections.json",
         "morphology_event_projections.npz",
+        "cms_benchmark_inputs.json",
+        "cms_normalized_response.csv",
+        "cms_validation_matrix.csv",
+        "cms_analysis_receipt.json",
     ]
     derived = []
     for name in derived_names:
         path = PAPER / "source_data" / name
+        derived.append(
+            {
+                "path": path.relative_to(ROOT).as_posix(),
+                "sha256": sha256(path),
+                "bytes": path.stat().st_size,
+            }
+        )
+    for relative in (
+        "precursor_synthesis/readout_v1/source_a_placement_precursor.csv",
+        "precursor_synthesis/readout_v1/matched_phase_radius_time_series.csv",
+        "precursor_synthesis/readout_v1/summary.json",
+        "precursor_synthesis/readout_v1/manifest.json",
+        "precursor_context_audit/readout_v1/summary.json",
+        "precursor_context_audit/readout_v1/probe_context.csv",
+        "precursor_context_audit/readout_v1/early_sign_lead.csv",
+        "precursor_context_audit/readout_v1/manifest.json",
+        "source_data/failed_benchmarks/cylinder_dispersion_summary.json",
+        "source_data/failed_benchmarks/conditioned_cylinder_summary.json",
+        "source_data/failed_benchmarks/rw_source_screen_summary.json",
+    ):
+        path = PAPER / relative
         derived.append(
             {
                 "path": path.relative_to(ROOT).as_posix(),

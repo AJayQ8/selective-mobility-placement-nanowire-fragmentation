@@ -19,9 +19,13 @@ The model lineage is under
 
 - `mobility_contrast/` -- the weaker-suppression confirmation;
 - `spatial_refinement/` -- the common-source factor-two grid check;
+- `precursor_synthesis/` -- the zero-step pre-fragmentation morphology join;
+- `precursor_context_audit.py` and `precursor_context_audit/` -- the probe-
+  support and early-sign interpretation audit plus its readout;
 - `provenance/` -- compact source identities, detector replay, and transport
   recurrence records;
-- `source_data/` -- normalized CSV/JSON values and morphology projections;
+- `source_data/` -- normalized CSV/JSON values, the CMS matrix, failed-gate
+  summaries, and morphology projections;
 - `figures/` -- direct renderers and checked artwork.
 
 ## Entry points

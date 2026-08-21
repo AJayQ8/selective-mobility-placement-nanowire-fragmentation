@@ -20,6 +20,9 @@ test: check-python
 	$(PYTHON) scripts/audit_release.py
 	$(PYTHON) -m unittest \
 		$(PAPER_MODULE).figures.test_figures \
+		$(PAPER_MODULE).precursor_synthesis.test_analyze \
+		$(PAPER_MODULE).test_precursor_context_audit \
+		$(PAPER_MODULE).source_data.test_cms_analysis \
 		$(PAPER_MODULE).provenance.transport_confirmation_bc.test_analysis -v
 
 test-all: check-python

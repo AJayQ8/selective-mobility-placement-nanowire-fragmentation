@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "scope": "Compact, hash-traceable fields used by the zero-step CMS validation-matrix builder.",
+  "roy_reproduction": {
+    "source_id": "S01",
+    "original_sha256": "5e385fff4874e721ba3448d1a52c638af6a2ca030b509dd0e51d12e8812b612a",
+    "original_bytes": 826857,
+    "breakup_assessment": {
+      "common_threshold_robust_event": {
+        "event_bracket": [1710, 1720]
+      },
+      "paper_example_trajectory_breakup_time": 1719,
+      "paper_mean_breakup_time": 1706,
+      "paper_mean_standard_deviation": 12
+    }
+  },
+  "uniform_clock_control": {
+    "source_id": "S09",
+    "original_sha256": "ecbe4019769eb172b5d0d3f6ca6e72b7db38eb41665aa9caf00feb1c1e2e3b47",
+    "original_bytes": 2200067,
+    "contract": {
+      "control_definition": {
+        "uniform_mobility_factor": 0.9584163964174259
+      }
+    },
+    "event_assessment": {
+      "event_bracket": [1760, 1770]
+    }
+  }
+}

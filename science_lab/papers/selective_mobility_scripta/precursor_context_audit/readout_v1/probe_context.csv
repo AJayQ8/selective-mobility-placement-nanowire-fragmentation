@@ -1,0 +1,9 @@
+case_id,center,probe_distance,support_lower,support_upper,probe_region,axial_coverage,radial_plateau_multiplier_at_probe,event_mode,phase_radius_response_t1300,corrected_lifetime_shift,primary_outside_support_common_mode_subset
+c14p5,14.5,19.25,8.5,20.5,transition,0.370590477449,0.666468570296,downstream,0.776064640438362,850.0,False
+c18p5,18.5,19.25,12.5,24.5,plateau,1,0.1,downstream,0.8118091887877654,750.0,False
+c22p5,22.5,19.25,16.5,28.5,transition,0.982962913145,0.11533337817,downstream,0.4760994212630989,680.0,False
+c26p5,26.5,19.25,20.5,32.5,outside_support,0,1,natural,0.13587917308038544,290.0,True
+c30p5,30.5,19.25,24.5,36.5,outside_support,0,1,natural,-0.09673151998616736,-10.0,True
+c34p5,34.5,19.25,28.5,40.5,outside_support,0,1,natural,-0.20162910425356184,-110.0,True
+c38p5,38.5,19.25,32.5,44.5,outside_support,0,1,natural,-0.16373987120155697,-100.0,True
+c64p5,64.5,19.25,58.5,70.5,outside_support,0,1,natural,-0.0036865200954232513,0.0,True

@@ -8,12 +8,21 @@ from pathlib import Path
 from typing import Any
 
 try:
-    from . import figure1, figure2, figure3, figure4, graphical_abstract, supporting_figures
+    from . import (
+        figure1,
+        figure2,
+        figure3,
+        figure4,
+        figure5,
+        graphical_abstract,
+        supporting_figures,
+    )
 except ImportError:  # Direct execution from this directory.
     import figure1
     import figure2
     import figure3
     import figure4
+    import figure5
     import graphical_abstract
     import supporting_figures
 
@@ -27,6 +36,7 @@ def generate(output_dir: Path = DEFAULT_OUTPUT_DIR) -> dict[str, Any]:
         "figure2": figure2.generate(output_dir / "main"),
         "figure3": figure3.generate(output_dir / "main"),
         "figure4": figure4.generate(output_dir / "main"),
+        "figure5": figure5.generate(output_dir / "main"),
         "supporting": supporting_figures.generate(output_dir / "supporting"),
     }
     graphical_status: dict[str, Any]

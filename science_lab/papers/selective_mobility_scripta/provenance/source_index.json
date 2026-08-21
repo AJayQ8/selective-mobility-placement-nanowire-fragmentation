@@ -128,6 +128,32 @@
         "sha256": "b9569d7d74fd69311b1e3791e267392e66a24145beb11e32d70563824fbaca6c",
         "bytes": 5538
       }
+    },
+    {
+      "id": "S17",
+      "role": "source-A eight-placement pre-fragmentation morphology audit",
+      "original_archive_path": "science_lab/papers/nanowire_gb_junction/roy_selective_mobility_protection/results/position_scan_mechanism_profile_audit_v1/summary.json",
+      "original_sha256": "3cca0747f1cefd2cdb331dbfe04f936d7aea0fa7471869b95a09571c34cdd973",
+      "original_bytes": 231043,
+      "public_path": "science_lab/papers/selective_mobility_scripta/source_data/raw/position_scan_mechanism_profile_audit_v1.json",
+      "companion": {
+        "path": "science_lab/papers/selective_mobility_scripta/source_data/raw/position_scan_mechanism_profile_metrics_v1.csv",
+        "sha256": "5ad0bb6f7c45a9f824fa47a758774de221e5dd5711fa01694137fb8b65220c96",
+        "bytes": 4991
+      }
+    },
+    {
+      "id": "S18",
+      "role": "zero-step matched four-arm phase-radius extraction in sources A, B, and C",
+      "original_archive_path": "81 archived one-dimensional profile files enumerated in the extraction manifest",
+      "original_sha256": "9ca9bdd1bb1208f02e2300e8765ad0b301bfb36b1f2870c147cb159fd1e8c855",
+      "original_bytes": 33931,
+      "public_path": "science_lab/papers/selective_mobility_scripta/source_data/raw/precursor_phase_radius_time_series_v1.csv",
+      "companion": {
+        "path": "science_lab/papers/selective_mobility_scripta/source_data/raw/precursor_phase_radius_time_series_v1_manifest.json",
+        "sha256": "f453ae9aa431991e4ed73d8bb840fcc54f93a9e012dde9bc18212b0acd2f13c1",
+        "bytes": 26915
+      }
     }
   ]
 }

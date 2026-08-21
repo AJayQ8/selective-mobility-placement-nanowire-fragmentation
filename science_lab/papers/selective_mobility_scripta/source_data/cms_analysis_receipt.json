@@ -1,0 +1,22 @@
+{
+  "all_required_gates_satisfied": true,
+  "analysis_id": "selective_mobility_cms_archive_v1",
+  "inputs": {
+    "../precursor_context_audit/readout_v1/summary.json": "0a251ff084897ffa09ffd2d58a3e8966370b2b37e883dec0e3a7ba40f022cf7d",
+    "../precursor_synthesis/readout_v1/summary.json": "dafcc3e05ac031e0fdaa65f8aefda9f1e7685a8fe1934b30d3742e92886a7e21",
+    "cms_benchmark_inputs.json": "3b64f71f3c8a9ebdea772e7d886b51d8c641ea0d1f6ae0d05271e2bf523b85d9",
+    "mobility_contrast.csv": "fbb69d6691ad48616e8322d4aacc5777b9db1425ebaec481e81fa4993607e523",
+    "numerical_checks.csv": "d90e2c3bd06c995c9b15ccfc064c70576b529397fc6b3eb798b9c2cf6241991a",
+    "position_response.csv": "a1322b0b04813b4f2892e9366736580f2031b51f06ea67d7cdfb70407b2e27b0"
+  },
+  "normalized_row_count": 10,
+  "outputs": {
+    "cms_normalized_response.csv": "9f02b4f4acbc864b2f38568a3ad91df856b36aef23c0644202ac3090ff08ae84",
+    "cms_validation_matrix.csv": "5d5a233b51eafb12511edfece792827ec34a2a97b0fd4d7c5baa3fae9f2b6ae7"
+  },
+  "pass_row_count": 8,
+  "schema_version": 1,
+  "simulation_steps_performed": 0,
+  "supporting_row_count": 1,
+  "validation_row_count": 9
+}

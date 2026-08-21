@@ -2,89 +2,110 @@
   "schema_version": 1,
   "figure": 4,
   "generator": "science_lab/papers/selective_mobility_scripta/figures/figure4.py",
-  "scope": "targeted numerical validation and two-factor mobility-contrast robustness",
-  "sources": [
-    {
-      "path": "science_lab/papers/selective_mobility_scripta/source_data/timestep_refinement.csv",
-      "sha256": "5b75c1e73e31481e01b8771b7dc9c5045c186f8d8bbfab4026f607c6a47a255f",
-      "bytes": 561
-    },
-    {
-      "path": "science_lab/papers/selective_mobility_scripta/source_data/spatial_refinement.csv",
-      "sha256": "63eff94a599bc5cec1c7a2e35ce6f261eeb0dae860e83e1e41c27947f3717284",
-      "bytes": 1181
-    },
-    {
-      "path": "science_lab/papers/selective_mobility_scripta/source_data/mobility_contrast.csv",
-      "sha256": "fbb69d6691ad48616e8322d4aacc5777b9db1425ebaec481e81fa4993607e523",
-      "bytes": 1469
-    }
-  ],
-  "science": {
-    "production_dt1_shift": -110.0,
-    "production_dt05_shift": -100.0,
-    "reduced_shift": -100.0,
-    "refined_shift": -100.0,
-    "fine_acceptance_interval": [
-      -125.0,
-      -75.0
-    ],
-    "contrast_factors": [
-      0.1,
-      0.3
-    ],
-    "m03_intermediate_shifts": {
-      "B": 200.0,
-      "C": 200.0
-    },
-    "m03_outboard_shifts": {
-      "B": -60.0,
-      "C": -60.0
-    },
-    "all_contrast_events_junction_adjacent": true,
-    "continuous_contrast_law_claimed": false
+  "scope": "control-volume transport accounting",
+  "source_validation": {
+    "passed": true,
+    "failures": [],
+    "independent_source_count": 3,
+    "fine_grid_result_included": true,
+    "science_validation_complete": true
   },
-  "geometry": {
-    "compact_width_mm": 137.0,
-    "compact_height_mm": 145.0,
-    "full_width_mm": 190.0,
-    "full_height_mm": 201.09489051094891,
+  "science_values_changed": false,
+  "compact_physical_size": {
+    "width_mm": 137.0,
+    "height_mm": 125.0,
+    "native_scale_factor": 1.0,
     "minimum_semantic_text_pt": 9.4,
-    "marker_size_pt": 8.2,
-    "panel_count": 2
+    "minimum_data_marker_pt": 7.2,
+    "minimum_data_marker_mm": 2.54,
+    "pdf_mediabox_asserted": true
   },
   "compact_outputs": [
     {
-      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/figure4_robustness.pdf",
-      "sha256": "c085ae55ab8ca1255dfab959bda04bf4df015698220f2cc8d59b0b25b12b01ca",
-      "bytes": 27346
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/figure4_transport.pdf",
+      "sha256": "259b22e32eecf0df87bc2148dd6ed565ae018345cb671ff3e2c5a5d037fd96f2",
+      "bytes": 28562
     },
     {
-      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/figure4_robustness.png",
-      "sha256": "d9a824d95e004b2a147652c7dfb931eca027974d78a40ab1d571de98037299b4",
-      "bytes": 306272
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/figure4_transport.png",
+      "sha256": "1268f31e6f46b8d56f49f224e9487423ccc55cc0b31e551600c1a40e077a9c0c",
+      "bytes": 310371
     },
     {
-      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/figure4_robustness.svg",
-      "sha256": "94d833554ec312bc03e38886b5497cf8f917d3e1156d8ee232f3e69bcdfc608f",
-      "bytes": 30980
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/figure4_transport.svg",
+      "sha256": "5d7b70d63d6e091367ca3d3ffbf8de2250e6dc5328c4492a77ef3dd1608b4e56",
+      "bytes": 21633
     }
   ],
+  "full_width_physical_size": {
+    "width_mm": 190.0,
+    "height_mm": 173.35766423357666,
+    "native_scale_factor": 1.0,
+    "minimum_semantic_text_pt": 9.4,
+    "minimum_data_marker_pt": 7.2,
+    "minimum_data_marker_mm": 2.54,
+    "pdf_mediabox_asserted": true
+  },
   "full_width_outputs": [
     {
-      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/full_width/figure4_robustness.pdf",
-      "sha256": "a89cf61f23f66d03212f6abed76f76dab420a246a9d58c7289875a9bd00d0d0f",
-      "bytes": 27372
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/full_width/figure4_transport.pdf",
+      "sha256": "5d6961f98edfc8ac1d24ec9fc6d22fcc1a322ecd51198662ae363a9075d122dc",
+      "bytes": 28583
     },
     {
-      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/full_width/figure4_robustness.png",
-      "sha256": "b61fe639774246bed0707e4a3ef0b857368a34090073fef3c3a34031a011eff1",
-      "bytes": 363739
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/full_width/figure4_transport.png",
+      "sha256": "ef59d871b083420de90d90f6a9fb54274181ab6be3f57e8f5dbb3e817e80c7fa",
+      "bytes": 371386
     },
     {
-      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/full_width/figure4_robustness.svg",
-      "sha256": "064692160c4a1481dceca49a2ffdbb100222a6164c370bf80672cf7a5506bb15",
-      "bytes": 30961
+      "path": "science_lab/papers/selective_mobility_scripta/figures/artwork/main/full_width/figure4_transport.svg",
+      "sha256": "ed0c9f490d1de90315a2ff004d1a32b889963ef0f0e89e8f4689faebe5073e6c",
+      "bytes": 21682
+    }
+  ],
+  "geometry": {
+    "finite_axial_faces_per_arm": 2,
+    "finite_in_plane_transverse_faces_per_arm": 2,
+    "full_periodic_x_span": true,
+    "periodic_x_net_contribution": 0.0,
+    "control_volumes_shown": 4,
+    "weak_zone_interval": [
+      14.0,
+      22.5
+    ]
+  },
+  "sources": [
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/position_response.csv",
+      "sha256": "a1322b0b04813b4f2892e9366736580f2031b51f06ea67d7cdfb70407b2e27b0"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/paired_panel.csv",
+      "sha256": "8d55b840b1fc6ca3a7bf23824111ec94ebdf5f7bd9f61a8f7d428b77a29655e9"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/transport_response.csv",
+      "sha256": "9cdee316de44458e2af111c2a7400ba2119e20a98ff8c12684f43cbe6f2a07a8"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/equal_budget_controls.csv",
+      "sha256": "f0b78839d21d3dc63e9d1db778356dc854dfeeff964c1039b443a8f5de006d5b"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/timestep_refinement.csv",
+      "sha256": "5b75c1e73e31481e01b8771b7dc9c5045c186f8d8bbfab4026f607c6a47a255f"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/spatial_refinement.csv",
+      "sha256": "63eff94a599bc5cec1c7a2e35ce6f261eeb0dae860e83e1e41c27947f3717284"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/morphology_event_projections.npz",
+      "sha256": "160ad4f3233a5980781d90ec201b2c58d46db67744765502dd3153607b1f8b19"
+    },
+    {
+      "path": "science_lab/papers/selective_mobility_scripta/source_data/morphology_event_projections.json",
+      "sha256": "6389de9a56aa60f3c97dac16038e0a782df6c876f6b8c62cc885742b446b8cb7"
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "analysis": {
+    "path": "science_lab/papers/selective_mobility_scripta/precursor_context_audit.py",
+    "sha256": "2ba37584083b133b9cf84d120ffe8f59930df340042d7372e0c0fbd8e82be648"
+  },
+  "outputs": [
+    {
+      "path": "summary.json",
+      "bytes": 3588,
+      "sha256": "0a251ff084897ffa09ffd2d58a3e8966370b2b37e883dec0e3a7ba40f022cf7d"
+    },
+    {
+      "path": "probe_context.csv",
+      "bytes": 964,
+      "sha256": "781889769e8fee35a9d1e2458d027a26a821a5fbcdb52fa4b5ad314979a7c0d5"
+    },
+    {
+      "path": "early_sign_lead.csv",
+      "bytes": 492,
+      "sha256": "1a1b12cf515ebfaff7e83375bff9a7eaeb03f573a943a111c59a57ebca6ba87e"
+    }
+  ]
+}
